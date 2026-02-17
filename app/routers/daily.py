@@ -10,6 +10,22 @@ DATA_PATH = "data/daily_data"
 SCRAPER_MAP = {
     "topmbacollegedetails1_40": "topmbacollegedetails1_40.json",
     "topmbacollegedetails41_80": "topmbacollegedetails41_80.json",
+    "allindiambacollegedetails1_40":"allindiambacollegedetails1_40.json",
+    "allindiambacollegedetails41_100":"allindiambacollegedetails41_100.json",
+    "allindiambacollegedetails101_140":"allindiambacollegedetails101_140.json",
+    "allindiambacollegedetails141_180":"allindiambacollegedetails141_180.json",
+    "allindiambacollegedetails181_220":"allindiambacollegedetails181_220.json",
+    "allindiambacollegedetails221_260":"allindiambacollegedetails221_260.json",
+    "allindiambacollegedetails261_300":"allindiambacollegedetails261_300.json",
+    "allindiambacollegedetails301_340":"allindiambacollegedetails301_340.json",
+    "allindiambacollegedetails341_370":"allindiambacollegedetails341_370.json",
+    "allindiambacollegedetails371_380":"allindiambacollegedetails371_380.json",
+    "allindiambacollegedetails381_420":"allindiambacollegedetails381_420.json",
+    "distancemba":"distancemba.json",
+    "executivemba":"executivemba.json",
+    "mba":"mba.json",
+    "parttimemba":"parttimemba.json",
+    
 }
 
 @router.get("/{scraper_name}")
