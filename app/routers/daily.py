@@ -25,6 +25,14 @@ SCRAPER_MAP = {
     "executivemba":"executivemba.json",
     "mba":"mba.json",
     "parttimemba":"parttimemba.json",
+    "mbageneralmanagement": "mbageneralmanagement.json",
+    "mbainagriculture":"mbainagriculture.json",
+    "mbaindataanalytics":"mbaindataanalytics",
+    "mbaindatascience":"mbaindatascience.json",
+    "mbaindigitalmarketing":"mbaindigitalmarketing.json",
+    "mbainentrepreneurship":"mbainentrepreneurship.json",
+    "onlinemba":"onlinemba.json",
+
     
 }
 
