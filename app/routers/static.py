@@ -12,6 +12,13 @@ STATIC_SCRAPER_MAP = {
     "allindiambacollege": "allindiambacollege.json",
     "engineeringtopcollege":"engineeringtopcollege.json",
     "allindiaengineeringcollege":"allindiaengineeringcollege.json",
+    "allindiadesigncollege":"allindiadesigncollege.json",
+    "allindiamedicalcollege":"allindiamedicalcollege.json",
+    "topdentalcollege":"topdentalcollege.json",
+    "topdesigncollege":"topdesigncollege.json",
+    "topmedicalcollege":"topmedicalcollege.json",
+    "toppharmacycollege":"toppharmacycollege.json",
+
     # add all 10 static scrapers
 }
 

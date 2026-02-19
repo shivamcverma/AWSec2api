@@ -1,0 +1,791 @@
+[
+  {
+    "category": "top fashion design colleges in india",
+    "colleges": [
+      {
+        "id": "college_001",
+        "college_img": "https://images.shiksha.com/mediadata/images/1692872276phpM7FHXc.jpeg",
+        "name": "National Institute of Fashion Technology, Delhi",
+        "nirf": "1",
+        "details": {
+          "fees": ": ₹ 12.96 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_002",
+        "college_img": "https://images.shiksha.com/mediadata/images/1570690555phpl1Ezqo.jpeg",
+        "name": "National Institute of Fashion Technology, Bangalore",
+        "nirf": "2",
+        "details": {
+          "fees": ": ₹ 12.96 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_003",
+        "college_img": "https://images.shiksha.com/mediadata/images/1662313944phpbvKxeb.jpeg",
+        "name": "National Institute of Fashion Technology, Mumbai",
+        "nirf": "3",
+        "details": {
+          "fees": ": ₹ 12.96 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_004",
+        "college_img": "https://images.shiksha.com/mediadata/images/1592282684php4Nh4al.jpeg",
+        "name": "National Institute of Fashion Technology, Hyderabad",
+        "nirf": "4",
+        "details": {
+          "fees": ": ₹ 12.96 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_005",
+        "college_img": "https://images.shiksha.com/mediadata/images/1571811122phpRdLeSL.jpeg",
+        "name": "National Institute of Fashion Technology, Chennai",
+        "nirf": "5",
+        "details": {
+          "fees": ": ₹ 12.34 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_006",
+        "college_img": "https://images.shiksha.com/mediadata/images/1592216267phpMAdmJ1.jpeg",
+        "name": "National Institute of Fashion Technology, Patna",
+        "nirf": "6",
+        "details": {
+          "fees": ": ₹ 12.96 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_007",
+        "college_img": "https://images.shiksha.com/mediadata/images/1591878305phpsedd0x.jpeg",
+        "name": "National Institute of Fashion Technology, Gandhinagar",
+        "nirf": "6",
+        "details": {
+          "fees": ": ₹ 12.96 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_008",
+        "college_img": "https://images.shiksha.com/mediadata/images/1570188158phpM9E5mj.jpeg",
+        "name": "National Institute of Fashion Technology, Kolkata",
+        "nirf": "8",
+        "details": {
+          "fees": ": ₹ 12.96 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_009",
+        "college_img": "https://images.shiksha.com/mediadata/images/1646032528phpCqWEWn.jpeg",
+        "name": "National Institute of Fashion Technology, Jodhpur",
+        "nirf": "9",
+        "details": {
+          "fees": ": ₹ 12.34 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_010",
+        "college_img": "https://images.shiksha.com/mediadata/images/1736947745phpgrXaYn.jpeg",
+        "name": "Pearl Academy",
+        "nirf": "10",
+        "details": {
+          "fees": ": ₹ 22.77 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_011",
+        "college_img": "https://images.shiksha.com/mediadata/images/1591856169phpaP7LDk.jpeg",
+        "name": "National Institute of Fashion Technology, Kannur",
+        "nirf": "11",
+        "details": {
+          "fees": ": ₹ 12.96 Lakh",
+          "salary": ": ₹ 4.11 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_012",
+        "college_img": "https://images.shiksha.com/mediadata/images/1724740838phpsaCVb4.jpeg",
+        "name": "Symbiosis Institute of Design, Symbiosis International, Pune",
+        "nirf": "12",
+        "details": {
+          "fees": ": ₹ 18.68 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_013",
+        "college_img": "https://images.shiksha.com/mediadata/images/1591190071phpr3hEY2.jpg",
+        "name": "National Institute of Fashion Technology, Raebareli",
+        "nirf": "13",
+        "details": {
+          "fees": ": ₹ 12.34 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_014",
+        "college_img": "https://images.shiksha.com/mediadata/images/1591261584phpSKgn1X.jpeg",
+        "name": "National Institute of Fashion Technology, Shillong",
+        "nirf": "14",
+        "details": {
+          "fees": ": ₹ 11.74 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_015",
+        "college_img": "https://images.shiksha.com/mediadata/images/1653034168phpW3qmDb.jpeg",
+        "name": "Army Institute of Fashion and Design",
+        "nirf": "15",
+        "details": {
+          "fees": ": ₹ 6.12 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_016",
+        "college_img": "https://images.shiksha.com/mediadata/images/1591448780phpVmcfnb.jpeg",
+        "name": "National Institute of Fashion Technology, Kangra",
+        "nirf": "16",
+        "details": {
+          "fees": ": ₹ 11.74 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_017",
+        "college_img": "https://images.shiksha.com/mediadata/images/1736947613phpt2YjBU.jpeg",
+        "name": "Pearl Academy, Jaipur",
+        "nirf": "17",
+        "details": {
+          "fees": ": ₹ 30.01 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_018",
+        "college_img": "https://images.shiksha.com/mediadata/images/1590069133phpINMLMc.jpeg",
+        "name": "Amity School of Fashion Technology, Amity University, Noida",
+        "nirf": "18",
+        "details": {
+          "fees": ": ₹ 9.12 Lakh",
+          "salary": ": ₹ 5.80 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_019",
+        "college_img": "https://images.shiksha.com/mediadata/images/1736947811phpfsMaf5.jpeg",
+        "name": "Pearl Academy, Mumbai",
+        "nirf": "19",
+        "details": {
+          "fees": ": ₹ 30.01 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_020",
+        "college_img": "https://images.shiksha.com/mediadata/images/1586962988phpI0ZwKQ.jpeg",
+        "name": "Amity University, Lucknow",
+        "nirf": "20",
+        "details": {
+          "fees": ": ₹ 6.72 Lakh",
+          "salary": ": ₹ 5.80 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_021",
+        "college_img": "https://images.shiksha.com/mediadata/images/1419836933php8t3Kcg.jpeg",
+        "name": "NIFT - TEA College of Knitwear Fashion (NIFT - TEA)",
+        "nirf": "21",
+        "details": {
+          "fees": "",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_022",
+        "college_img": "https://images.shiksha.com/mediadata/images/1770791898phpro6uQn.jpeg",
+        "name": "World University of Design",
+        "nirf": "22",
+        "details": {
+          "fees": ": ₹ 14.72 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_023",
+        "college_img": "https://images.shiksha.com/mediadata/images/1569562541phpv3Yvom.jpeg",
+        "name": "Amity University, Kolkata",
+        "nirf": "23",
+        "details": {
+          "fees": ": ₹ 5.08 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_024",
+        "college_img": "https://images.shiksha.com/mediadata/images/1308936651phpDmfsfo.jpeg",
+        "name": "IMS Design and Innovation Academy",
+        "nirf": "24",
+        "details": {
+          "fees": ": ₹ 16.00 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_025",
+        "college_img": "https://images.shiksha.com/mediadata/images/1586963020php6oeVhe.jpeg",
+        "name": "Amity University, Mumbai",
+        "nirf": "25",
+        "details": {
+          "fees": ": ₹ 6.48 Lakh",
+          "salary": ": ₹ 6.20 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_026",
+        "college_img": "https://images.shiksha.com/mediadata/images/1653292875php6Wv5sp.jpeg",
+        "name": "Maharshi Karve Stree Shikshan Samstha's School of Fashion Technology",
+        "nirf": "27",
+        "details": {
+          "fees": "",
+          "salary": ": ₹ 3.00 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_027",
+        "college_img": "https://images.shiksha.com/mediadata/images/1439202431phpzqE9Wf.jpg",
+        "name": "J.D Birla Institute (JDBI)",
+        "nirf": "28",
+        "details": {
+          "fees": ": ₹ 4.13 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_028",
+        "college_img": "https://images.shiksha.com/mediadata/images/1570698860php0ECZDR.jpg",
+        "name": "PSG College of Arts and Science - PSGCAS",
+        "nirf": "29",
+        "details": {
+          "fees": ": ₹ 2.70 Lakh",
+          "salary": ": ₹ 3.50 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_029",
+        "college_img": "https://images.shiksha.com/mediadata/images/1414737209phpVYvasF.jpg",
+        "name": "Nehru Arts and Science College",
+        "nirf": "30",
+        "details": {
+          "fees": "",
+          "salary": ": ₹ 2.22 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_030",
+        "college_img": "https://images.shiksha.com/mediadata/images/1666250135phpXVrbet.jpeg",
+        "name": "Hindusthan College of Arts and Science [HICAS]",
+        "nirf": "31",
+        "details": {
+          "fees": ": ₹ 2.10 Lakh",
+          "salary": ": ₹ 3.68 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_031",
+        "college_img": "https://images.shiksha.com/mediadata/images/1612534233phpVxJH85.jpeg",
+        "name": "T. John Group of Institutions",
+        "nirf": "32",
+        "details": {
+          "fees": ": ₹ 3.05 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_032",
+        "college_img": "https://images.shiksha.com/mediadata/images/1649075041php79367c.jpeg",
+        "name": "Rathinam College of Arts and Science",
+        "nirf": "33",
+        "details": {
+          "fees": ": ₹ 1.80 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_033",
+        "college_img": "https://images.shiksha.com/mediadata/images/1592978408phpRWZIXA.jpeg",
+        "name": "Kanya Maha Vidyalaya",
+        "nirf": "35",
+        "details": {
+          "fees": "",
+          "salary": ": ₹ 1.44 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_034",
+        "college_img": "https://images.shiksha.com/mediadata/images/1717482697phpYH8gUU.jpeg",
+        "name": "The Oxford College of Science",
+        "nirf": "36",
+        "details": {
+          "fees": "",
+          "salary": ": ₹ 4.25 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_035",
+        "college_img": "https://images.shiksha.com/mediadata/images/1416982455phpcjTqNp.jpeg",
+        "name": "BBK DAV College for Women",
+        "nirf": "37",
+        "details": {
+          "fees": "",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_036",
+        "college_img": "https://images.shiksha.com/mediadata/images/1464942898phprDe9i1.jpg",
+        "name": "CSI Bishop Appasamy College of Arts and Science (CSIBACAS)",
+        "nirf": "38",
+        "details": {
+          "fees": "",
+          "salary": ": ₹ 1.59 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_037",
+        "college_img": "https://images.shiksha.com/mediadata/images/1718693332phpLdVfPS.jpeg",
+        "name": "Dr. N.G.P. Arts and Science College",
+        "nirf": "40",
+        "details": {
+          "fees": "",
+          "salary": ": ₹ 3.00 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_038",
+        "college_img": "https://images.shiksha.com/mediadata/images/1586962956phpWe9xHw.jpeg",
+        "name": "Amity University, Jaipur",
+        "nirf": "41",
+        "details": {
+          "fees": ": ₹ 5.92 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_039",
+        "college_img": "https://images.shiksha.com/mediadata/images/1650451187phpDKa2YL.jpeg",
+        "name": "Hans Raj Mahila Maha Vidyalaya",
+        "nirf": "42",
+        "details": {
+          "fees": ": ₹ 1.60 Lakh",
+          "salary": ": ₹ 2.18 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_040",
+        "college_img": "https://images.shiksha.com/mediadata/images/1719556669php4uEvLi.jpeg",
+        "name": "Sri Krishna Arts and Science College",
+        "nirf": "43",
+        "details": {
+          "fees": "",
+          "salary": ": ₹ 4.50 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_041",
+        "college_img": "https://images.shiksha.com/mediadata/images/1586325094phpUpmfjc.jpeg",
+        "name": "Bon Secours College For Women",
+        "nirf": "44",
+        "details": {
+          "fees": ": ₹ 44,000",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_042",
+        "college_img": "https://images.shiksha.com/mediadata/images/1586771770phpRIQ5ip.jpeg",
+        "name": "Dr. SNS Rajalakshmi College of Arts and Science, SNS Group of Institutions",
+        "nirf": "46",
+        "details": {
+          "fees": "",
+          "salary": ": ₹ 2.52 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_043",
+        "college_img": "https://images.shiksha.com/mediadata/images/1570697333php5mUZtq.jpg",
+        "name": "Hindustan Institute of Technology and Science",
+        "nirf": "47",
+        "details": {
+          "fees": ": ₹ 1.95 Lakh",
+          "salary": ": ₹ 3.40 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_044",
+        "college_img": "https://images.shiksha.com/mediadata/images/1644925298phpQuCxRo.jpeg",
+        "name": "Poornima University",
+        "nirf": "48",
+        "details": {
+          "fees": ": ₹ 3.00 Lakh",
+          "salary": ": ₹ 3.60 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_045",
+        "college_img": "https://images.shiksha.com/mediadata/images/1767783845phpmp3Het.jpeg",
+        "name": "Indian Institute of Fashion Technology",
+        "nirf": "49",
+        "details": {
+          "fees": ": ₹ 4.70 Lakh",
+          "salary": ": ₹ 2.70 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_046",
+        "college_img": "https://images.shiksha.com/mediadata/images/1647857576phpznE5UM.jpeg",
+        "name": "CT Institute of Hospitality Management",
+        "nirf": "50",
+        "details": {
+          "fees": ": ₹ 93,000",
+          "salary": ": ₹ 2.33 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_047",
+        "college_img": "https://images.shiksha.com/mediadata/images/1681713069phpTKQiFp.jpeg",
+        "name": "JECRC University",
+        "nirf": "51",
+        "details": {
+          "fees": ": ₹ 4.86 Lakh",
+          "salary": ": ₹ 4.58 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_048",
+        "college_img": "https://images.shiksha.com/mediadata/images/1710215745phpyShqIR.jpeg",
+        "name": "DOT School of Design",
+        "nirf": "52",
+        "details": {
+          "fees": ": ₹ 18.00 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_049",
+        "college_img": "https://images.shiksha.com/mediadata/images/1586962835phpQjt5no.jpeg",
+        "name": "Amity University, Raipur",
+        "nirf": "53",
+        "details": {
+          "fees": ": ₹ 2.24 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_050",
+        "college_img": "https://images.shiksha.com/mediadata/images/1651757423phpCmmHSD.jpeg",
+        "name": "Sardar Patel Mahavidyalaya ,Chandrapur",
+        "nirf": "54",
+        "details": {
+          "fees": ": ₹ 68,694",
+          "salary": ": ₹ 3.27 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_051",
+        "college_img": "https://images.shiksha.com/mediadata/images/1571635795phpoaX5cK.jpeg",
+        "name": "HAMSTECH College of Creative Education",
+        "nirf": "56",
+        "details": {
+          "fees": ": ₹ 3.60 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_052",
+        "college_img": "https://images.shiksha.ws/public/images/instDefault_210x157.png",
+        "name": "K.S.R. Women's College",
+        "nirf": "58",
+        "details": {
+          "fees": "",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_053",
+        "college_img": "https://images.shiksha.com/mediadata/images/1489646148php7ndn0O_155x116.png",
+        "name": "Punjab College of Technical Education",
+        "nirf": "59",
+        "details": {
+          "fees": ": ₹ 1.79 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_054",
+        "college_img": "https://images.shiksha.com/mediadata/images/1572338715php8wbNAd.jpg",
+        "name": "CT University (CTU)",
+        "nirf": "60",
+        "details": {
+          "fees": ": ₹ 3.00 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_055",
+        "college_img": "https://images.shiksha.com/mediadata/images/1684165998phpL4jtb2.jpeg",
+        "name": "Dr. D.Y. Patil Arts, Commerce and Science College",
+        "nirf": "61",
+        "details": {
+          "fees": ": ₹ 1.61 Lakh",
+          "salary": ": ₹ 4.50 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      },
+      {
+        "id": "college_056",
+        "college_img": "https://images.shiksha.ws/public/images/instDefault_210x157.png",
+        "name": "Khalsa College",
+        "nirf": "62",
+        "details": {
+          "fees": "",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": "19"
+          }
+        }
+      }
+    ]
+  }
+]

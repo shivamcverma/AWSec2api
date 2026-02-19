@@ -1,0 +1,707 @@
+[
+  {
+    "category": "Top MEDICAL Colleges in India",
+    "colleges": [
+      {
+        "id": "college_001",
+        "college_img": "https://images.shiksha.com/mediadata/images/1570690995phpsZ7eCW.jpeg",
+        "name": "All India Institute of Medical Sciences, Delhi",
+        "nirf": "1",
+        "details": {
+          "fees": ": ₹ 6,075",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_002",
+        "college_img": "https://images.shiksha.com/mediadata/images/1231737645phpX8SZYW_m.jpeg",
+        "name": "Postgraduate Institute of Medical Education and Research, Chandigarh",
+        "nirf": "2",
+        "details": {
+          "fees": "",
+          "salary": ": ₹ 9.00 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_003",
+        "college_img": "https://images.shiksha.com/mediadata/images/1649350461phpEfcGRY.jpeg",
+        "name": "Christian Medical College, Vellore",
+        "nirf": "3",
+        "details": {
+          "fees": ": ₹ 15,000",
+          "salary": ": ₹ 4.34 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_004",
+        "college_img": "https://images.shiksha.com/mediadata/images/1706527383php6Rnev2_155x116.jpg",
+        "name": "JIPMER Puducherry - Jawaharlal Institute of Postgraduate Medical Education and Research",
+        "nirf": "4",
+        "details": {
+          "fees": ": ₹ 5,400",
+          "salary": ": ₹ 12.00 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_005",
+        "college_img": "https://images.shiksha.com/mediadata/images/1658758812phplGy2Qf.jpeg",
+        "name": "Sanjay Gandhi Postgraduate Institute of Medical Sciences",
+        "nirf": "5",
+        "details": {
+          "fees": ": ₹ 1.05 Lakh",
+          "salary": ": ₹ 28.00 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_006",
+        "college_img": "https://images.shiksha.com/mediadata/images/1668491054phphb9JXU.jpeg",
+        "name": "Banaras Hindu University",
+        "nirf": "6",
+        "details": {
+          "fees": "",
+          "salary": ": 17.00 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_007",
+        "college_img": "https://images.shiksha.com/mediadata/images/1677228333phpSdSKv9.jpeg",
+        "name": "National Institute of Mental Health and Neurosciences",
+        "nirf": "7",
+        "details": {
+          "fees": ": ₹ 12,200",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_008",
+        "college_img": "https://images.shiksha.com/mediadata/images/1572326508phpSiIGb2.jpeg",
+        "name": "KGMU - King George's Medical University",
+        "nirf": "8",
+        "details": {
+          "fees": ": ₹ 2.14 Lakh",
+          "salary": ": ₹ 12.00 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_009",
+        "college_img": "https://images.shiksha.com/mediadata/images/1659523543phpwUxiCY.jpeg",
+        "name": "Amrita Center for Nanoscience and Molecular Medicine, Amrita Vishwa Vidyapeetham - Kochi Campus",
+        "nirf": "9",
+        "details": {
+          "fees": ": ₹ 3.85 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_010",
+        "college_img": "https://images.shiksha.com/mediadata/images/1667226091phpz8sP9w.jpeg",
+        "name": "Kasturba Medical College, Manipal, Manipal Academy of Higher Education",
+        "nirf": "10",
+        "details": {
+          "fees": ": ₹ 13.66 Lakh",
+          "salary": ": ₹ 11.75 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_011",
+        "college_img": "https://images.shiksha.com/mediadata/images/1428315842php31MAaD.jpg",
+        "name": "Saveetha Institute of Medical and Technical Sciences, Poonamallee",
+        "nirf": "11",
+        "details": {
+          "fees": "",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_012",
+        "college_img": "https://images.shiksha.ws/public/images/instDefault_210x157.png",
+        "name": "Dr. D.Y. Patil College of Ayurved and Research Centre",
+        "nirf": "12",
+        "details": {
+          "fees": ": ₹ 19.25 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_013",
+        "college_img": "https://images.shiksha.com/mediadata/images/1664107530php58WJto.jpeg",
+        "name": "AIIMS Rishikesh - All India Institute of Medical Sciences",
+        "nirf": "13",
+        "details": {
+          "fees": ": ₹ 51,525",
+          "salary": ": ₹ 12.20 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_014",
+        "college_img": "https://images.shiksha.com/mediadata/images/1563527716phpZijpIn.jpeg",
+        "name": "All India Institute of Medical Sciences, Bhubaneswar",
+        "nirf": "14",
+        "details": {
+          "fees": ": ₹ 1.05 Lakh",
+          "salary": ": ₹ 15.00 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_015",
+        "college_img": "https://images.shiksha.com/mediadata/images/1739958464phpUHhn4U.jpeg",
+        "name": "SOA University - Siksha 'O' Anusandhan",
+        "nirf": "15",
+        "details": {
+          "fees": ": ₹ 7.60 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_016",
+        "college_img": "https://images.shiksha.com/mediadata/images/1595495711php4lFu4U.jpg",
+        "name": "Madras Medical College, Chennai",
+        "nirf": "16",
+        "details": {
+          "fees": ": ₹ 68,018",
+          "salary": ": ₹ 9.10 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_017",
+        "college_img": "https://images.shiksha.ws/public/images/instDefault_210x157.png",
+        "name": "Sree Chitra Tirunal Institute for Medical Sciences and Technology",
+        "nirf": "17",
+        "details": {
+          "fees": ": ₹ 1.77 Lakh",
+          "salary": ": ₹ 26.40 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_018",
+        "college_img": "https://images.shiksha.com/mediadata/images/1694688219phpT8Q5U2.jpeg",
+        "name": "SRM Medical College Hospital and Research Centre, SRM IST, Kattankulathur",
+        "nirf": "18",
+        "details": {
+          "fees": ": ₹ 1.13 Crores",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_019",
+        "college_img": "https://images.shiksha.com/mediadata/images/1563527900phpkxnDpX.jpeg",
+        "name": "AIIMS Jodhpur - All India Institute of Medical Sciences",
+        "nirf": "19",
+        "details": {
+          "fees": ": ₹ 24,102",
+          "salary": ": ₹ 13.56 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_020",
+        "college_img": "https://images.shiksha.com/mediadata/images/1731914811phpwbcP4Q.jpeg",
+        "name": "Datta Meghe Institute of Higher Education and Research (Deemed to be University)",
+        "nirf": "20",
+        "details": {
+          "fees": ": ₹ 7.80 Lakh",
+          "salary": ": ₹ 5.40 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_021",
+        "college_img": "https://images.shiksha.com/mediadata/images/1416912848phpJpUvvS.jpg",
+        "name": "Sri Ramachandra Institute of Higher Education and Research",
+        "nirf": "21",
+        "details": {
+          "fees": ": ₹ 1.35 Crores",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_022",
+        "college_img": "https://images.shiksha.com/mediadata/images/1587448209phpDnp35a.jpg",
+        "name": "Vardhman Mahavir Medical College",
+        "nirf": "22",
+        "details": {
+          "fees": ": ₹ 2.56 Lakh",
+          "salary": ": ₹ 1.25 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_023",
+        "college_img": "https://images.shiksha.com/mediadata/images/1587626813phpX4rc40.jpeg",
+        "name": "Institute of Post Graduate Medical Education and Research",
+        "nirf": "23",
+        "details": {
+          "fees": ": ₹ 40,500",
+          "salary": ": ₹ 5.41 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_024",
+        "college_img": "https://images.shiksha.com/mediadata/images/1716459781phpEp6uXA.jpeg",
+        "name": "Kalinga Institute of Medical Sciences, Kalinga Institute of Industrial Technology",
+        "nirf": "24",
+        "details": {
+          "fees": ": ₹ 74.00 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_025",
+        "college_img": "https://images.shiksha.com/mediadata/images/1666780669php3zUpmL.jpeg",
+        "name": "AIIMS Bhopal - All India Institute of Medical Sciences",
+        "nirf": "25",
+        "details": {
+          "fees": ": ₹ 4,788",
+          "salary": ": ₹ 14.50 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_026",
+        "college_img": "https://images.shiksha.com/mediadata/images/1571916598phpH8SvSJ.jpeg",
+        "name": "Maulana Azad Medical College, University of Delhi",
+        "nirf": "26",
+        "details": {
+          "fees": ": ₹ 12,353",
+          "salary": ": 14.52 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_027",
+        "college_img": "https://images.shiksha.com/mediadata/images/1563528256phpb9zZUX.jpeg",
+        "name": "All India Institute of Medical Sciences Patna",
+        "nirf": "27",
+        "details": {
+          "fees": ": ₹ 4,500",
+          "salary": ": ₹ 12.36 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_028",
+        "college_img": "https://images.shiksha.com/mediadata/images/1558698751phpYFbhaB_155x116.jpg",
+        "name": "ILBS Delhi - Institute of Liver and Biliary Sciences",
+        "nirf": "28",
+        "details": {
+          "fees": ": ₹ 2.10 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_029",
+        "college_img": "https://images.shiksha.com/mediadata/images/1569392346php2iuhv6.jpg",
+        "name": "Aligarh Muslim University",
+        "nirf": "29",
+        "details": {
+          "fees": ": ₹ 57,735",
+          "salary": ": ₹ 8.23 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_030",
+        "college_img": "https://images.shiksha.com/mediadata/images/1384432561phpK8ll4M.jpg",
+        "name": "St. John’s National Academy of Health Sciences",
+        "nirf": "30",
+        "details": {
+          "fees": ": ₹ 30.00 Lakh",
+          "salary": ": ₹ 5.50 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_031",
+        "college_img": "https://images.shiksha.com/mediadata/images/1563528359php0iAzPj.jpeg",
+        "name": "AIIMS Raipur - All India Institute of Medical Sciences",
+        "nirf": "31",
+        "details": {
+          "fees": ": ₹ 1,350",
+          "salary": ": ₹ 14.00 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_032",
+        "college_img": "https://images.shiksha.com/mediadata/images/1644559038phpPNwf3Q.jpeg",
+        "name": "Lady Hardinge Medical College, University of Delhi",
+        "nirf": "32",
+        "details": {
+          "fees": ": ₹ 7,448",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_033",
+        "college_img": "https://images.shiksha.com/mediadata/images/1621506532php5Y0Zsm.jpeg",
+        "name": "Maharishi Markandeshwar University, Mullana",
+        "nirf": "33",
+        "details": {
+          "fees": "",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_034",
+        "college_img": "https://images.shiksha.com/mediadata/images/1675857047php0S2QHY.jpeg",
+        "name": "GMCH Chandigarh - Government Medical College and Hospital",
+        "nirf": "34",
+        "details": {
+          "fees": ": ₹ 78,379",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_035",
+        "college_img": "https://images.shiksha.com/mediadata/images/1667307292phpq2ppaB.jpeg",
+        "name": "Kasturba Medical College, Mangalore, Manipal Academy of Higher Education",
+        "nirf": "35",
+        "details": {
+          "fees": ": ₹ 6.91 Lakh",
+          "salary": ": ₹ 9.20 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_036",
+        "college_img": "https://images.shiksha.com/mediadata/images/1589183501phpYYOOq6.jpg",
+        "name": "Dayanand Medical College and Hospital",
+        "nirf": "36",
+        "details": {
+          "fees": ": ₹ 11.00 Lakh",
+          "salary": ": ₹ 4.32 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_037",
+        "college_img": "https://images.shiksha.com/mediadata/images/1652778583phpteTZIo.jpeg",
+        "name": "JSS Medical College, JSS Academy of Higher Education and Research",
+        "nirf": "37",
+        "details": {
+          "fees": ": ₹ 5.40 Lakh",
+          "salary": ": ₹ 9.75 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_038",
+        "college_img": "https://images.shiksha.com/mediadata/images/1649159650php3MQvRU.jpeg",
+        "name": "University College of Medical Sciences, University of Delhi",
+        "nirf": "38",
+        "details": {
+          "fees": ": ₹ 1.16 Lakh",
+          "salary": ": ₹ 12.50 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_039",
+        "college_img": "https://images.shiksha.com/mediadata/images/1664017944phpNcI14N.jpeg",
+        "name": "S.M.S. Medical College",
+        "nirf": "39",
+        "details": {
+          "fees": ": ₹ 5.37 Lakh",
+          "salary": ": ₹ 8.95 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_040",
+        "college_img": "https://images.shiksha.com/mediadata/images/1570094621phptvGtLV.jpeg",
+        "name": "Jamia Hamdard",
+        "nirf": "40",
+        "details": {
+          "fees": "",
+          "salary": ": ₹ 4.95 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_041",
+        "college_img": "https://images.shiksha.com/mediadata/images/1455529392phptUZl4i.jpeg",
+        "name": "Medical College Kolkata",
+        "nirf": "41",
+        "details": {
+          "fees": ": ₹ 40,500",
+          "salary": ": ₹ 7.10 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_042",
+        "college_img": "https://images.shiksha.com/mediadata/images/1560419370phpsZPXAR_155x116.jpg",
+        "name": "Mahatma Gandhi Medical College and Research Institute, Sri Balaji Vidyapeeth",
+        "nirf": "42",
+        "details": {
+          "fees": ": ₹ 1.20 Crores",
+          "salary": ": ₹ 18.23 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_043",
+        "college_img": "https://images.shiksha.com/mediadata/images/1665055157phpoCw2xm.jpeg",
+        "name": "PSG Institute of Medical Sciences and Research",
+        "nirf": "43",
+        "details": {
+          "fees": ": ₹ 20.00 Lakh",
+          "salary": ": ₹ 10.12 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_044",
+        "college_img": "https://images.shiksha.ws/public/images/instDefault_210x157.png",
+        "name": "The Gujarat Cancer and Research Institute",
+        "nirf": "44",
+        "details": {
+          "fees": "",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_045",
+        "college_img": "https://images.shiksha.com/mediadata/images/1586167173phpcb6q4I.jpeg",
+        "name": "B. J. Medical College, Ahmedabad",
+        "nirf": "45",
+        "details": {
+          "fees": ": ₹ 1.13 Lakh",
+          "salary": ": ₹ 1.00 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_046",
+        "college_img": "https://images.shiksha.com/mediadata/images/1539757580phpV6PrrW_155x116.png",
+        "name": "Jawaharlal Nehru Medical College, KLE Academy of Higher Education and Research",
+        "nirf": "46",
+        "details": {
+          "fees": ": ₹ 86.40 Lakh",
+          "salary": ": ₹ 4.08 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_047",
+        "college_img": "https://images.shiksha.com/mediadata/images/1587540049phpgrNBRG.jpg",
+        "name": "Christian Medical College & Hospital Ludhiana",
+        "nirf": "47",
+        "details": {
+          "fees": ": ₹ 33.00 Lakh",
+          "salary": ": ₹ 4.90 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_048",
+        "college_img": "https://images.shiksha.com/mediadata/images/1586416652phpLAkeCq.jpeg",
+        "name": "Osmania Medical College",
+        "nirf": "48",
+        "details": {
+          "fees": "",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_049",
+        "college_img": "https://images.shiksha.com/mediadata/images/1621924070phpMxm4Fj.jpeg",
+        "name": "Chettinad Academy of Research and Education",
+        "nirf": "49",
+        "details": {
+          "fees": "",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_050",
+        "college_img": "https://images.shiksha.com/mediadata/images/1651155703phpSTLiVJ.jpeg",
+        "name": "M S Ramaiah Medical College",
+        "nirf": "50",
+        "details": {
+          "fees": ": ₹ 1.25 Crores",
+          "salary": ": ₹ 6.60 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      }
+    ]
+  }
+]

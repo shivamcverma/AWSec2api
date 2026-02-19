@@ -1,0 +1,567 @@
+[
+  {
+    "category": "top dental colleges in india",
+    "colleges": [
+      {
+        "id": "college_001",
+        "college_img": "https://images.shiksha.com/mediadata/images/1570690995phpsZ7eCW.jpeg",
+        "name": "All India Institute of Medical Sciences, Delhi",
+        "nirf": "1",
+        "details": {
+          "fees": "",
+          "salary": ": 40.00 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_002",
+        "college_img": "https://images.shiksha.com/mediadata/images/1428315842php31MAaD.jpg",
+        "name": "Saveetha Institute of Medical and Technical Sciences, Poonamallee",
+        "nirf": "2",
+        "details": {
+          "fees": "",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_003",
+        "college_img": "https://images.shiksha.com/mediadata/images/1609390860phpg7uOoI.jpeg",
+        "name": "Maulana Azad Institute of Dental Sciences, MAMC",
+        "nirf": "3",
+        "details": {
+          "fees": "",
+          "salary": ": ₹ 12.00 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_004",
+        "college_img": "https://images.shiksha.com/mediadata/images/1666956374phpsjpu2g.jpeg",
+        "name": "Dr. D. Y. Patil Dental College and Hospital",
+        "nirf": "4",
+        "details": {
+          "fees": ": ₹ 26.00 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_005",
+        "college_img": "https://images.shiksha.com/mediadata/images/1667213371php0g7RjI.jpeg",
+        "name": "Manipal College of Dental Sciences, Manipal, Manipal Academy of Higher Education",
+        "nirf": "5",
+        "details": {
+          "fees": ": ₹ 16.60 Lakh",
+          "salary": ": ₹ 3.80 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_006",
+        "college_img": "https://images.shiksha.ws/public/images/instDefault_210x157.png",
+        "name": "A.B. Shetty Memorial Institute of Dental Sciences",
+        "nirf": "6",
+        "details": {
+          "fees": ": ₹ 20.28 Lakh",
+          "salary": ": ₹ 3.60 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_007",
+        "college_img": "https://images.shiksha.com/mediadata/images/1572326508phpSiIGb2.jpeg",
+        "name": "KGMU - King George's Medical University",
+        "nirf": "7",
+        "details": {
+          "fees": ": ₹ 1.90 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_008",
+        "college_img": "https://images.shiksha.com/mediadata/images/1631620302phpWQMLZR.jpeg",
+        "name": "SRM Dental College, Ramapuram Campus, Chennai",
+        "nirf": "8",
+        "details": {
+          "fees": ": ₹ 15.60 Lakh",
+          "salary": ": ₹ 3.00 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_009",
+        "college_img": "https://images.shiksha.com/mediadata/images/1739958464phpUHhn4U.jpeg",
+        "name": "SOA University - Siksha 'O' Anusandhan",
+        "nirf": "9",
+        "details": {
+          "fees": ": ₹ 27.50 Lakh",
+          "salary": ": ₹ 5.40 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_010",
+        "college_img": "https://images.shiksha.com/mediadata/images/1536818859phpwhobs6_155x116.jpg",
+        "name": "J.S.S. Dental College and Hospital, JSS Academy of Higher Education and Research",
+        "nirf": "10",
+        "details": {
+          "fees": ": ₹ 60,000",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_011",
+        "college_img": "https://images.shiksha.com/mediadata/images/1667205894php0SiXpa.jpeg",
+        "name": "Manipal College of Dental Sciences, Mangalore, Manipal Academy of Higher Education",
+        "nirf": "11",
+        "details": {
+          "fees": ": ₹ 14.76 Lakh",
+          "salary": ": ₹ 3.90 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_012",
+        "college_img": "https://images.shiksha.com/mediadata/images/1626202396phptwYWST.jpeg",
+        "name": "Post-Graduate Institute of Dental Science",
+        "nirf": "12",
+        "details": {
+          "fees": ": ₹ 1.86 Lakh",
+          "salary": ": ₹ 8.50 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_013",
+        "college_img": "https://images.shiksha.com/mediadata/images/1416912848phpJpUvvS.jpg",
+        "name": "Sri Ramachandra Institute of Higher Education and Research",
+        "nirf": "13",
+        "details": {
+          "fees": ": ₹ 24.00 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_014",
+        "college_img": "https://images.shiksha.com/mediadata/images/1659958537phpfQjwnR.jpeg",
+        "name": "Amrita School of Dentistry, Amrita Vishwa Vidyapeetham - Kochi Campus",
+        "nirf": "14",
+        "details": {
+          "fees": ": ₹ 14.00 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_015",
+        "college_img": "https://images.shiksha.com/mediadata/images/1668491054phphb9JXU.jpeg",
+        "name": "Banaras Hindu University",
+        "nirf": "15",
+        "details": {
+          "fees": ": ₹ 50,000",
+          "salary": ": ₹ 8.00 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_016",
+        "college_img": "https://images.shiksha.com/mediadata/images/1625808296php2uOEOv.jpeg",
+        "name": "Meenakshi Academy of Higher Education and Research",
+        "nirf": "16",
+        "details": {
+          "fees": "",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_017",
+        "college_img": "https://images.shiksha.com/mediadata/images/1638347515phpcd2cDM.jpeg",
+        "name": "Jamia Millia Islamia",
+        "nirf": "17",
+        "details": {
+          "fees": ": ₹ 2.09 Lakh",
+          "salary": ": 13.00 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_018",
+        "college_img": "https://images.shiksha.com/mediadata/images/1586948392phpl3HGlQ_155x116.png",
+        "name": "Institute of Medical Sciences, BHU",
+        "nirf": "18",
+        "details": {
+          "fees": ": ₹ 1.67 Lakh",
+          "salary": ": ₹ 9.60 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_019",
+        "college_img": "https://images.shiksha.com/mediadata/images/1753945075php8ewAZF.jpeg",
+        "name": "Nair Hospital Dental College, Mumbai",
+        "nirf": "19",
+        "details": {
+          "fees": ": ₹ 4.83 Lakh",
+          "salary": ": ₹ 9.90 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_020",
+        "college_img": "https://images.shiksha.ws/public/images/instDefault_210x157.png",
+        "name": "Government Dental College And Hospital, Nagpur",
+        "nirf": "20",
+        "details": {
+          "fees": ": ₹ 4.56 Lakh",
+          "salary": ": ₹ 7.00 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_021",
+        "college_img": "https://images.shiksha.ws/public/images/instDefault_210x157.png",
+        "name": "Government Dental College And Hospital,Mumbai",
+        "nirf": "21",
+        "details": {
+          "fees": ": ₹ 3.02 Lakh",
+          "salary": ": 2.70 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_022",
+        "college_img": "https://images.shiksha.com/mediadata/images/1653453894phpJQchZL.jpeg",
+        "name": "M.S. Ramaiah University of Applied Sciences (MSRUAS)",
+        "nirf": "22",
+        "details": {
+          "fees": ": ₹ 32.13 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_023",
+        "college_img": "https://images.shiksha.ws/public/images/instDefault_210x157.png",
+        "name": "Mahatma Gandhi Postgraduate Institute of Dental Sciences",
+        "nirf": "23",
+        "details": {
+          "fees": ": ₹ 8.04 Lakh",
+          "salary": ": 6.50 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_024",
+        "college_img": "https://images.shiksha.com/mediadata/images/1628228585phpfPn8WX.jpeg",
+        "name": "Christian Dental College, Ludhiana",
+        "nirf": "24",
+        "details": {
+          "fees": "",
+          "salary": ": ₹ 4.00 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_025",
+        "college_img": "https://images.shiksha.com/mediadata/images/1558690917phpsHJKxZ_155x116.jpg",
+        "name": "SDM College of Dental Sciences",
+        "nirf": "25",
+        "details": {
+          "fees": ": ₹ 3.83 Lakh",
+          "salary": ": ₹ 4.80 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_026",
+        "college_img": "https://images.shiksha.com/mediadata/images/1716280400phpIUg305.jpeg",
+        "name": "KIIT - Kalinga Institute of Dental Sciences, (KIDS)",
+        "nirf": "26",
+        "details": {
+          "fees": ": ₹ 2.60 Crores",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_027",
+        "college_img": "https://images.shiksha.com/mediadata/images/1716540508phpqYw2J0.jpeg",
+        "name": "Sree Balaji Dental College and Hospital, Bharath Institute of Higher Education and Research",
+        "nirf": "27",
+        "details": {
+          "fees": ": ₹ 42.00 Lakh",
+          "salary": ": ₹ 13.00 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_028",
+        "college_img": "https://images.shiksha.com/mediadata/images/1569392346php2iuhv6.jpg",
+        "name": "Aligarh Muslim University",
+        "nirf": "28",
+        "details": {
+          "fees": "",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_029",
+        "college_img": "https://images.shiksha.ws/public/images/instDefault_210x157.png",
+        "name": "KLE Vishwanath Katti Institute of Dental Sciences, Belagavi",
+        "nirf": "29",
+        "details": {
+          "fees": ": ₹ 30.12 Lakh",
+          "salary": ": ₹ 6.00 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_030",
+        "college_img": "https://images.shiksha.com/mediadata/images/1711517526php3iwng3.jpeg",
+        "name": "Thai Moogambigai Dental College and Hospital, Dr MGR Educational and Research Institute",
+        "nirf": "30",
+        "details": {
+          "fees": ": ₹ 16.00 Lakh",
+          "salary": ": ₹ 8.90 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_031",
+        "college_img": "https://images.shiksha.com/mediadata/images/1658379672phpGkmSfo.jpeg",
+        "name": "Yenepoya Dental College And Hospital, Mangalore",
+        "nirf": "31",
+        "details": {
+          "fees": ": ₹ 36.00 Lakh",
+          "salary": ": ₹ 8.40 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_032",
+        "college_img": "https://images.shiksha.com/mediadata/images/1598554781phpNWgpuQ.jpeg",
+        "name": "Chettinad Dental College and Research Institute",
+        "nirf": "32",
+        "details": {
+          "fees": "",
+          "salary": ": ₹ 6.00 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_033",
+        "college_img": "https://images.shiksha.com/mediadata/images/1654844038php7ZZpXj.jpeg",
+        "name": "Manav Rachna International Institute of Research & Studies",
+        "nirf": "33",
+        "details": {
+          "fees": ": ₹ 12.23 Lakh",
+          "salary": ": ₹ 3.85 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_034",
+        "college_img": "https://images.shiksha.com/mediadata/images/1744184155phpugKOF3_155x116.jpg",
+        "name": "Government Dental College and Research Institute, Bangalore",
+        "nirf": "34",
+        "details": {
+          "fees": ": ₹ 2.15 Lakh",
+          "salary": ": ₹ 5.30 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_035",
+        "college_img": "https://images.shiksha.ws/public/images/instDefault_210x157.png",
+        "name": "Government Dental College, Trivandrum",
+        "nirf": "35",
+        "details": {
+          "fees": "",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_036",
+        "college_img": "https://images.shiksha.com/mediadata/images/1731914811phpwbcP4Q.jpeg",
+        "name": "Datta Meghe Institute of Higher Education and Research (Deemed to be University)",
+        "nirf": "36",
+        "details": {
+          "fees": ": ₹ 30.00 Lakh",
+          "salary": ": ₹ 10.80 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_037",
+        "college_img": "https://images.shiksha.ws/public/images/instDefault_210x157.png",
+        "name": "Government Dental College and Hospital, Ahmedabad",
+        "nirf": "37",
+        "details": {
+          "fees": ": ₹ 60,000",
+          "salary": ": ₹ 12.50 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_038",
+        "college_img": "https://images.shiksha.ws/public/images/instDefault_210x157.png",
+        "name": "Government Dental College, Kozhikode",
+        "nirf": "38",
+        "details": {
+          "fees": ": ₹ 1.56 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_039",
+        "college_img": "https://images.shiksha.com/mediadata/images/1749537242phpvSy8EM.jpeg",
+        "name": "SRM Kattankulathur Dental College and Hospital University Main Campus",
+        "nirf": "39",
+        "details": {
+          "fees": ": ₹ 15.60 Lakh",
+          "salary": "",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      },
+      {
+        "id": "college_040",
+        "college_img": "https://images.shiksha.ws/public/images/instDefault_210x157.png",
+        "name": "KLE Society’s Institute of Dental Sciences",
+        "nirf": "40",
+        "details": {
+          "fees": ": ₹ 11.18 Lakh",
+          "salary": ": ₹ 5.30 Lakh",
+          "rankings": {
+            "business_today": "",
+            "outlook": ""
+          }
+        }
+      }
+    ]
+  }
+]
