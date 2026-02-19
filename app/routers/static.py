@@ -10,6 +10,8 @@ DATA_PATH = "data/static_data"
 STATIC_SCRAPER_MAP = {
     "mbatopcollege": "mbatopcollege.json",
     "allindiambacollege": "allindiambacollege.json",
+    "engineeringtopcollege":"engineeringtopcollege.json",
+    "allindiaengineeringcollege":"allindiaengineeringcollege.json",
     # add all 10 static scrapers
 }
 
