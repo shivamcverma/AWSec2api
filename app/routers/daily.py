@@ -176,6 +176,8 @@ SCRAPER_MAP = {
     "topengineeringcollegedetails201_240":"topengineeringcollegedetails201_240.json",
     "topengineeringcollegedetails241_280":"topengineeringcollegedetails241_280.json",
     "topengineeringcollegedetails281_297":"topengineeringcollegedetails281_297.json",
+    "topfaishiondesgincollegedetails1_33":"topfaishiondesgincollegedetails1_33.json",
+    "topfaishiondesgincollegedetails34_56":"topfaishiondesgincollegedetails34_56.json",
     "toydesign":"toydesign.json",
     "uiux":"uiux.json",
     "visualmerchandising":"visualmerchandising.json",
