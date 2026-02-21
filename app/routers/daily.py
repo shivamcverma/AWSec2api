@@ -180,7 +180,22 @@ SCRAPER_MAP = {
     "uiux":"uiux.json",
     "visualmerchandising":"visualmerchandising.json",
     "webdesign":"webdesign.json",
-
+    "allindiambacollegedetails421_450":"allindiambacollegedetails421_450.json",
+    "allindiambacollegedetails451_480":"allindiambacollegedetails451_480.json",
+    "allindiambacollegedetails481_510":"allindiambacollegedetails481_510.json",
+    "allindiambacollegedetails511_540":"allindiambacollegedetails511_540.json",
+    "allindiambacollegedetails541_570":"allindiambacollegedetails541_570.json",
+    "allindiambacollegedetails571_600":"allindiambacollegedetails571_600.json",
+    "allindiambacollegedetails601_630":"allindiambacollegedetails601_630.json",
+    "allindiambacollegedetails631_660":"allindiambacollegedetails631_660.json",
+    "allindiambacollegedetails661_690":"allindiambacollegedetails661_690.json",
+    "allindiambacollegedetails691_720":"allindiambacollegedetails691_720.json",
+    "allindiambacollegedetails721_750":"allindiambacollegedetails721_750.json",
+    "allindiambacollegedetails781_810":"allindiambacollegedetails781_810.json",
+    "allindiambacollegedetails841_870":"allindiambacollegedetails841_870.json",
+    "allindiambacollegedetails931_960":"allindiambacollegedetails931_960.json",
+    "allindiambacollegedetails1081_1110":"allindiambacollegedetails1081_1110.json",
+    "allindiambacollegedetails1111_1140":"allindiambacollegedetails1111_1140.json",
 }
 
 @router.get("/{scraper_name}")
