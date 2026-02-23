@@ -134,6 +134,7 @@ SCRAPER_MAP = {
     "clinicalresearch":"clinicalresearch.json",
     "communicationdesign":"communicationdesign.json",
     "dental":"dental.json",
+    "lifestyleaccessorydesign":"lifestyleaccessorydesign.json",
     "dieteticsnutrition":"dieteticsnutrition.json",
     "exhibitiondesign":"exhibitiondesign.json",
     "fashiondesigning":"fashiondesigning.json",
@@ -198,6 +199,13 @@ SCRAPER_MAP = {
     "allindiambacollegedetails931_960":"allindiambacollegedetails931_960.json",
     "allindiambacollegedetails1081_1110":"allindiambacollegedetails1081_1110.json",
     "allindiambacollegedetails1111_1140":"allindiambacollegedetails1111_1140.json",
+    "ceed":"ceed.json",
+    "nidentranceexam":"nidentranceexam.json",
+    "niftentranceexam":"niftentranceexam.json",
+    "pearlAentranceexam":"pearlAentranceexam.json",
+    "uceed":"uceed.json",
+    "wudaptitudetext":"wudaptitudetext.json",
+
 }
 
 @router.get("/{scraper_name}")
