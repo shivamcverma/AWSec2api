@@ -15,36 +15,36 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/jankidevi-bajaj-institute-of-management-studies-jdbims-pune-karve-nagar-49006",
-  "https://www.shiksha.com/university/aisect-university-hazaribagh-56199",
-  "https://www.shiksha.com/college/fr-c-rodrigues-institute-of-management-studies-navi-mumbai-64159",
-  "https://www.shiksha.com/university/cblu-bhiwani-64505",
-  "https://www.shiksha.com/college/l-j-institute-of-engineering-and-technology-l-j-i-e-t-sarkhej-ahmedabad-38282",
-  "https://www.shiksha.com/college/vasireddy-venkatadri-international-technological-university-guntur-52611",
-  "https://www.shiksha.com/college/bishop-jerome-institute-kollam-60325",
-  "https://www.shiksha.com/university/martin-luther-christian-university-shillong-65317",
-  "https://www.shiksha.com/college/institute-of-agribusiness-management-tirupati-acharya-n-g-ranga-agricultural-university-106325",
-  "https://www.shiksha.com/college/nest-academy-of-sports-management-nasm-malad-west-mumbai-48937",
-  "https://www.shiksha.com/university/gujarat-maritime-university-gandhinagar-64045",
-  "https://www.shiksha.com/college/himalayan-group-of-professional-institutions-sirmour-37385",
-  "https://www.shiksha.com/college/cmr-engineering-college-medchal-hyderabad-47419",
-  "https://www.shiksha.com/college/raja-balwant-singh-management-technical-campus-agra-59647",
-  "https://www.shiksha.com/college/institute-of-management-technology-faridabad-32514",
-  "https://www.shiksha.com/college/er-perumal-manimekalai-college-of-engineering-tamil-nadu-other-42840",
-  "https://www.shiksha.com/college/lcet-ludhiana-college-of-engineering-and-technology-42854",
-  "https://www.shiksha.com/college/proudhadevaraya-institute-of-technology-pdit-karnataka-other-20910",
-  "https://www.shiksha.com/college/gojan-school-of-business-and-technology-edapalayam-chennai-42588",
-  "https://www.shiksha.com/university/khallikote-university-berhampur-64927",
-  "https://www.shiksha.com/college/dattakala-institute-pune-88561",
-  "https://www.shiksha.com/college/indian-institute-of-sustainability-ahmedabad-203797",
-  "https://www.shiksha.com/college/st-johns-institute-of-science-and-technology-hyderabad-62247",
-  "https://www.shiksha.com/college/chintamanrao-institute-of-management-development-and-research-cimdr-maharashtra-sangli-11843",
-  "https://www.shiksha.com/college/khalsa-college-amritsar-25386",
-  "https://www.shiksha.com/college/kec-kavery-engineering-college-salem-42732",
-  "https://www.shiksha.com/college/sri-datta-institute-of-engineering-and-science-ranga-reddy-62239",
-  "https://www.shiksha.com/college/v-p-institute-of-management-studies-research-sangli-77595",
-  "https://www.shiksha.com/college/akshara-institute-of-management-studies-ibrahimpatnam-156555",
-  "https://www.shiksha.com/college/adhiparasakthi-engineering-college-kanchipuram-42520",
+  "https://www.shiksha.com/college/guru-nanak-dev-engineering-college-ludhiana-3845",
+  "https://www.shiksha.com/college/bundelkhand-institute-of-engineering-and-technology-jhansi-25008",
+  "https://www.shiksha.com/college/rit-rajeev-institute-of-technology-hassan-42677",
+  "https://www.shiksha.com/college/national-institute-of-tourism-and-hospitality-management-nithm-gachibowli-hyderabad-20747",
+  "https://www.shiksha.com/college/fuel-business-school-pirangut-pune-213031",
+  "https://www.shiksha.com/college/srit-sri-ramakrishna-institute-of-technology-coimbatore-42551",
+  "https://www.shiksha.com/college/apoorva-institute-of-management-and-sciences-karimnagar-48201",
+  "https://www.shiksha.com/college/indian-institute-of-finance-greater-noida-3253",
+  "https://www.shiksha.com/college/nehru-college-of-management-coimbatore-24922",
+  "https://www.shiksha.com/university/the-icfai-university-jharkhand-ranchi-38096",
+  "https://www.shiksha.com/college/vemu-institute-of-technology-chittoor-43106",
+  "https://www.shiksha.com/college/sun-international-institute-of-tourism-and-management-visakhapatnam-48761",
+  "https://www.shiksha.com/university/jg-university-ahmedabad-203025",
+  "https://www.shiksha.com/college/b-b-s-college-of-engginering-and-technology-allahabad-59357",
+  "https://www.shiksha.com/college/rishi-ubr-pg-college-for-women-kukatpally-hyderabad-62215",
+  "https://www.shiksha.com/college/kce-society-s-institute-of-management-and-research-imr-jalgon-jalgaon-20449",
+  "https://www.shiksha.com/university/swami-ramanand-teerth-marathwada-university-maharashtra-other-29742",
+  "https://www.shiksha.com/university/madhyanchal-professional-university-bhopal-58839",
+  "https://www.shiksha.com/college/annai-college-of-arts-and-science-thanjavur-66497",
+  "https://www.shiksha.com/college/grd-institute-of-management-and-technology-dehradun-48711",
+  "https://www.shiksha.com/college/maharaja-surajmal-institute-janakpuri-delhi-49395",
+  "https://www.shiksha.com/college/iimt-group-of-colleges-meerut-59877",
+  "https://www.shiksha.com/college/sims-sanghvi-institute-of-management-and-science-indore-30433",
+  "https://www.shiksha.com/university/nehru-gram-bharati-university-kotwa-ngbu-allahabad-38042",
+  "https://www.shiksha.com/college/miet-engineering-college-tiruchirappalli-42653",
+  "https://www.shiksha.com/college/ramachandra-college-of-engineering-west-godavari-42623",
+  "https://www.shiksha.com/college/university-b-d-t-college-of-engineering-visvesvaraya-technological-university-davangere-21439",
+  "https://www.shiksha.com/college/institute-of-management-research-and-technology-nashik-20274",
+  "https://www.shiksha.com/college/uttam-group-of-institutions-agra-37358",
+  "https://www.shiksha.com/college/padala-rama-reddi-college-of-commerce-and-management-telangana-other-52804",
 ]
 
 
@@ -9254,7 +9254,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =1081
+    c_count =871
 
     try:
         for base_url in BASE_URL:
@@ -9320,8 +9320,8 @@ def scrape_mba_colleges():
 import time
 import os
 
-TEMP_FILE = "allindiambacollegedetails1081_1110.tmp.json"
-FINAL_FILE = "allindiambacollegedetails1081_1110.json"
+TEMP_FILE = "allindiambacollegedetails871_900.tmp.json"
+FINAL_FILE = "allindiambacollegedetails871_900.json"
 
 UPDATE_INTERVAL = 6 * 60 * 60  # 6 hours
 
