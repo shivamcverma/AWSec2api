@@ -159,7 +159,7 @@ SCRAPER_MAP = {
     "neetmds":"neetmds.json",
     "neetpg":"neetpg.json",
     "neetss":"neetss.json",
-    "nnetug":"nnetug.json",
+    "neetug":"neetug.json",
     "paramedicalcourses":"paramedicalcourses.json",
     "pharmacycourse":"pharmacycourse.json",
     "pharmancycollegedetails1_40":"pharmancycollegedetails1_40.json",
