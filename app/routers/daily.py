@@ -210,6 +210,7 @@ SCRAPER_MAP = {
     "pearlAentranceexam":"pearlAentranceexam.json",
     "uceed":"uceed.json",
     "wudaptitudetext":"wudaptitudetext.json",
+    "allmedicalexam3":"allmedicalexam3.json",
 
 }
 
