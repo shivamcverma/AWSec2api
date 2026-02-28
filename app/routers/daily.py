@@ -211,6 +211,10 @@ SCRAPER_MAP = {
     "uceed":"uceed.json",
     "wudaptitudetext":"wudaptitudetext.json",
     "allmedicalexam3":"allmedicalexam3.json",
+    "allEnexam4":"allEnexam4.json",
+    "allmbaexam4":"allmbaexam4.json",
+    "allfashionexam4":"allfashionexam4.json",
+    "allmedicalexam4":"allmedicalexam4.json",
 
 }
 
