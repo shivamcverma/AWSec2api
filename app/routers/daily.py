@@ -215,6 +215,10 @@ SCRAPER_MAP = {
     "allmbaexam4":"allmbaexam4.json",
     "allfashionexam4":"allfashionexam4.json",
     "allmedicalexam4":"allmedicalexam4.json",
+    "allEnexam70_118":"allEnexam70_118.json",
+    "allmbaexam75_133":"allmbaexam75_133.json",
+    "allmedicalexam32_93":"allmedicalexam32_93.json",
+
 
 }
 
