@@ -35,7 +35,7 @@ BASE_URL = [
     "https://www.shiksha.com/college/global-business-school-hubli-28515",
     "https://www.shiksha.com/college/christ-academy-institute-for-advanced-studies-electronic-city-phase-1-bangalore-56171",
     "https://www.shiksha.com/college/t-john-group-of-institutions-bannerghatta-road-bangalore-28395",
-   "https://www.shiksha.com/college/sahrdaya-institute-of-management-studies-thrissur-53441",
+    "https://www.shiksha.com/college/sahrdaya-institute-of-management-studies-thrissur-53441",
     "https://www.shiksha.com/college/university-business-school-chandigarh-21440",
     "https://www.shiksha.com/university/the-icfai-university-sikkim-gangtok-52524",
     "https://www.shiksha.com/college/poddar-management-and-technical-campus-jaipur-148199",

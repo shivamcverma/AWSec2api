@@ -23,7 +23,7 @@ def run_scraper(scraper_file):
         print(f"{scraper_file} failed")
 
 if __name__ == "__main__":
-    workers = min(10, os.cpu_count())
+    workers = 3
 
     with Pool(workers) as pool:
         pool.map(run_scraper, scrapers)

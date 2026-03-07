@@ -62,7 +62,7 @@ def create_driver():
     options = Options()
 
     # Mandatory for GitHub Actions
-    # options.add_argument("--headless=new")
+    options.add_argument("--headless=new")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--disable-gpu")
@@ -75,7 +75,7 @@ def create_driver():
     )
 
     # Important for Ubuntu runner
-    # options.binary_location = "/usr/bin/chromium"
+    options.binary_location = "/usr/bin/chromium"
 
     service = Service(ChromeDriverManager().install())
 
