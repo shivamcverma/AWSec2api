@@ -12,9 +12,16 @@ from webdriver_manager.chrome import ChromeDriverManager
 from urllib.parse import urljoin
 
 
-# ---------------- DRIVER SETUP ----------------
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+
+
 def create_driver():
+
     options = Options()
+
+    options.binary_location = "/usr/bin/chromium-browser"
 
     options.add_argument("--headless=new")
     options.add_argument("--no-sandbox")
@@ -27,12 +34,13 @@ def create_driver():
         "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     )
 
-    # Remove this line if running on Windows
-    options.binary_location = "/usr/bin/chromium"
+    service = Service("/usr/bin/chromedriver")
 
-    service = Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(
+        service=service,
+        options=options
+    )
 
-    driver = webdriver.Chrome(service=service, options=options)
     return driver
 
 
