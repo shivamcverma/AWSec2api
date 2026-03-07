@@ -15,36 +15,36 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/ism-institute-of-science-and-management-ranchi-21959",
-  "https://www.shiksha.com/college/gems-b-school-mysore-64125",
-  "https://www.shiksha.com/college/dr-sivanthi-aditanar-college-of-engineering-tamil-nadu-other-24256",
-  "https://www.shiksha.com/college/sinhgad-institute-of-business-management-chandivali-mumbai-42529",
-  "https://www.shiksha.com/college/rvs-institute-of-management-studies-and-research-coimbatore-21024",
-  "https://www.shiksha.com/college/asm-institute-of-professional-studies-pune-pimpri-28137",
-  "https://www.shiksha.com/college/uma-krishna-shetty-institute-of-management-studies-and-research-kurla-east-mumbai-37634",
-  "https://www.shiksha.com/college/subhas-bose-institute-of-hotel-management-rajarhat-kolkata-26958",
-  "https://www.shiksha.com/college/synergy-group-of-institutes-synergy-pune-laxminagar-48706",
-  "https://www.shiksha.com/university/west-bengal-state-university-kolkata-58423",
-  "https://www.shiksha.com/college/vaageswari-college-of-engineering-karimnagar-61359",
-  "https://www.shiksha.com/university/manipur-university-imphal-20616",
-  "https://www.shiksha.com/university/gopal-narayan-singh-university-sasaram-63907",
-  "https://www.shiksha.com/college/st-francis-de-sales-college-electronic-city-bangalore-69659",
-  "https://www.shiksha.com/college/muthoot-business-school-kochi-228579",
-  "https://www.shiksha.com/college/saranathan-college-of-engineering-tiruchirappalli-22926",
-  "https://www.shiksha.com/college/sipna-college-of-engineering-and-technology-amravati-59431",
-  "https://www.shiksha.com/university/annamacharya-university-kadapa-227577",
-  "https://www.shiksha.com/college/st-albert-s-college-kochi-48345",
-  "https://www.shiksha.com/college/dr-panjabrao-deshmukh-institute-of-management-technology-and-research-nagpur-64215",
-  "https://www.shiksha.com/college/avc-college-of-engineering-tamil-nadu-other-22444",
-  "https://www.shiksha.com/college/auxilium-college-vellore-42786",
-  "https://www.shiksha.com/college/srm-pg-college-karimnagar-21313",
-  "https://www.shiksha.com/university/acharya-n-g-ranga-agricultural-university-hyderabad-24889",
-  "https://www.shiksha.com/college/bharath-college-of-science-and-management-thanjavur-38017",
-  "https://www.shiksha.com/college/mesco-institute-of-management-and-computer-sciences-hyderabad-52810",
-  "https://www.shiksha.com/college/shri-siddhi-vinayak-group-of-institutions-bareilly-37326",
-  "https://www.shiksha.com/college/brahmdevdada-mane-institute-of-technology-solapur-42733",
-  "https://www.shiksha.com/college/chaudhary-charan-singh-national-institute-of-agricultural-marketing-jaipur-21598",
-  "https://www.shiksha.com/university/mit-vishwaprayag-university-solapur-213315",
+  "https://www.shiksha.com/university/tamil-nadu-physical-education-and-sports-university-tnpesu-chennai-24259",
+  "https://www.shiksha.com/college/upes-knowledge-acres-campus-dehradun-62285",
+  "https://www.shiksha.com/university/shri-krishna-university-chhatarpur-64781",
+  "https://www.shiksha.com/university/kushabhau-thakre-patrakarita-avam-jansanchar-vishwavidyalaya-raipur-63927",
+  "https://www.shiksha.com/college/priyadarshini-p-g-college-mba-hyderabad-62191",
+  "https://www.shiksha.com/college/r-b-s-college-agra-110295",
+  "https://www.shiksha.com/college/gardi-vidyapith-group-of-institutions-rajkot-60095",
+  "https://www.shiksha.com/college/ellenki-college-of-engineering-and-technology-patancheru-hyderabad-19976",
+  "https://www.shiksha.com/college/bengal-college-of-engineering-and-technology-durgapur-25045",
+  "https://www.shiksha.com/college/biyani-institute-of-science-and-management-jaipur-32609",
+  "https://www.shiksha.com/college/st-pious-x-degree-and-pg-college-for-women-telangana-other-59283",
+  "https://www.shiksha.com/college/madras-school-of-economics-tamil-nadu-other-4145",
+  "https://www.shiksha.com/college/praxis-tech-school-bangalore-h-s-r-layout-150093",
+  "https://www.shiksha.com/college/asbm-pune-talegaon-dabhade-203883",
+  "https://www.shiksha.com/college/dmi-college-of-engineering-palanchur-chennai-42675",
+  "https://www.shiksha.com/college/bharatesh-education-trust-s-global-business-school-bet-s-belgaum-48180",
+  "https://www.shiksha.com/college/sri-chaitanya-technical-campus-telangana-other-62073",
+  "https://www.shiksha.com/college/midas-school-of-entrepreneurship-pune-38303",
+  "https://www.shiksha.com/college/vidya-dayini-college-of-information-technology-hyderabad-62219",
+  "https://www.shiksha.com/college/metas-adventist-college-surat-69131",
+#   "https://www.shiksha.com/college/centre-for-liberal-and-advanced-studies-sage-university-bhopal-231840",
+#   "https://www.shiksha.com/college/mcc-boyd-tandon-school-of-business-chennai-215781",
+#   "https://www.shiksha.com/college/sri-ramakrishna-college-of-arts-and-science-coimbatore-8330",
+#   "https://www.shiksha.com/university/iec-university-solan-35967",
+#   "https://www.shiksha.com/college/mother-teresa-pg-college-ranga-reddy-62157",
+#   "https://www.shiksha.com/college/dr-k-v-subba-reddy-institute-of-technology-kvsrit-kurnool-43355",
+#   "https://www.shiksha.com/college/banarsidas-chandiwala-institute-of-professional-studies-dwarka-delhi-42806",
+#   "https://www.shiksha.com/university/cdlu-chaudhary-devi-lal-university-haryana-other-23525",
+#   "https://www.shiksha.com/college/jis-college-of-engineering-kalyani-kolkata-38245",
+#   "https://www.shiksha.com/college/matoshri-college-of-management-research-centre-eklahare-nashik-64245",
 ]
 
 
@@ -70,7 +70,7 @@ def create_driver():
     options = Options()
 
     # Mandatory for GitHub Actions
-    options.add_argument("--headless=new")
+    # options.add_argument("--headless=new")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--disable-gpu")
@@ -83,7 +83,7 @@ def create_driver():
     )
 
     # Important for Ubuntu runner
-    options.binary_location = "/usr/bin/chromium"
+    # options.binary_location = "/usr/bin/chromium"
 
     service = Service(ChromeDriverManager().install())
 
@@ -9320,8 +9320,8 @@ def scrape_mba_colleges():
 import time
 import os
 
-TEMP_FILE = "allindiambacollegedetails931_960.tmp.json"
-FINAL_FILE = "allindiambacollegedetails931_960.json"
+TEMP_FILE = "allindiambacollegedetails931_950.tmp.json"
+FINAL_FILE = "allindiambacollegedetails931_950.json"
 
 UPDATE_INTERVAL = 6 * 60 * 60  # 6 hours
 
@@ -9345,4 +9345,5 @@ def auto_update_scraper():
 
 if __name__ == "__main__":
     auto_update_scraper()
+        
         
