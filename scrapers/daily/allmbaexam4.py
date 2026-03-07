@@ -14,7 +14,10 @@ from urllib.parse import urljoin
 
 # ---------------- DRIVER SETUP ----------------
 def create_driver():
+
     options = Options()
+
+    options.binary_location = "/usr/bin/chromium-browser"
 
     options.add_argument("--headless=new")
     options.add_argument("--no-sandbox")
@@ -27,13 +30,15 @@ def create_driver():
         "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     )
 
-    # Remove this line if running on Windows
-    options.binary_location = "/usr/bin/chromium"
+    service = Service("/usr/bin/chromedriver")
 
-    service = Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(
+        service=service,
+        options=options
+    )
 
-    driver = webdriver.Chrome(service=service, options=options)
     return driver
+
 
 
 # ---------------- SCROLL FUNCTION ----------------

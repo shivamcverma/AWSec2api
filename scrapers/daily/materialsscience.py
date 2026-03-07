@@ -31,30 +31,32 @@ PCOMBA_QD_URL="https://www.shiksha.com/tags/materials-science-tdp-581548?type=di
 
 
 def create_driver():
+
     options = Options()
 
-    # Mandatory for GitHub Actions
-    # options.add_argument("--headless=new")
+    options.binary_location = "/usr/bin/chromium-browser"
+
+    options.add_argument("--headless=new")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--disable-gpu")
     options.add_argument("--window-size=1920,1080")
 
-    # Optional but good
-    # options.add_argument(
-    #     "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-    #     "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-    # )
+    options.add_argument(
+        "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    )
 
-    # Important for Ubuntu runner
-    # options.binary_location = "/usr/bin/chromium"
+    service = Service("/usr/bin/chromedriver")
 
-    service = Service(ChromeDriverManager().install())
-
-    return webdriver.Chrome(
+    driver = webdriver.Chrome(
         service=service,
         options=options
     )
+
+    return driver
+
+
 
 # ---------------- UTILITIES ----------------
 def scroll_to_bottom(driver, scroll_times=3, pause=1.5):

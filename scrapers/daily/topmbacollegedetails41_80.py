@@ -57,22 +57,6 @@ BASE_URL =[
     "https://www.shiksha.com/college/thiagarajar-school-of-management-madurai-1235",
 ] 
 
-def build_urls(BASE_URL):
-    return {
-        "college_info":BASE_URL,
-        "courses": BASE_URL + "/courses",
-        "fees": BASE_URL + "/fees",
-        "reviews": BASE_URL + "/reviews",
-        "admission": BASE_URL + "/admission",
-        "placement": BASE_URL + "/placement",
-        "cutoff": BASE_URL + "/cutoff",
-        "ranking": BASE_URL + "/ranking",
-        "gallery": BASE_URL + "/gallery",
-        "infrastructure": BASE_URL + "/infrastructure",
-        "faculty": BASE_URL + "/faculty",
-        "compare": BASE_URL + "/compare",
-        "scholarships": BASE_URL + "/scholarships",
-    }
 # ---------------- DRIVER ----------------
 def build_urls(BASE_URL):
     return {
@@ -93,30 +77,32 @@ def build_urls(BASE_URL):
     }
 # ---------------- DRIVER ----------------
 def create_driver():
+
     options = Options()
 
-    # Mandatory for GitHub Actions
+    options.binary_location = "/usr/bin/chromium-browser"
+
     options.add_argument("--headless=new")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--disable-gpu")
     options.add_argument("--window-size=1920,1080")
 
-    # Optional but good
     options.add_argument(
         "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
         "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     )
 
-    # Important for Ubuntu runner
-    options.binary_location = "/usr/bin/chromium"
+    service = Service("/usr/bin/chromedriver")
 
-    service = Service(ChromeDriverManager().install())
-
-    return webdriver.Chrome(
+    driver = webdriver.Chrome(
         service=service,
         options=options
     )
+
+    return driver
+
+
 
 
 # ---------------- UTILITIES ----------------
