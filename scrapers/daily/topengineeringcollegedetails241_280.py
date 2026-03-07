@@ -94,7 +94,7 @@ def create_driver():
 
     options = Options()
 
-    options.binary_location = "/snap/bin/chromium"
+    options.binary_location = "/usr/bin/chromium-browser"
 
     options.add_argument("--headless=new")
     options.add_argument("--no-sandbox")
