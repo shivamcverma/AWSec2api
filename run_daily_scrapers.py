@@ -4,7 +4,7 @@ from multiprocessing import Pool
 
 SCRAPER_FOLDER = "scrapers/daily"
 
-scrapers = [f for f in os.listdir(SCRAPER_FOLDER) if f.endswith(".py")]
+scrapers = [f for f in os.listdir(SCRAPER_FOLDER) if f.endswith(".py")][:15]
 
 def run_scraper(scraper_file):
     scraper_path = os.path.join(SCRAPER_FOLDER, scraper_file)
