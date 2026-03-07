@@ -58,7 +58,7 @@ def create_driver():
         "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     )
 
-        service = Service("/snap/bin/chromedriver")
+    service = Service("/snap/bin/chromedriver")
 
     driver = webdriver.Chrome(
         service=service,
