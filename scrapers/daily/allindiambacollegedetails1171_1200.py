@@ -8,57 +8,44 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 import time
-from selenium.common.exceptions import NoSuchElementException
 import json
 import re
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
-BASE_URL =[
-    "https://www.shiksha.com/university/institute-of-chemical-technology-mumbai-36791",
-    "https://www.shiksha.com/college/mnit-jaipur-malaviya-national-institute-of-technology-24372",
-    "https://www.shiksha.com/university/upes-dehradun-30663",
-    "https://www.shiksha.com/college/vnit-nagpur-visvesvaraya-national-institute-of-technology-24399",
-    "https://www.shiksha.com/university/saveetha-institute-of-medical-and-technical-sciences-poonamallee-chennai-34281",
-    "https://www.shiksha.com/college/symbiosis-institute-of-technology-symbiosis-international-pune-lavale-village-29564",
-    "https://www.shiksha.com/college/ssn-college-of-engineering-old-mahabalipuram-road-chennai-23008",
-    "https://www.shiksha.com/university/lpu-lovely-professional-university-jalandhar-28499",
-    "https://www.shiksha.com/university/nit-durgapur-national-institute-of-technology-54019",
-    "https://www.shiksha.com/university/nit-silchar-national-institute-of-technology-28583",
-    "https://www.shiksha.com/university/birla-institute-of-technology-mesra-ranchi-24087",
-    "https://www.shiksha.com/university/graphic-era-deemed-to-be-university-dehradun-22612",
-    "https://www.shiksha.com/college/nit-patna-national-institute-of-technology-23147",
-    "https://www.shiksha.com/college/iiest-shibpur-indian-institute-of-engineering-science-and-technology-howrah-24176",
-    "https://www.shiksha.com/college/national-institute-of-technology-jalandhar-24247",
-    "https://www.shiksha.com/college/iit-jammu-indian-institute-of-technology-53791",
-    "https://www.shiksha.com/college/iit-tirupati-indian-institute-of-technology-chittoor-53834",
-    "https://www.shiksha.com/university/manipal-university-jaipur-38039",
-    "https://www.shiksha.com/college/manipal-institute-of-technology-mahe-3225",
-    "https://www.shiksha.com/university/madan-mohan-malviya-university-of-technology-gorakhpur-42983",
-    "https://www.shiksha.com/university/iist-indian-institute-of-space-science-and-technology-thiruvananthapuram-25141",
-    "https://www.shiksha.com/university/mnnit-allahabad-motilal-nehru-national-institute-of-technology-24357",
-    "https://www.shiksha.com/university/iiit-delhi-indraprastha-institute-of-information-technology-32722",
-    "https://www.shiksha.com/college/iit-palakkad-indian-institute-of-technology-53829",
-    "https://www.shiksha.com/college/nit-delhi-national-institute-of-technology-narela-38584",
-    "https://www.shiksha.com/college/sardar-vallabhbhai-national-institute-of-technology-surat-24414",
-    "https://www.shiksha.com/college/psgct-coimbatore-19398",
-    "https://www.shiksha.com/university/sathyabama-institute-of-science-and-technology-chennai-23588",
-    "https://www.shiksha.com/university/international-institute-of-information-technology-bangalore-26396",
-    "https://www.shiksha.com/college/netaji-subhas-university-of-technology-dwarka-delhi-28573",
-    "https://www.shiksha.com/university/banasthali-vidyapith-jaipur-3155",
-    "https://www.shiksha.com/college/iit-bhilai-indian-institute-of-technology-53794",
-    "https://www.shiksha.com/college/nit-srinagar-national-institute-of-technology-24264",
-    "https://www.shiksha.com/university/uoh-university-of-hyderabad-23069",
-    "https://www.shiksha.com/college/ramaiah-institute-of-technology-bangalore-474",
-    "https://www.shiksha.com/college/christ-kengeri-campus-kengeri-bangalore-60485",
-    "https://www.shiksha.com/college/iit-dharwad-indian-institute-of-technology-53833",
-    "https://www.shiksha.com/college/rajiv-gandhi-institute-of-petroleum-technology-amethi-46857",
-    "https://www.shiksha.com/college/sant-longowal-institute-of-engineering-and-technology-sangrur-25241",
-    "https://www.shiksha.com/university/vignan-s-foundation-for-science-technology-and-research-guntur-21507",
-] 
-
-
+BASE_URL = [
+  "https://www.shiksha.com/university/baddi-university-of-emerging-sciences-and-technology-36922",
+  "https://www.shiksha.com/college/indore-international-college-157113",
+  "https://www.shiksha.com/college/iilm-institute-for-business-and-management-gurgaon-27864",
+  "https://www.shiksha.com/college/krishna-group-of-institutions-kanpur-37439",
+  "https://www.shiksha.com/university/siddharth-university-uttar-pradesh-other-59051",
+  "https://www.shiksha.com/college/praxis-tech-school-kolkata-salt-lake-city-213659",
+  "https://www.shiksha.com/college/aditya-college-of-engineering-andhra-pradesh-other-37548",
+  "https://www.shiksha.com/college/international-school-of-hospitality-management-salt-lake-city-kolkata-56013",
+  "https://www.shiksha.com/university/karnataka-state-akkamahadevi-women-s-university-bijapur-58779",
+  "https://www.shiksha.com/college/vanita-vishram-women-s-university-surat-69309",
+  "https://www.shiksha.com/college/university-evening-college-mangalore-184897",
+  "https://www.shiksha.com/college/rathinam-school-of-business-bangalore-215807",
+  "https://www.shiksha.com/college/mohamed-sathak-engineering-college-msec-tamil-nadu-other-23631",
+  "https://www.shiksha.com/college/interscience-institute-of-management-and-technology-bhubaneswar-31081",
+  "https://www.shiksha.com/college/nalanda-institute-of-technology-bhubaneswar-37904",
+  "https://www.shiksha.com/college/indus-college-of-engineering-bhubaneswar-42606",
+  "https://www.shiksha.com/college/kiet-east-godavari-46540",
+  "https://www.shiksha.com/college/baba-farid-college-baba-farid-group-of-institutions-bathinda-52971",
+  "https://www.shiksha.com/college/rayat-bahra-university-powered-by-sunstone-mohali-151293",
+  "https://www.shiksha.com/college/al-quarmoshi-institute-of-business-management-aqibm-hyderabad-barkas-19489",
+  "https://www.shiksha.com/college/national-institute-of-business-management-thiruvanmiyur-chennai-25169",
+  "https://www.shiksha.com/college/noble-university-junagadh-60125",
+  "https://www.shiksha.com/college/shalby-academy-prahlad-nagar-ahmedabad-105883",
+  "https://www.shiksha.com/college/jagruti-p-g-college-narayanguda-hyderabad-21738",
+  "https://www.shiksha.com/college/aimfill-international-jayanagar-bangalore-37095",
+  "https://www.shiksha.com/college/madhav-institute-of-technology-and-science-gwalior-38165",
+  "https://www.shiksha.com/college/c-z-patel-college-of-business-and-management-cvm-university-anand-28518",
+  "https://www.shiksha.com/college/chouksey-group-of-colleges-bilaspur-43163",
+  "https://www.shiksha.com/college/seshadripuram-college-seshadripuram-bangalore-48062",
+  "https://www.shiksha.com/college/national-institute-of-pharmaceutical-education-and-research-ahmedabad-gandhinagar-64289",
+]
 
 def build_urls(BASE_URL):
     return {
@@ -79,33 +66,30 @@ def build_urls(BASE_URL):
     }
 # ---------------- DRIVER ----------------
 def create_driver():
-
     options = Options()
 
-    options.binary_location = "/usr/bin/chromium-browser"
-    options.page_load_strategy = "eager"
-
-    options.add_argument("--headless=new")
+    # Mandatory for GitHub Actions
+    # options.add_argument("--headless=new")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--disable-gpu")
     options.add_argument("--window-size=1920,1080")
 
+    # Optional but good
     options.add_argument(
         "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
         "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     )
 
-    service = Service("/usr/bin/chromedriver")
+    # Important for Ubuntu runner
+    # options.binary_location = "/usr/bin/chromium"
 
-    driver = webdriver.Chrome(
+    service = Service(ChromeDriverManager().install())
+
+    return webdriver.Chrome(
         service=service,
         options=options
     )
-
-    return driver
-
-
 
 
 # ---------------- UTILITIES ----------------
@@ -195,19 +179,9 @@ def scrape_college_info(driver,URLS):
     # ================= COLLEGE NAME =================
     wait.until(EC.presence_of_element_located((By.TAG_NAME, "h1")))
     data["college_info"]["college_name"] = driver.find_element(By.TAG_NAME, "h1").text.strip()
-    try:
-        loc = driver.find_element(
-            By.XPATH,
-            "//span[contains(text(),'Location')]/following-sibling::span"
-        ).text
-    except NoSuchElementException:
-        loc = ""
 
-    try:
-        loc = driver.find_element(By.CSS_SELECTOR, "span.f90eb6").text
-    except NoSuchElementException:
-        loc = ""
-
+    # ================= LOCATION + CITY =================
+    loc = driver.find_element(By.CSS_SELECTOR, "span.f90eb6").text
     if "," in loc:
         l, c = loc.split(",", 1)
         data["college_info"]["location"] = l.strip()
@@ -410,19 +384,12 @@ def scrape_college_info(driver,URLS):
     for item in data["college_info"]["highlights"]["table"]:
         print(f"  - {item['particular']}: {item['details'][:50]}...")
 
-    driver.execute_script(
-        "window.scrollTo(0, document.body.scrollHeight / 2);"
+    wait.until(
+        EC.presence_of_element_located(
+            (By.ID, "ovp_section_popular_courses")
+        )
     )
 
-    try:
-        wait.until(
-            EC.presence_of_element_located(
-                (By.ID, "ovp_section_popular_courses")
-            )
-        )
-        popular_courses_present = True
-    except TimeoutException:
-        popular_courses_present = False
     # ================= INTRO / SUMMARY =================
     data["intro"] = driver.execute_script("""
        let el = document.querySelector('#EdContent__ovp_section_popular_courses');
@@ -5257,7 +5224,14 @@ def scrape_placement_report(driver,URLS):
         }
     try:
         # Wait for PGP placements section to load
-        wait.until(EC.presence_of_element_located((By.ID, "placement_section_about_baseCourse_101")))
+        try:
+            wait.until(
+                EC.presence_of_element_located(
+                    (By.XPATH, "//*[contains(@id,'placement_section_about_baseCourse')]")
+                )
+            )
+        except TimeoutException:
+            print("Placement section not found for this college.")
         
         # Scroll to the section
         driver.execute_script("window.scrollTo(0, 2000);")
@@ -6806,7 +6780,18 @@ def scrape_ranking(driver, URLS):
     
 
     try:
-        intl_section = wait.until(EC.presence_of_element_located((By.ID, "rp_section_international_ranking")))
+        try:
+            intl_section = wait.until(
+                EC.presence_of_element_located(
+                    (By.ID, "rp_section_international_ranking")
+                )
+            )
+            
+            # scrape ranking here
+
+        except TimeoutException:
+            print("International ranking section not found.")
+            intl_section = None
         driver.execute_script("arguments[0].scrollIntoView(true);", intl_section)
         time.sleep(3)  # Give extra time for loading
         
@@ -8588,29 +8573,16 @@ def parse_faculty_reviews(driver,URLS):
         driver.get(URLS["faculty"])
     wait = WebDriverWait(driver, 15)
 
-    section_patterns = [
-        "//h2[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'faculty')]/ancestor::section",
-        "//h2[contains(., 'Faculty')]/ancestor::section",
-        "//h2[contains(., 'faculty')]/ancestor::section",
-        "//div[contains(@class, 'faculty')]",
-        "//section[.//*[contains(., 'Faculty')]]",
-        "//div[@id='faculty-reviews']",
-        "//div[contains(@id, 'faculty')]"
-    ]
-    
-    section = None
-    for pattern in section_patterns:
-        try:
-            section = wait.until(
-                EC.presence_of_element_located((By.XPATH, pattern))
+    try:
+        section = WebDriverWait(driver, 5).until(
+            EC.presence_of_element_located(
+                (By.XPATH, "//h2[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'faculty')]")
             )
-            print(f"Found section with pattern: {pattern}")
-            break
-        except:
-            continue
-    if not section:
-        print("Faculty section not found on this page")
+        )
+    except TimeoutException:
+        print("Faculty section not found, skipping")
         return []
+
     driver.execute_script(
         "arguments[0].scrollIntoView({block:'center'});", section
     )
@@ -9296,10 +9268,12 @@ def parse_faq_scholarships_section(driver, URLS):
 #     return result
 
 
+
+
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 41
+    c_count =1171
 
     try:
         for base_url in BASE_URL:
@@ -9365,8 +9339,8 @@ def scrape_mba_colleges():
 import time
 import os
 
-TEMP_FILE = "data/daily_data/topengineeringcollegedetails41_80.tmp.json"
-FINAL_FILE = "data/daily_data/topengineeringcollegedetails41_80.json"
+TEMP_FILE = "data/daily_data/allindiambacollegedetails1171_1200.tmp.json"
+FINAL_FILE = "data/daily_data/allindiambacollegedetails1171_1200.json"
 
 UPDATE_INTERVAL = 6 * 60 * 60  # 6 hours
 

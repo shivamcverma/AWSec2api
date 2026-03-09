@@ -72,6 +72,7 @@ def create_driver():
     options = Options()
 
     options.binary_location = "/usr/bin/chromium-browser"
+    options.page_load_strategy = "eager"
 
     options.add_argument("--headless=new")
     options.add_argument("--no-sandbox")
