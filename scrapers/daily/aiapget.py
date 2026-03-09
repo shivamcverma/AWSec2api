@@ -2984,8 +2984,8 @@ def scrape_mba_colleges():
 
 import os
 
-TEMP_FILE = "aiapget.tmp.json"
-FINAL_FILE = "aiapget.json"
+TEMP_FILE = "data/daily_data/aiapget.tmp.json"
+FINAL_FILE = "data/daily_data/aiapget.json"
 
 UPDATE_INTERVAL = 6 * 60 * 60  # 6 hours
 

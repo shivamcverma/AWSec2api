@@ -3446,8 +3446,8 @@ def scrape_mba_colleges():
 
 
 import os
-TEMP_FILE = "jutefibertechnology.tmp.json"
-FINAL_FILE = "jutefibertechnology.json"
+TEMP_FILE = "data/daily_data/jutefibertechnology.tmp.json"
+FINAL_FILE = "data/daily_data/jutefibertechnology.json"
 
 UPDATE_INTERVAL = 6 * 60 * 60  # 6 hours
 

@@ -2981,8 +2981,8 @@ def scrape_mba_colleges():
 
 import os
 
-TEMP_FILE = "neetss.tmp.json"
-FINAL_FILE = "neetss.json"
+TEMP_FILE = "data/daily_data/neetss.tmp.json"
+FINAL_FILE = "data/daily_data/neetss.json"
 
 UPDATE_INTERVAL = 6 * 60 * 60  # 6 hours
 

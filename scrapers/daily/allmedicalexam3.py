@@ -2375,7 +2375,11 @@ if __name__ == "__main__":
             page += 1  # next listing page
 
         # 🔹 Save JSON after all pages scraped
-        with open("complete_exam_data.json", "w", encoding="utf-8") as f:
+        import os
+        BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+        FILE_PATH = os.path.join(BASE_DIR, "data", "daily_data", "allmedicalexam3.json")
+
+        with open(FILE_PATH, "w", encoding="utf-8") as f:
             json.dump(final_data, f, indent=4, ensure_ascii=False)
 
         print("✅ All data from all pages saved successfully!")

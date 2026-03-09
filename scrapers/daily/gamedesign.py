@@ -3902,8 +3902,8 @@ def scrape_mba_colleges():
 
 
 import os
-TEMP_FILE = "gamedesign.tmp.json"
-FINAL_FILE = "gamedesign.json"
+TEMP_FILE = "data/daily_data/gamedesign.tmp.json"
+FINAL_FILE = "data/daily_data/gamedesign.json"
 
 UPDATE_INTERVAL = 6 * 60 * 60  # 6 hours
 

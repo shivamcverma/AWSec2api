@@ -3446,8 +3446,8 @@ def scrape_mba_colleges():
 
 
 import os
-TEMP_FILE = "clinicalpsychology.tmp.json"
-FINAL_FILE = "clinicalpsychology.json"
+TEMP_FILE = "data/daily_data/clinicalpsychology.tmp.json"
+FINAL_FILE = "data/daily_data/clinicalpsychology.json"
 
 UPDATE_INTERVAL = 6 * 60 * 60  # 6 hours
 

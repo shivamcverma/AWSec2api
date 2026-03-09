@@ -1630,8 +1630,8 @@ def scrape_mba_colleges():
 
 import os
 
-TEMP_FILE = "wudaptitudetext.tmp.json"
-FINAL_FILE = "wudaptitudetext.json"
+TEMP_FILE = "data/daily_data/wudaptitudetext.tmp.json"
+FINAL_FILE = "data/daily_data/wudaptitudetext.json"
 
 UPDATE_INTERVAL = 6 * 60 * 60  # 6 hours
 

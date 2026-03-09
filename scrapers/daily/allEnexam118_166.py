@@ -1,3 +1,4 @@
+import requests
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
@@ -7,47 +8,13 @@ from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 import time
 import json
-import re
 from webdriver_manager.chrome import ChromeDriverManager
-from selenium.common.exceptions import TimeoutException, NoSuchElementException
-
-# PCOMBA_CAT_EXAM_URL = "https://www.shiksha.com/mba/cat-exam"
+from urllib.parse import urljoin
 
 
-URLS = {
-    "overviews":"https://www.shiksha.com/design/communication-design/nid-entrance-exam",
-    "mdes":"https://www.shiksha.com/design/communication-design/nid-entrance-exam/mdes-447",
-    "score_card":"https://www.shiksha.com/design/industrial-product-design/ceed-exam-scorecard",
-    "result":"https://www.shiksha.com/design/communication-design/nid-entrance-exam-results",
-    "cut_off":"https://www.shiksha.com/design/communication-design/nid-entrance-exam-cutoff",
-    "ans_key":"https://www.shiksha.com/design/communication-design/nid-entrance-exam-answer-key",
-    "counselling":"https://www.shiksha.com/design/communication-design/nid-entrance-exam-counselling",
-    "analysis":"https://www.shiksha.com/design/communication-design/nid-entrance-exam-analysis",
-    "question_paper":"https://www.shiksha.com/design/communication-design/nid-entrance-exam-question-papers",
-    "admit_card":"https://www.shiksha.com/design/communication-design/nid-entrance-exam-admit-card",
-    "dates":"https://www.shiksha.com/design/communication-design/nid-entrance-exam-dates",
-    "mock_test":"https://www.shiksha.com/design/industrial-product-design/ceed-exam-mocktest",
-    "registration":"https://www.shiksha.com/mba/cmat-exam-registration",
-    "syllabus":"https://www.shiksha.com/design/communication-design/nid-entrance-exam-syllabus",
-    "pattern":"hhttps://www.shiksha.com/design/communication-design/nid-entrance-exam-pattern",
-    "preparation":"https://www.shiksha.com/design/communication-design/nid-entrance-exam-preparation",
-    "books":"https://www.shiksha.com/design/industrial-product-design/ceed-exam-books",
-    "notification":"https://www.shiksha.com/design/communication-design/nid-entrance-exam-notification",
-    "center":"https://www.shiksha.com/design/communication-design/nid-entrance-exam-centre",
-    "news":"https://www.shiksha.com/design/communication-design/nid-entrance-exam-news",
-    "app_form":"https://www.shiksha.com/design/communication-design/nid-entrance-exam-application-form",
-    "college":"https://www.shiksha.com/design/communication-design/nid-entrance-exam-colleges",
-    "accepting_college":"https://www.shiksha.com/mba/colleges/mba-colleges-accepting-cat-india?sby=popularity",
-    "mba_with_low_fees":"https://www.shiksha.com/mba/articles/mba-colleges-in-india-with-low-fees-blogId-23533",
-                   
-}
-
-
+# ---------------- DRIVER SETUP ----------------
 def create_driver():
-
     options = Options()
-
-    options.binary_location = "/usr/bin/chromium-browser"
 
     options.add_argument("--headless=new")
     options.add_argument("--no-sandbox")
@@ -60,21 +27,98 @@ def create_driver():
         "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     )
 
-    service = Service("/usr/bin/chromedriver")
+    # Remove this line if running on Windows
+    options.binary_location = "/usr/bin/chromium"
 
-    driver = webdriver.Chrome(
-        service=service,
-        options=options
-    )
+    service = Service(ChromeDriverManager().install())
 
+    driver = webdriver.Chrome(service=service, options=options)
     return driver
 
 
-# ---------------- UTILITIES ----------------
-def scroll_to_bottom(driver, scroll_times=3, pause=1.5):
+# ---------------- SCROLL FUNCTION ----------------
+def scroll_to_bottom(driver, scroll_times=3, pause=2):
     for _ in range(scroll_times):
-        driver.execute_script("window.scrollBy(0, document.body.scrollHeight);")
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         time.sleep(pause)
+
+BASE = "https://www.shiksha.com"
+LISTING_URL = "https://www.shiksha.com/engineering/exams-st-2"
+
+
+# ---------------- LISTING SCRAPER ----------------
+def scrape_listing_page(driver,page_no=1):
+    all_exams = []
+
+    if page_no == 1:
+        url = LISTING_URL
+    else:
+        url = f"{LISTING_URL}?pageNo={page_no}"
+
+    driver.get(url)
+
+    WebDriverWait(driver, 15).until(
+        EC.presence_of_element_located((By.CLASS_NAME, "uilp_exam_card"))
+    )
+
+    scroll_to_bottom(driver)
+
+    soup = BeautifulSoup(driver.page_source, "html.parser")
+
+    cards = soup.select(".uilp_exam_card")
+
+    for card in cards:
+        result = {}
+
+        exam_title = card.select_one(".exam_title")
+
+        if exam_title:
+            result["exam_short_name"] = exam_title.get_text(strip=True)
+
+            relative_link = exam_title.get("href")
+            result["exam_relative_url"] = relative_link
+            result["exam_full_url"] = urljoin(BASE, relative_link)
+
+            # Base URL for further pattern/syllabus scraping
+            result["base_url"] = urljoin(BASE, relative_link).rstrip("/")
+        else:
+            continue
+
+        # Full Exam Name
+        full_name = card.select_one(".exam_flnm")
+        result["exam_full_name"] = full_name.get_text(strip=True) if full_name else None
+
+        # Important Dates
+        result["important_dates"] = []
+
+        rows = card.select(".exam_impdates table tr")
+
+        for row in rows:
+            date_col = row.select_one(".fix-tdwidth p")
+            event_col = row.select_one(".fix-textlength p")
+
+            if date_col and event_col:
+                result["important_dates"].append({
+                    "date": " ".join(date_col.get_text().split()),
+                    "event": event_col.get_text(strip=True)
+                })
+
+        all_exams.append(result)
+
+    return all_exams
+
+
+
+
+# 🔥 Scrape Multiple Pages
+# all_exams = []
+
+# for page in range(1, 5):   # 1 se 4 tak
+#     print(f"Scraping page {page}")
+#     data = scrape_listing_page(driver, page)
+#     all_exams.extend(data)
+
+# print("Total exams scraped:", len(all_exams))
 
 def extract_cat_exam_data(driver, URLS):
     driver.get(URLS["overviews"])
@@ -275,7 +319,7 @@ def extract_polls(soup):
     return polls
 
 def extract_result_data(driver, URLS):
-    driver.get(URLS["result"])
+    driver.get(URLS["results"])
 
     # Wait until page loads
     WebDriverWait(driver, 20).until(
@@ -349,6 +393,152 @@ def extract_result_data(driver, URLS):
 
 def extract_cut_off_data(driver, URLS):
     driver.get(URLS["cut_off"])
+
+    # Wait until page loads
+    WebDriverWait(driver, 20).until(
+        EC.presence_of_element_located((By.TAG_NAME, "h1"))
+    )
+
+    # Scroll to bottom (for lazy loading content)
+    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+    time.sleep(3)
+
+    soup = BeautifulSoup(driver.page_source, "html.parser")
+
+    data = {}
+
+    # =====================================
+    # TITLE
+    # =====================================
+    h1 = soup.find("h1")
+    data["title"] = h1.get_text(strip=True) if h1 else None
+
+    # =====================================
+    # UPDATED DATE
+    # =====================================
+    updated_span = soup.find("span", string=lambda x: x and "Updated" in x)
+    data["updated_on"] = updated_span.get_text(strip=True) if updated_span else None
+
+    # =====================================
+    # AUTHOR INFO
+    # =====================================
+    author_data = {}
+    author_block = soup.find("div", class_="ppBox")
+
+    if author_block:
+        author_link = author_block.find("a")
+        img = author_block.find("img")
+        role = author_block.find("p", class_="ePPDetail")
+
+        author_data = {
+            "name": author_link.get_text(strip=True) if author_link else None,
+            "profile_url": author_link["href"] if author_link else None,
+            "role": role.get_text(" ", strip=True) if role else None,
+            "image": img["src"] if img else None
+        }
+
+    data["author"] = author_data
+
+    # =====================================
+    # ALL CONTENT SECTIONS
+    # =====================================
+    sections = soup.find_all("div", class_="sectionalWrapperClass")
+    all_sections = []
+
+    for sec in sections:
+        content_blocks = extract_rich_content(sec)
+        if content_blocks["blocks"]:
+            all_sections.append(content_blocks)
+
+    data["content_sections"] = all_sections
+
+    # =====================================
+    # FAQ SECTION
+    # =====================================
+    data["faqs"] = extract_faqs(soup)
+
+    # =====================================
+    # POLL SECTION
+    # =====================================
+    data["polls"] = extract_polls(soup)
+
+    return data
+
+def extract_app_form_data(driver, URLS):
+    driver.get(URLS["app_form"])
+
+    # Wait until page loads
+    WebDriverWait(driver, 20).until(
+        EC.presence_of_element_located((By.TAG_NAME, "h1"))
+    )
+
+    # Scroll to bottom (for lazy loading content)
+    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+    time.sleep(3)
+
+    soup = BeautifulSoup(driver.page_source, "html.parser")
+
+    data = {}
+
+    # =====================================
+    # TITLE
+    # =====================================
+    h1 = soup.find("h1")
+    data["title"] = h1.get_text(strip=True) if h1 else None
+
+    # =====================================
+    # UPDATED DATE
+    # =====================================
+    updated_span = soup.find("span", string=lambda x: x and "Updated" in x)
+    data["updated_on"] = updated_span.get_text(strip=True) if updated_span else None
+
+    # =====================================
+    # AUTHOR INFO
+    # =====================================
+    author_data = {}
+    author_block = soup.find("div", class_="ppBox")
+
+    if author_block:
+        author_link = author_block.find("a")
+        img = author_block.find("img")
+        role = author_block.find("p", class_="ePPDetail")
+
+        author_data = {
+            "name": author_link.get_text(strip=True) if author_link else None,
+            "profile_url": author_link["href"] if author_link else None,
+            "role": role.get_text(" ", strip=True) if role else None,
+            "image": img["src"] if img else None
+        }
+
+    data["author"] = author_data
+
+    # =====================================
+    # ALL CONTENT SECTIONS
+    # =====================================
+    sections = soup.find_all("div", class_="sectionalWrapperClass")
+    all_sections = []
+
+    for sec in sections:
+        content_blocks = extract_rich_content(sec)
+        if content_blocks["blocks"]:
+            all_sections.append(content_blocks)
+
+    data["content_sections"] = all_sections
+
+    # =====================================
+    # FAQ SECTION
+    # =====================================
+    data["faqs"] = extract_faqs(soup)
+
+    # =====================================
+    # POLL SECTION
+    # =====================================
+    data["polls"] = extract_polls(soup)
+
+    return data
+
+def extract_sel_proccess_data(driver, URLS):
+    driver.get(URLS["sel_proccess"])
 
     # Wait until page loads
     WebDriverWait(driver, 20).until(
@@ -1370,7 +1560,7 @@ def extract_notification_data(driver, URLS):
     return data
 
 def extract_center_data(driver, URLS):
-    driver.get(URLS["center"])
+    driver.get(URLS["centre"])
 
     # Wait until page loads
     WebDriverWait(driver, 20).until(
@@ -1515,152 +1705,6 @@ def extract_news_data(driver, URLS):
 
     return data
 
-def extract_app_data(driver, URLS):
-    driver.get(URLS["app_form"])
-
-    # Wait until page loads
-    WebDriverWait(driver, 20).until(
-        EC.presence_of_element_located((By.TAG_NAME, "h1"))
-    )
-
-    # Scroll to bottom (for lazy loading content)
-    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-    time.sleep(3)
-
-    soup = BeautifulSoup(driver.page_source, "html.parser")
-
-    data = {}
-
-    # =====================================
-    # TITLE
-    # =====================================
-    h1 = soup.find("h1")
-    data["title"] = h1.get_text(strip=True) if h1 else None
-
-    # =====================================
-    # UPDATED DATE
-    # =====================================
-    updated_span = soup.find("span", string=lambda x: x and "Updated" in x)
-    data["updated_on"] = updated_span.get_text(strip=True) if updated_span else None
-
-    # =====================================
-    # AUTHOR INFO
-    # =====================================
-    author_data = {}
-    author_block = soup.find("div", class_="ppBox")
-
-    if author_block:
-        author_link = author_block.find("a")
-        img = author_block.find("img")
-        role = author_block.find("p", class_="ePPDetail")
-
-        author_data = {
-            "name": author_link.get_text(strip=True) if author_link else None,
-            "profile_url": author_link["href"] if author_link else None,
-            "role": role.get_text(" ", strip=True) if role else None,
-            "image": img["src"] if img else None
-        }
-
-    data["author"] = author_data
-
-    # =====================================
-    # ALL CONTENT SECTIONS
-    # =====================================
-    sections = soup.find_all("div", class_="sectionalWrapperClass")
-    all_sections = []
-
-    for sec in sections:
-        content_blocks = extract_rich_content(sec)
-        if content_blocks["blocks"]:
-            all_sections.append(content_blocks)
-
-    data["content_sections"] = all_sections
-
-    # =====================================
-    # FAQ SECTION
-    # =====================================
-    data["faqs"] = extract_faqs(soup)
-
-    # =====================================
-    # POLL SECTION
-    # =====================================
-    data["polls"] = extract_polls(soup)
-
-    return data
-
-def extract_score_data(driver, URLS):
-    driver.get(URLS["mdes"])
-
-    # Wait until page loads
-    WebDriverWait(driver, 20).until(
-        EC.presence_of_element_located((By.TAG_NAME, "h1"))
-    )
-
-    # Scroll to bottom (for lazy loading content)
-    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-    time.sleep(3)
-
-    soup = BeautifulSoup(driver.page_source, "html.parser")
-
-    data = {}
-
-    # =====================================
-    # TITLE
-    # =====================================
-    h1 = soup.find("h1")
-    data["title"] = h1.get_text(strip=True) if h1 else None
-
-    # =====================================
-    # UPDATED DATE
-    # =====================================
-    updated_span = soup.find("span", string=lambda x: x and "Updated" in x)
-    data["updated_on"] = updated_span.get_text(strip=True) if updated_span else None
-
-    # =====================================
-    # AUTHOR INFO
-    # =====================================
-    author_data = {}
-    author_block = soup.find("div", class_="ppBox")
-
-    if author_block:
-        author_link = author_block.find("a")
-        img = author_block.find("img")
-        role = author_block.find("p", class_="ePPDetail")
-
-        author_data = {
-            "name": author_link.get_text(strip=True) if author_link else None,
-            "profile_url": author_link["href"] if author_link else None,
-            "role": role.get_text(" ", strip=True) if role else None,
-            "image": img["src"] if img else None
-        }
-
-    data["author"] = author_data
-
-    # =====================================
-    # ALL CONTENT SECTIONS
-    # =====================================
-    sections = soup.find_all("div", class_="sectionalWrapperClass")
-    all_sections = []
-
-    for sec in sections:
-        content_blocks = extract_rich_content(sec)
-        if content_blocks["blocks"]:
-            all_sections.append(content_blocks)
-
-    data["content_sections"] = all_sections
-
-    # =====================================
-    # FAQ SECTION
-    # =====================================
-    data["faqs"] = extract_faqs(soup)
-
-    # =====================================
-    # POLL SECTION
-    # =====================================
-    data["polls"] = extract_polls(soup)
-
-    return data
-
 def extract_college_data(driver, URLS):
     driver.get(URLS["college"])
 
@@ -1734,76 +1778,509 @@ def extract_college_data(driver, URLS):
 
     return data
 
+def extract_mca_data(driver, URLS):
+    driver.get(URLS["mca"])
 
-    
-def scrape_mba_colleges():
+    # Wait until page loads
+    WebDriverWait(driver, 20).until(
+        EC.presence_of_element_located((By.TAG_NAME, "h1"))
+    )
+
+    # Scroll to bottom (for lazy loading content)
+    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+    time.sleep(3)
+
+    soup = BeautifulSoup(driver.page_source, "html.parser")
+
+    data = {}
+
+    # =====================================
+    # TITLE
+    # =====================================
+    h1 = soup.find("h1")
+    data["title"] = h1.get_text(strip=True) if h1 else None
+
+    # =====================================
+    # UPDATED DATE
+    # =====================================
+    updated_span = soup.find("span", string=lambda x: x and "Updated" in x)
+    data["updated_on"] = updated_span.get_text(strip=True) if updated_span else None
+
+    # =====================================
+    # AUTHOR INFO
+    # =====================================
+    author_data = {}
+    author_block = soup.find("div", class_="ppBox")
+
+    if author_block:
+        author_link = author_block.find("a")
+        img = author_block.find("img")
+        role = author_block.find("p", class_="ePPDetail")
+
+        author_data = {
+            "name": author_link.get_text(strip=True) if author_link else None,
+            "profile_url": author_link["href"] if author_link else None,
+            "role": role.get_text(" ", strip=True) if role else None,
+            "image": img["src"] if img else None
+        }
+
+    data["author"] = author_data
+
+    # =====================================
+    # ALL CONTENT SECTIONS
+    # =====================================
+    sections = soup.find_all("div", class_="sectionalWrapperClass")
+    all_sections = []
+
+    for sec in sections:
+        content_blocks = extract_rich_content(sec)
+        if content_blocks["blocks"]:
+            all_sections.append(content_blocks)
+
+    data["content_sections"] = all_sections
+
+    # =====================================
+    # FAQ SECTION
+    # =====================================
+    data["faqs"] = extract_faqs(soup)
+
+    # =====================================
+    # POLL SECTION
+    # =====================================
+    data["polls"] = extract_polls(soup)
+
+    return data
+def extract_me_lateral_entry_data(driver, URLS):
+    driver.get(URLS["me-mtech-mtech-lateral-entry-985"])
+
+    # Wait until page loads
+    WebDriverWait(driver, 20).until(
+        EC.presence_of_element_located((By.TAG_NAME, "h1"))
+    )
+
+    # Scroll to bottom (for lazy loading content)
+    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+    time.sleep(3)
+
+    soup = BeautifulSoup(driver.page_source, "html.parser")
+
+    data = {}
+
+    # =====================================
+    # TITLE
+    # =====================================
+    h1 = soup.find("h1")
+    data["title"] = h1.get_text(strip=True) if h1 else None
+
+    # =====================================
+    # UPDATED DATE
+    # =====================================
+    updated_span = soup.find("span", string=lambda x: x and "Updated" in x)
+    data["updated_on"] = updated_span.get_text(strip=True) if updated_span else None
+
+    # =====================================
+    # AUTHOR INFO
+    # =====================================
+    author_data = {}
+    author_block = soup.find("div", class_="ppBox")
+
+    if author_block:
+        author_link = author_block.find("a")
+        img = author_block.find("img")
+        role = author_block.find("p", class_="ePPDetail")
+
+        author_data = {
+            "name": author_link.get_text(strip=True) if author_link else None,
+            "profile_url": author_link["href"] if author_link else None,
+            "role": role.get_text(" ", strip=True) if role else None,
+            "image": img["src"] if img else None
+        }
+
+    data["author"] = author_data
+
+    # =====================================
+    # ALL CONTENT SECTIONS
+    # =====================================
+    sections = soup.find_all("div", class_="sectionalWrapperClass")
+    all_sections = []
+
+    for sec in sections:
+        content_blocks = extract_rich_content(sec)
+        if content_blocks["blocks"]:
+            all_sections.append(content_blocks)
+
+    data["content_sections"] = all_sections
+
+    # =====================================
+    # FAQ SECTION
+    # =====================================
+    data["faqs"] = extract_faqs(soup)
+
+    # =====================================
+    # POLL SECTION
+    # =====================================
+    data["polls"] = extract_polls(soup)
+
+    return data
+def extract_cat_MArch_data(driver, URLS):
+    driver.get(URLS["march-986"])
+
+    # Wait until page loads
+    WebDriverWait(driver, 20).until(
+        EC.presence_of_element_located((By.TAG_NAME, "h1"))
+    )
+
+    # Scroll to bottom (for lazy loading content)
+    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+    time.sleep(3)
+
+    soup = BeautifulSoup(driver.page_source, "html.parser")
+
+    data = {}
+
+    # =====================================
+    # TITLE
+    # =====================================
+    h1 = soup.find("h1")
+    data["title"] = h1.get_text(strip=True) if h1 else None
+
+    # =====================================
+    # UPDATED DATE
+    # =====================================
+    updated_span = soup.find("span", string=lambda x: x and "Updated" in x)
+    data["updated_on"] = updated_span.get_text(strip=True) if updated_span else None
+
+    # =====================================
+    # AUTHOR INFO
+    # =====================================
+    author_data = {}
+    author_block = soup.find("div", class_="ppBox")
+
+    if author_block:
+        author_link = author_block.find("a")
+        img = author_block.find("img")
+        role = author_block.find("p", class_="ePPDetail")
+
+        author_data = {
+            "name": author_link.get_text(strip=True) if author_link else None,
+            "profile_url": author_link["href"] if author_link else None,
+            "role": role.get_text(" ", strip=True) if role else None,
+            "image": img["src"] if img else None
+        }
+
+    data["author"] = author_data
+
+    # =====================================
+    # ALL CONTENT SECTIONS
+    # =====================================
+    sections = soup.find_all("div", class_="sectionalWrapperClass")
+    all_sections = []
+
+    for sec in sections:
+        content_blocks = extract_rich_content(sec)
+        if content_blocks["blocks"]:
+            all_sections.append(content_blocks)
+
+    data["content_sections"] = all_sections
+
+    # =====================================
+    # FAQ SECTION
+    # =====================================
+    data["faqs"] = extract_faqs(soup)
+
+    # =====================================
+    # POLL SECTION
+    # =====================================
+    data["polls"] = extract_polls(soup)
+
+    return data
+
+# ---------------- MAIN ----------------
+# if __name__ == "__main__":
+#     driver = create_driver()
+
+#     try:
+#         final_data = []
+
+#         # 🔹 Loop through listing pages
+#         page = 1
+#         while True:
+#             print(f"Scraping listing page {page}")
+            
+#             exams = scrape_listing_page(driver, page)  # Make scrape_listing_page accept page param
+            
+#             if not exams:  # agar page empty ho, stop loop
+#                 break
+
+
+#         for exam in exams:
+
+#             print(f"Processing: {exam['exam_short_name']}")
+
+#             base_url = exam["base_url"].rstrip("/")
+
+#             # 🔥 Auto-create URLs
+#             URLS = {
+#                 "overviews":base_url,
+#                 "dates": base_url + "-dates",
+#                 "ans_key": base_url + "-answer-key",
+#                 "results": base_url + "-results",
+#                 "question_paper": base_url + "-question-papers",
+#                 "pattern": base_url + "-pattern",
+#                 "cut_off": base_url + "-cutoff",
+#                 "counselling": base_url + "-counselling",
+#                 "app_form": base_url + "-application-form",
+#                 "syllabus": base_url + "-syllabus",
+#                 "books": base_url + "-books",
+#                 "preparation": base_url + "-preparation",
+#                 "admit_card": base_url + "-admit-card",
+#                 "news": base_url + "-news",
+#                 "analysis": base_url + "-analysis",
+#                 "mock_test": base_url + "-mocktest",
+#                 "registration": base_url + "-registration",
+#                 "college": base_url + "-college",
+#                 "centre": base_url + "-centre",
+#                 "notification":base_url + "-notification",
+#                 "mca": base_url + "/mca-984",
+#                 "me-mtech-mtech-lateral-entry-985": base_url + "/me-mtech-mtech-lateral-entry-985",
+#                 "MArch": base_url + "/march-986",
+#             }
+
+#             # 🔹 Copy all listing data
+#             exam_data = exam.copy()
+
+#             try:
+#                 exam_data["overviews"] = extract_cat_exam_data(driver, URLS)
+#             except Exception as e:
+#                 print("overviews page error:", e)
+#                 exam_data["overviews"] = None
+#             try:
+#                 exam_data["mca"] = extract_mca_data(driver, URLS)
+#             except Exception as e:
+#                 print("mca page error:", e)
+#                 exam_data["mca"] = None
+#             try:
+#                 exam_data["me-mtech-mtech-lateral-entry-985"] = extract_me_lateral_entry_data(driver, URLS)
+#             except Exception as e:
+#                 print("me-mtech-mtech-lateral-entry-985 page error:", e)
+#                 exam_data["me-mtech-mtech-lateral-entry-985"] = None
+#             try:
+#                 exam_data["MArch"] = extract_cat_MArch_data(driver, URLS)
+#             except Exception as e:
+#                 print("MArch page error:", e)
+#                 exam_data["MArch"] = None
+#             try:
+#                 exam_data["dates"] = extract_dates_data(driver, URLS)
+#             except Exception as e:
+#                 print("dates page error:", e)
+#                 exam_data["dates"] = None  
+#             try:
+#                 exam_data["ans_key"] = extract_answerkey_data(driver, URLS)
+#             except Exception as e:
+#                 print("ans_key page error:", e)
+#                 exam_data["ans_key"] = None 
+
+#             try:
+#                 exam_data["results"] = extract_result_data(driver, URLS)
+#             except Exception as e:
+#                 print("results page error:", e)
+#                 exam_data["results"] = None  
+
+#             try:
+#                 exam_data["question_paper"] = extract_question_paper_data(driver, URLS)
+#             except Exception as e:
+#                 print("question_paper page error:", e)
+#                 exam_data["question_paper"] = None  
+
+#             try:
+#                 exam_data["pattern"] = extract_pattern_data(driver, URLS)
+#             except Exception as e:
+#                 print("Pattern page error:", e)
+#                 exam_data["pattern"] = None
+#             try:
+#                 exam_data["cut_off"] = extract_cut_off_data(driver, URLS)
+#             except Exception as e:
+#                 print("cutoff page error:", e)
+#                 exam_data["cut_off"] = None
+#             try:
+#                 exam_data["counselling"] = extract_Counselling_data(driver, URLS)
+#             except Exception as e:
+#                 print("counselling page error:", e)
+#                 exam_data["counselling"] = None  
+#             try:
+#                 exam_data["app_form"] = extract_app_form_data(driver, URLS)
+#             except Exception as e:
+#                 print("app_form page error:", e)
+#                 exam_data["app_form"] = None  
+
+
+#             # 🔹 Scrape syllabus page
+#             try:
+#                 exam_data["syllabus"] = extract_syllabus_data(driver, URLS)
+#             except Exception as e:
+#                 print("Syllabus page error:", e)
+#                 exam_data["syllabus"] = None
+#             try:
+#                 exam_data["books"] = extract_books_data(driver, URLS)
+#             except Exception as e:
+#                 print("books page error:", e)
+#                 exam_data["books"] = None
+#             # 🔹 Scrape pattern page
+#             try:
+#                 exam_data["preparation"] = extract_preparation_data(driver, URLS)
+#             except Exception as e:
+#                 print("preparation page error:", e)
+#                 exam_data["preparation"] = None
+
+#             # 🔹 Scrape syllabus page
+
+#             try:
+#                 exam_data["admit_card"] = extract_admit_card_data(driver, URLS)
+#             except Exception as e:
+#                 print("admit_card page error:", e)
+#                 exam_data["admit_card"] = None
+#             # 🔹 Scrape pattern page
+#             try:
+#                 exam_data["news"] = extract_news_data(driver, URLS)
+#             except Exception as e:
+#                 print("news page error:", e)
+#                 exam_data["news"] = None
+#             try:
+#                 exam_data["analysis"] = extract_Analysis_data(driver, URLS)
+#             except Exception as e:
+#                 print("analysis page error:", e)
+#                 exam_data["analysis"] = None
+#             try:
+#                 exam_data["mock_test"] = extract_mock_test_data(driver, URLS)
+#             except Exception as e:
+#                 print("mock_test page error:", e)
+#                 exam_data["mock_test"] = None
+#             try:
+#                 exam_data["registration"] = extract_registration_data(driver, URLS)
+#             except Exception as e:
+#                 print("registration page error:", e)
+#                 exam_data["registration"] = None
+#             try:
+#                 exam_data["notification"] = extract_notification_data(driver, URLS)
+#             except Exception as e:
+#                 print("notification page error:", e)
+#                 exam_data["notification"] = None
+#             try:
+#                 exam_data["centre"] = extract_center_data(driver, URLS)
+#             except Exception as e:
+#                 print("centre page error:", e)
+#                 exam_data["centre"] = None      
+#             try:
+#                 exam_data["college"] = extract_center_data(driver, URLS)
+#             except Exception as e:
+#                 print("college page error:", e)
+#                 exam_data["college"] = None     
+       
+
+#             final_data.append(exam_data)
+
+#         # Save JSON
+#         with open("complete_exam_data.json", "w", encoding="utf-8") as f:
+#             json.dump(final_data, f, indent=4, ensure_ascii=False)
+
+#         print("✅ All data saved successfully!")
+
+#     finally:
+#         driver.quit()
+
+
+if __name__ == "__main__":
     driver = create_driver()
-
-      
+    counter = 118
 
     try:
-       data = {
-                "NID Entrance Exam":{
-                    "overviews":extract_cat_exam_data(driver, URLS),
-                    "Application_form":extract_app_data(driver, URLS),
-                    "result":extract_result_data(driver, URLS),   
-                    "mdes":extract_score_data(driver, URLS),   
-                    "CUT_OFF":extract_cut_off_data(driver, URLS),
-                    "answer_key":extract_answerkey_data(driver, URLS),
-                    "counselling":extract_Counselling_data(driver, URLS),
-                    "analysis":extract_Analysis_data(driver, URLS),
-                    "question_paper": extract_question_paper_data(driver, URLS),
-                    "admit_card":extract_admit_card_data(driver, URLS),
-                    "dates":extract_dates_data(driver, URLS),
-                    # "mock_text":extract_mock_test_data(driver, URLS),
-                    "college":extract_college_data(driver, URLS),
-                    # "registion":extract_registration_data(driver, URLS),
-                    "syllabus":extract_syllabus_data(driver, URLS),
-                    "pattern":extract_pattern_data(driver, URLS),
-                    "preparation":extract_preparation_data(driver, URLS),
-                    # "books":extract_books_data(driver, URLS),
-                    "notification":extract_notification_data(driver, URLS),
-                    "center":extract_center_data(driver, URLS),
-                    "news":extract_news_data(driver, URLS),
-                    # "accepting_college":{
-                    #     "overview":scrape_accepting_college(driver, URLS),
-                    #     "mba_with_low_fees":scrape_with_low_fees(driver, URLS),
-                    # }
-           }
-       }
+        final_data = []
+
+        for page in range(8, 11):
+            print(f"Scraping listing page {page}")
+
+            exams = scrape_listing_page(driver, page)
+            if not exams:
+                break
+
+            for exam in exams:
+                print(f"Processing: {exam['exam_short_name']}")
+
+                exam_data = exam.copy()  # ✅ define first
+
+                base_url = exam["base_url"].rstrip("/")
+                counter += 1
+
+                URLS = {
+                    "overviews": base_url,
+                    "dates": base_url + "-dates",
+                    "ans_key": base_url + "-answer-key",
+                    "results": base_url + "-results",
+                    "question_paper": base_url + "-question-papers",
+                    "pattern": base_url + "-pattern",
+                    "cut_off": base_url + "-cutoff",
+                    "counselling": base_url + "-counselling",
+                    "app_form": base_url + "-application-form",
+                    "syllabus": base_url + "-syllabus",
+                    "books": base_url + "-books",
+                    "preparation": base_url + "-preparation",
+                    "admit_card": base_url + "-admit-card",
+                    "news": base_url + "-news",
+                    "analysis": base_url + "-analysis",
+                    "mock_test": base_url + "-mocktest",
+                    "registration": base_url + "-registration",
+                    "college": base_url + "-college",
+                    "centre": base_url + "-centre",
+                    "notification": base_url + "-notification",
+                    "mca": base_url + "/mca-984",
+                    "me_mtech_lateral_entry": base_url + "/me-mtech-mtech-lateral-entry-985",
+                    "march": base_url + "/march-986",
+                }
+
+                def safe_scrape(key, func):
+                    try:
+                        return func(driver, URLS)
+                    except Exception as e:
+                        print(f"{key} page error:", e)
+                        return None
+
+                exam_data["overviews"] = safe_scrape("overviews", extract_cat_exam_data)
+                exam_data["mca"] = safe_scrape("mca", extract_mca_data)
+                exam_data["me_mtech_lateral_entry"] = safe_scrape("me_mtech", extract_me_lateral_entry_data)
+                exam_data["march"] = safe_scrape("march", extract_cat_MArch_data)
+                exam_data["dates"] = safe_scrape("dates", extract_dates_data)
+                exam_data["ans_key"] = safe_scrape("ans_key", extract_answerkey_data)
+                exam_data["results"] = safe_scrape("results", extract_result_data)
+                exam_data["question_paper"] = safe_scrape("question_paper", extract_question_paper_data)
+                exam_data["pattern"] = safe_scrape("pattern", extract_pattern_data)
+                exam_data["cut_off"] = safe_scrape("cut_off", extract_cut_off_data)
+                exam_data["counselling"] = safe_scrape("counselling", extract_Counselling_data)
+                exam_data["app_form"] = safe_scrape("app_form", extract_app_form_data)
+                exam_data["syllabus"] = safe_scrape("syllabus", extract_syllabus_data)
+                exam_data["books"] = safe_scrape("books", extract_books_data)
+                exam_data["preparation"] = safe_scrape("preparation", extract_preparation_data)
+                exam_data["admit_card"] = safe_scrape("admit_card", extract_admit_card_data)
+                exam_data["news"] = safe_scrape("news", extract_news_data)
+                exam_data["analysis"] = safe_scrape("analysis", extract_Analysis_data)
+                exam_data["mock_test"] = safe_scrape("mock_test", extract_mock_test_data)
+                exam_data["registration"] = safe_scrape("registration", extract_registration_data)
+                exam_data["notification"] = safe_scrape("notification", extract_notification_data)
+                exam_data["centre"] = safe_scrape("centre", extract_center_data)
+                exam_data["college"] = safe_scrape("college", extract_college_data)
+
+                final_data.append({
+                    "exam_id": counter,
+                    "exam_data": exam_data
+                })
+
+        import os
+        BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+        FILE_PATH = os.path.join(BASE_DIR, "data", "daily_data", "alleEnexam118_166.json")
+
+        with open(FILE_PATH, "w", encoding="utf-8") as f:
+            json.dump(final_data, f, indent=4, ensure_ascii=False)
+
+        print("✅ All data from all pages saved successfully!")
 
     finally:
         driver.quit()
-    
-    return data
-
-
-
-import os
-
-TEMP_FILE = "data/daily_data/nidentranceexam.tmp.json"
-FINAL_FILE = "data/daily_data/nidentranceexam.json"
-
-UPDATE_INTERVAL = 6 * 60 * 60  # 6 hours
-
-def auto_update_scraper():
-    # Check last modified time
-    # if os.path.exists(DATA_FILE):
-    #     last_mod = os.path.getmtime(DATA_FILE)
-    #     if time.time() - last_mod < UPDATE_INTERVAL:
-    #         print("⏱️ Data is recent, no need to scrape")
-    #         return
-
-    print("🔄 Scraping started")
-    data = scrape_mba_colleges()
-    with open(TEMP_FILE, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-
-    # Atomic swap → replaces old file with new one safely
-    os.replace(TEMP_FILE, FINAL_FILE)
-
-    print("✅ Data scraped & saved successfully (atomic write)")
-
-if __name__ == "__main__":
-
-    auto_update_scraper()

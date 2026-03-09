@@ -2736,8 +2736,8 @@ def scrape_mba_colleges():
 
 
 import os
-TEMP_FILE = "memtech.tmp.json"
-FINAL_FILE = "memtech.json"
+TEMP_FILE = "data/daily_data/memtech.tmp.json"
+FINAL_FILE = "data/daily_data/memtech.json"
 UPDATE_INTERVAL = 6 * 60 * 60  # 6 hours
 
 def auto_update_scraper():

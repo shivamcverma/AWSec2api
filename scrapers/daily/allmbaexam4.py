@@ -2276,8 +2276,11 @@ if __name__ == "__main__":
                     "exam_id": counter,
                     "exam_data": exam_data
                 })
+        import os
+        BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+        FILE_PATH = os.path.join(BASE_DIR, "data", "daily_data", "allmbaexam4.json")
 
-        with open("complete_exam_data.json", "w", encoding="utf-8") as f:
+        with open(FILE_PATH, "w", encoding="utf-8") as f:
             json.dump(final_data, f, indent=4, ensure_ascii=False)
 
         print("✅ All data from all pages saved successfully!")

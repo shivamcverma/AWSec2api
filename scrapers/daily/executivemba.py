@@ -2018,8 +2018,8 @@ def scrape_mba_colleges():
 
 import os
 
-TEMP_FILE = "executivemba.tmp.json"
-FINAL_FILE = "executivemba.json"
+TEMP_FILE = "data/daily_data/executivemba.tmp.json"
+FINAL_FILE = "data/daily_data/executivemba.json"
 
 UPDATE_INTERVAL = 6 * 60 * 60  # 6 hours
 

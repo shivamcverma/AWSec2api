@@ -3459,8 +3459,8 @@ def scrape_mba_colleges():
 
 
 import os
-TEMP_FILE = "physiotherapy.tmp.json"
-FINAL_FILE = "physiotherapy.json"
+TEMP_FILE = "data/daily_data/physiotherapy.tmp.json"
+FINAL_FILE = "data/daily_data/physiotherapy.json"
 
 UPDATE_INTERVAL = 6 * 60 * 60  # 6 hours
 

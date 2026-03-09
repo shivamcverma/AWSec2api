@@ -1781,8 +1781,8 @@ def scrape_mba_colleges():
 
 import os
 
-TEMP_FILE = "ibsat.tmp.json"
-FINAL_FILE = "ibsat.json"
+TEMP_FILE = "data/daily_data/ibsat.tmp.json"
+FINAL_FILE = "data/daily_data/ibsat.json"
 
 UPDATE_INTERVAL = 6 * 60 * 60  # 6 hours
 

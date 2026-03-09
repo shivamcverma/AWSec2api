@@ -3902,8 +3902,8 @@ def scrape_mba_colleges():
 
 
 import os
-TEMP_FILE = "automotivedesign.tmp.json"
-FINAL_FILE = "automotivedesign.json"
+TEMP_FILE = "data/daily_data/automotivedesign.tmp.json"
+FINAL_FILE = "data/daily_data/automotivedesign.json"
 
 UPDATE_INTERVAL = 6 * 60 * 60  # 6 hours
 

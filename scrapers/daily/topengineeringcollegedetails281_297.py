@@ -9319,8 +9319,8 @@ def scrape_mba_colleges():
 import time
 import os
 
-TEMP_FILE = "topengineeringcollegedetails281_297.tmp.json"
-FINAL_FILE = "topengineeringcollegedetails281_297.json"
+TEMP_FILE = "data/daily_data/topengineeringcollegedetails281_297.tmp.json"
+FINAL_FILE = "data/daily_data/topengineeringcollegedetails281_297.json"
 
 UPDATE_INTERVAL = 6 * 60 * 60  # 6 hours
 

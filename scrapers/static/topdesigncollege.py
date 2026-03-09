@@ -142,8 +142,8 @@ def scrape():
         driver.quit()
     return all_sections_data
 import os
-TEMP_FILE = "top_fashion_design_college_data.tmp.json"
-FINAL_FILE = "top_fashion_design_college_data.json"
+TEMP_FILE = "data/daily_data/top_fashion_design_college_data.tmp.json"
+FINAL_FILE = "data/daily_data/top_fashion_design_college_data.json"
 if __name__ == "__main__":
     data = scrape()
     with open(TEMP_FILE, "w", encoding="utf-8") as f:

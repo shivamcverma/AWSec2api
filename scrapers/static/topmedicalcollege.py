@@ -159,8 +159,8 @@ def scrape():
         driver.quit()
     return all_sections_data
 
-TEMP_FILE = "top_medical_college_data.tmp.json"
-FINAL_FILE = "top_medical_college_data.json"
+TEMP_FILE = "data/daily_data/top_medical_college_data.tmp.json"
+FINAL_FILE = "data/daily_data/top_medical_college_data.json"
 if __name__ == "__main__":
     data = scrape()
     with open(TEMP_FILE, "w", encoding="utf-8") as f:
