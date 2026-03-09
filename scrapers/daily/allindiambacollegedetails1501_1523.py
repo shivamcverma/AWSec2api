@@ -15,46 +15,36 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-    "https://www.shiksha.com/university/iimt-university-meerut-3238",
-    "https://www.shiksha.com/college/symbiosis-institute-of-business-management-symbiosis-international-bangalore-hosur-road-36082",
-    "https://www.shiksha.com/university/assam-down-town-university-adtu-guwahati-38050",
-    "https://www.shiksha.com/college/greater-noida-institute-of-technology-32439",
-    "https://www.shiksha.com/college/centurion-university-of-technology-and-management-bhubaneswar-campus-53057",
-    "https://www.shiksha.com/college/riim-arihant-group-of-institutes-bavdhan-pune-46556",
-    "https://www.shiksha.com/university/jis-university-kolkata-47791",
-    "https://www.shiksha.com/college/dev-bhoomi-uttarakhand-university-dehradun-47413",
-    "https://www.shiksha.com/college/university-college-of-commerce-and-business-management-osmania-university-tarnaka-hyderabad-53677",
-    "https://www.shiksha.com/college/isb-m-international-school-of-business-and-media-bangalore-sompura-industrial-area-29632",
-    "https://www.shiksha.com/college/vit-business-school-vellore-institute-of-technology-vellore-31040",
-    "https://www.shiksha.com/college/jindal-global-business-school-o-p-jindal-global-university-sonepat-34723",
-    "https://www.shiksha.com/college/international-institute-of-management-studies-iims-pune-hinjewadi-31240",
-    "https://www.shiksha.com/college/cmr-technical-campus-autonomous-engineering-college-medchal-hyderabad-42690",
-    "https://www.shiksha.com/college/dy-patil-akurdi-mba-akurdi-pune-35064",
-    "https://www.shiksha.com/college/haldia-institute-of-technology-harish-mukherjee-road-kolkata-1116",
-    "https://www.shiksha.com/college/ramdeobaba-university-nagpur-21172",
-    "https://www.shiksha.com/college/kcc-institute-of-technology-and-management-greater-noida-32427",
-    "https://www.shiksha.com/college/school-of-business-mit-wpu-kothrud-pune-479",
-    "https://www.shiksha.com/college/ips-academy-indore-49406",
-    "https://www.shiksha.com/college/asm-s-institute-of-business-management-and-research-chinchwad-pune-30065",
-    "https://www.shiksha.com/college/lakshmi-narain-college-of-technology-bhopal-42559",
-    "https://www.shiksha.com/college/loyola-institute-of-technology-palanchur-chennai-42584",
-    "https://www.shiksha.com/college/nmims-hyderabad-mahboobnagar-35399",
-    "https://www.shiksha.com/college/icfai-business-school-ibs-bangalore-mysore-road-36231",
-    "https://www.shiksha.com/college/bengal-institute-of-business-studies-lake-view-road-kolkata-30386",
-    "https://www.shiksha.com/college/k-k-wagh-institute-of-engineering-education-and-research-nashik-20406",
-    "https://www.shiksha.com/college/dsi-dayananda-sagar-institutions-kanakapura-road-bangalore-23259",
-    "https://www.shiksha.com/college/dr-d-y-patil-b-school-tathawade-pune-54766",
-    "https://www.shiksha.com/college/nicmar-university-pune-balewadi-27442",
-    "https://www.shiksha.com/university/gls-university-ahmedabad-58429",
-    "https://www.shiksha.com/college/international-institute-of-health-management-research-iihmr-new-delhi-dwarka-34295",
-    "https://www.shiksha.com/university/mangalayatan-university-aligarh-22191",
-    "https://www.shiksha.com/college/st-joseph-s-college-of-engineering-old-mahabalipuram-road-chennai-24564",
-    "https://www.shiksha.com/college/nhce-bangalore-new-horizon-college-of-engineering-marathahalli-46973",
-    "https://www.shiksha.com/college/icfai-business-school-mumbai-powai-26449",
-    "https://www.shiksha.com/university/amity-university-bengaluru-bangalore-213263",
-    "https://www.shiksha.com/college/jspm-s-narhe-technical-campus-narhe-pune-43266",
-    "https://www.shiksha.com/college/atria-institute-of-technology-hebbal-bangalore-28151",
-    "https://www.shiksha.com/college/zeal-college-of-engineering-and-research-narhe-pune-36894",
+  "https://www.shiksha.com/college/prism-school-of-business-entrepreneurship-psbe-bhilai-37374",
+  "https://www.shiksha.com/college/impact-institute-of-management-studies-sahakara-nagar-bangalore-38220",
+  "https://www.shiksha.com/college/ilam-jaipur-national-university-jaipur-56615",
+  "https://www.shiksha.com/college/kingston-pg-college-ranga-reddy-62119",
+  "https://www.shiksha.com/college/new-science-pg-college-warangal-62163",
+  "https://www.shiksha.com/college/prabhath-institute-of-business-management-kurnool-62373",
+  "https://www.shiksha.com/college/musaliar-institute-of-management-pathanamthitta-63403",
+  "https://www.shiksha.com/college/global-institute-of-management-sangamner-ahmednagar-64227",
+  "https://www.shiksha.com/college/jay-bhavani-institute-of-management-jalna-179845",
+  "https://www.shiksha.com/college/icri-bangalore-institute-of-clinical-research-india-bangalore-indiranagar-3596",
+  "https://www.shiksha.com/college/millennium-group-of-institution-bhopal-31006",
+  "https://www.shiksha.com/college/gimt-gandhi-institute-of-management-and-technology-salt-lake-city-kolkata-38994",
+  "https://www.shiksha.com/college/nbs-naipunnya-business-school-thrissur-51885",
+  "https://www.shiksha.com/college/aditya-engineering-college-beed-maharashtra-other-59557",
+  "https://www.shiksha.com/college/dr-d-veerendra-heggade-institute-of-management-studies-research-dharwad-67255",
+  "https://www.shiksha.com/college/haranahalli-ramaswamy-institute-of-higher-education-hassan-67259",
+  "https://www.shiksha.com/college/oxford-college-of-business-administration-hubli-69447",
+  "https://www.shiksha.com/college/gyanveer-group-of-institution-sagar-72125",
+  "https://www.shiksha.com/college/indian-school-of-public-policy-ispp-hauz-khas-delhi-150841",
+  "https://www.shiksha.com/college/kmct-school-of-management-kozhikode-156385",
+  "https://www.shiksha.com/college/dayanand-anglo-vedic-institute-of-engineering-and-technology-jalandhar-19805",
+  "https://www.shiksha.com/college/st-ann-s-college-of-engineering-and-technology-prakasam-21319",
+  "https://www.shiksha.com/college/pict-school-of-technology-and-management-balewadi-pune-22109",
+  # "https://www.shiksha.com/college/priyadarshini-institute-of-technology-and-management-pitm-guntur-42616",
+  # "https://www.shiksha.com/college/international-institute-of-industrial-safety-management-nagarbhavi-bangalore-47409",
+  # "https://www.shiksha.com/college/mangalvedhekar-institute-of-management-solapur-64303",
+  # "https://www.shiksha.com/college/shri-mh-kadakia-institute-of-management-and-computer-studies-ankleshwar-69247",
+  # "https://www.shiksha.com/college/b-f-i-t-technical-campus-dehradun-187465",
+  # "https://www.shiksha.com/college/school-of-agribusiness-and-rural-management-sarm-greater-noida-244072",
+  # "https://www.shiksha.com/college/j-k-c-college-guntur-20351",
 ]
 
 
@@ -76,37 +66,32 @@ def build_urls(BASE_URL):
         # "qna": "https://ask.shiksha.com/which-is-better-for-mba-iim-ahmedabad-or-jbims-qna-5114413"
     }
 # ---------------- DRIVER ----------------
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
-
-
 def create_driver():
-
     options = Options()
 
-    options.binary_location = "/usr/bin/chromium-browser"
-    options.page_load_strategy = "eager"
-
+    # Mandatory for GitHub Actions
     options.add_argument("--headless=new")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--disable-gpu")
     options.add_argument("--window-size=1920,1080")
 
+    # Optional but good
     options.add_argument(
         "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
         "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     )
 
-    service = Service("/usr/bin/chromedriver")
+    # Important for Ubuntu runner
+    options.binary_location = "/usr/bin/chromium"
 
-    driver = webdriver.Chrome(
+    service = Service(ChromeDriverManager().install())
+
+    return webdriver.Chrome(
         service=service,
         options=options
     )
 
-    return driver
 
 # ---------------- UTILITIES ----------------
 def scroll_to_bottom(driver, scroll_times=3, pause=1.5):
@@ -197,21 +182,11 @@ def scrape_college_info(driver,URLS):
     data["college_info"]["college_name"] = driver.find_element(By.TAG_NAME, "h1").text.strip()
 
     # ================= LOCATION + CITY =================
-    wait = WebDriverWait(driver, 15)
-
-    try:
-        loc = wait.until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, "span.f90eb6"))
-        ).text
-
-        if "," in loc:
-            l, c = loc.split(",", 1)
-            data["college_info"]["location"] = l.strip()
-        else:
-            data["college_info"]["location"] = loc.strip()
-
-    except TimeoutException:
-        data["college_info"]["location"] = None
+    loc = driver.find_element(By.CSS_SELECTOR, "span.f90eb6").text
+    if "," in loc:
+        l, c = loc.split(",", 1)
+        data["college_info"]["location"] = l.strip()
+        data["college_info"]["city"] = c.strip()
 
     # ================= RATING =================
     try:
@@ -409,14 +384,12 @@ def scrape_college_info(driver,URLS):
 
     for item in data["college_info"]["highlights"]["table"]:
         print(f"  - {item['particular']}: {item['details'][:50]}...")
-    try:
-        wait.until(
-            EC.presence_of_element_located(
-                (By.ID, "ovp_section_popular_courses")
-            )
+
+    wait.until(
+        EC.presence_of_element_located(
+            (By.ID, "ovp_section_popular_courses")
         )
-    except:
-        pass
+    )
 
     # ================= INTRO / SUMMARY =================
     data["intro"] = driver.execute_script("""
@@ -8575,7 +8548,6 @@ def parse_faculty_full_html(driver,URLS):
 
     return {"college_info":college_info,"data":data}
 
-
 def parse_faculty_reviews(driver,URLS):
     try:
         driver.get(URLS["faculty"])
@@ -8585,14 +8557,15 @@ def parse_faculty_reviews(driver,URLS):
     wait = WebDriverWait(driver, 15)
 
     try:
-        section = wait.until(
+        section = WebDriverWait(driver, 5).until(
             EC.presence_of_element_located(
                 (By.XPATH, "//h2[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'faculty')]")
             )
         )
     except TimeoutException:
-        print("⚠️ Faculty Reviews section not found, skipping")
+        print("Faculty section not found, skipping")
         return []
+
     driver.execute_script(
         "arguments[0].scrollIntoView({block:'center'});", section
     )
@@ -9281,7 +9254,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 181
+    c_count =1501
 
     try:
         for base_url in BASE_URL:
@@ -9347,8 +9320,8 @@ def scrape_mba_colleges():
 import time
 import os
 
-TEMP_FILE = "data/daily_data/allindiambacollegedetails181_220.tmp.json"
-FINAL_FILE = "data/daily_data/allindiambacollegedetails181_220.json"
+TEMP_FILE = "allindiambacollegedetails1501_1530.tmp.json"
+FINAL_FILE = "allindiambacollegedetails1501_1530.json"
 
 UPDATE_INTERVAL = 6 * 60 * 60  # 6 hours
 
