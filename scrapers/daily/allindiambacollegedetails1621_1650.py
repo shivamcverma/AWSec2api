@@ -45,7 +45,6 @@ BASE_URL = [
   "https://www.shiksha.com/college/lifeline-institute-of-management-and-science-kolkata-106535",
   "https://www.shiksha.com/college/university-sub-center-latur-127883",
   "https://www.shiksha.com/college/anand-institute-of-management-and-information-science-155309",
-
 ]
 
 

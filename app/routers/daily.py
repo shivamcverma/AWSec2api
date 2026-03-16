@@ -4,7 +4,7 @@ import os
 
 router = APIRouter()
 
-DATA_PATH = "../../data/daily_data"
+DATA_PATH = "/home/ubuntu/AWSEC2/data/daily_data"
 
 # Scraper name -> JSON file mapping
 SCRAPER_MAP = {
