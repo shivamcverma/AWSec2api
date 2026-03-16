@@ -44,7 +44,7 @@ def build_urls(BASE_URL):
         "gallery": BASE_URL + "/gallery",
         "infrastructure": BASE_URL + "/infrastructure",
         "faculty": BASE_URL + "/faculty",
-        "compare": BASE_URL + "/compare",
+        "compare": BASE_URL + "/compare", 
         "scholarships": BASE_URL + "/scholarships",
         # "qna": "https://ask.shiksha.com/which-is-better-for-mba-iim-ahmedabad-or-jbims-qna-5114413"
     }
@@ -9317,8 +9317,8 @@ def scrape_mba_colleges():
 import time
 import os
 
-TEMP_FILE = "data/daily_data/allindiambacollegedetails371_380.tmp.json"
-FINAL_FILE = "data/daily_data/allindiambacollegedetails371_380.json"
+TEMP_FILE = "../../data/daily_data/allindiambacollegedetails371_380.tmp.json"
+FINAL_FILE = "../../data/daily_data/allindiambacollegedetails371_380.json"
 
 UPDATE_INTERVAL = 6 * 60 * 60  # 6 hours
 

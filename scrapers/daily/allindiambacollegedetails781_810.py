@@ -15,36 +15,36 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/maharashtra-institute-of-technology-aurangabad-47487",
-  "https://www.shiksha.com/college/shri-neminath-jain-bhhramcharyashram-nashik-52825",
-  "https://www.shiksha.com/college/malla-reddy-engineering-college-and-management-sciences-medchal-hyderabad-62149",
-  "https://www.shiksha.com/college/pondicherry-university-karaikal-campus-51053",
-  "https://www.shiksha.com/college/ssvps-s-bapusaheb-shivajirao-deore-college-of-engineering-ssvps-s-bsd-coe-dhule-42756",
-  "https://www.shiksha.com/university/avantika-university-ujjain-49129",
-  "https://www.shiksha.com/college/silver-oak-college-of-aviation-technology-socat-gota-ahmedabad-215645",
-  "https://www.shiksha.com/college/cii-school-of-logistics-amity-university-noida-48817",
-  "https://www.shiksha.com/college/aradhana-school-of-business-management-hyderabad-62039",
-  "https://www.shiksha.com/college/mmm-s-institute-of-management-education-research-and-training-deccan-pune-47122",
-  "https://www.shiksha.com/college/abit-ajay-binay-institute-of-technology-cuttack-23310",
-  "https://www.shiksha.com/college/kpr-institute-of-engineering-and-technology-coimbatore-49403",
-  "https://www.shiksha.com/college/p-v-ram-reddy-p-g-college-ranga-reddy-62199",
-  "https://www.shiksha.com/university/graphic-era-hill-university-bhimtal-nainital-37856",
-  "https://www.shiksha.com/college/k-l-n-college-of-engineering-tamil-nadu-other-22729",
-  "https://www.shiksha.com/college/unique-institute-of-management-uim-pune-gokul-nagar-36193",
-  "https://www.shiksha.com/college/met-s-institute-of-management-nashik-64165",
-  "https://www.shiksha.com/university/dr-shakuntala-misra-national-rehabilitation-university-lucknow-37240",
-  "https://www.shiksha.com/college/lords-institute-of-engineering-and-technology-himayathsagar-hyderabad-23223",
-  "https://www.shiksha.com/college/ashoka-business-school-nashik-60279",
-  "https://www.shiksha.com/college/rims-rourkela-institute-of-management-studies-24883",
-  "https://www.shiksha.com/college/imarticus-learning-andheri-east-mumbai-35242",
-  "https://www.shiksha.com/college/ibmr-business-school-hubli-26835",
-  "https://www.shiksha.com/university/sabarmati-university-ahmedabad-53851",
-  "https://www.shiksha.com/college/sbm-sona-school-of-business-and-management-salem-28268",
-  "https://www.shiksha.com/college/nishitha-degree-college-nizamabad-20783",
-  "https://www.shiksha.com/college/vaagdevi-degree-and-pg-college-warangal-52829",
-  "https://www.shiksha.com/college/r-m-k-engineering-college-tamil-nadu-other-21007",
-  "https://www.shiksha.com/college/annamalai-university-distance-education-tamil-nadu-tamil-nadu-other-24673",
-  "https://www.shiksha.com/college/niis-institute-of-business-administration-niis-iba-bhubaneswar-31114",
+  "https://www.shiksha.com/college/osmania-university-pg-college-narsapur-telangana-other-62169",
+  "https://www.shiksha.com/college/institute-of-science-poona-s-institute-of-business-management-and-research-wakad-pune-67365",
+  "https://www.shiksha.com/college/srinivas-institute-of-management-studies-mangalore-43280",
+  "https://www.shiksha.com/university/bodoland-university-assam-other-43347",
+  "https://www.shiksha.com/college/grt-institute-of-engineering-and-technology-tiruvallur-chennai-38361",
+  "https://www.shiksha.com/college/adhiyamaan-college-of-engineering-hosur-28120",
+  "https://www.shiksha.com/college/jagran-institute-of-management-kanpur-23675",
+  "https://www.shiksha.com/college/bhai-parmanand-dseu-shakarpur-campus-ii-shakarpur-delhi-64037",
+  "https://www.shiksha.com/college/garware-institute-of-career-education-and-development-university-of-mumbai-santacruz-east-20038",
+  "https://www.shiksha.com/college/sree-chaitanya-college-of-engineering-karimnagar-42741",
+  "https://www.shiksha.com/college/impact-college-patna-145927",
+  "https://www.shiksha.com/college/vikrant-university-gwalior-60197",
+  "https://www.shiksha.com/college/dr-virendra-swarup-group-of-institutions-kanpur-37596",
+  "https://www.shiksha.com/college/aditya-college-of-engineering-and-technology-east-godavari-22988",
+  "https://www.shiksha.com/college/iamr-group-of-institutions-ghaziabad-32524",
+  "https://www.shiksha.com/college/chameli-devi-group-of-institutions-indore-52948",
+  "https://www.shiksha.com/college/ies-college-of-technology-bhopal-53136",
+  "https://www.shiksha.com/university/rajiv-gandhi-university-arunachal-pradesh-other-32725",
+  "https://www.shiksha.com/college/rameshwaram-institute-of-technology-and-management-lucknow-37442",
+  "https://www.shiksha.com/college/vedavyasa-institute-of-technology-kerala-other-42697",
+  "https://www.shiksha.com/college/adi-shankara-institute-of-engineering-and-technology-ernakulum-30998",
+  "https://www.shiksha.com/college/jntua-college-of-engineering-ananthapuramu-anantapur-46534",
+  "https://www.shiksha.com/college/icri-jagannath-university-delhi-rohini-275",
+  "https://www.shiksha.com/college/supreme-knowledge-foundation-chandannagar-kolkata-31155",
+  "https://www.shiksha.com/college/jmit-seth-jai-parkash-mukand-lal-institute-of-engineering-and-technology-yamuna-nagar-43190",
+  "https://www.shiksha.com/university/bhagwant-university-ajmer-bua-38044",
+  "https://www.shiksha.com/college/gnanam-school-of-business-thanjavur-42737",
+  "https://www.shiksha.com/college/adichunchanagiri-institute-of-technology-chikkamagaluru-11644",
+  "https://www.shiksha.com/college/alamuri-ratnamala-institute-of-engineering-and-technology-thane-33000",
+  "https://www.shiksha.com/college/jeppiaar-engineering-college-jeppiaar-nagar-chennai-49367",
 ]
 
 
@@ -9326,8 +9326,8 @@ def scrape_mba_colleges():
 import time
 import os
 
-TEMP_FILE = "data/daily_data/allindiambacollegedetails781_810.tmp.json"
-FINAL_FILE = "data/daily_data/allindiambacollegedetails781_810.json"
+TEMP_FILE = "../../data/daily_data/allindiambacollegedetails781_810.tmp.json"
+FINAL_FILE = "../../data/daily_data/allindiambacollegedetails781_810.json"
 
 UPDATE_INTERVAL = 6 * 60 * 60  # 6 hours
 

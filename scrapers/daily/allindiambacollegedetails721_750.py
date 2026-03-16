@@ -15,36 +15,36 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/hirachand-nemchand-college-of-commerce-hncc-solapur-20146",
-  "https://www.shiksha.com/university/srinivas-university-mangalore-64605",
-  "https://www.shiksha.com/college/bangalore-city-college-kalyan-nagar-3163",
-  "https://www.shiksha.com/college/sandip-institute-of-technology-and-research-centre-nashik-33253",
-  "https://www.shiksha.com/college/kj-s-educational-institute-kondhwa-pune-36114",
-  "https://www.shiksha.com/university/muhs-nashik-2878",
-  "https://www.shiksha.com/college/kakatiya-institute-of-technology-and-science-warangal-20412",
-  "https://www.shiksha.com/college/alliance-institute-of-hotel-management-visakhapatnam-25130",
-  "https://www.shiksha.com/college/rics-school-of-built-environment-amity-university-mumbai-panvel-53013",
-  "https://www.shiksha.com/college/bharat-institute-of-technology-meerut-19311",
-  "https://www.shiksha.com/college/hindu-college-of-management-guntur-62483",
-  "https://www.shiksha.com/college/faculty-of-social-science-dayalbagh-educational-institute-agra-53574",
-  "https://www.shiksha.com/college/anna-university-tirunelveli-regional-campus-62097",
-  "https://www.shiksha.com/college/bansal-group-of-institutes-bhopal-31007",
-  "https://www.shiksha.com/college/smt-radhikatai-pandav-college-of-engineering-srpce-nagpur-43262",
-  "https://www.shiksha.com/college/holy-mary-institute-of-technology-science-hyderabad-46532",
-  "https://www.shiksha.com/college/its-engineering-college-greater-noida-37467",
-  "https://www.shiksha.com/college/delhi-institute-of-higher-education-dihe-noida-180033",
-  "https://www.shiksha.com/college/marian-institute-of-management-idukki-73463",
-  "https://www.shiksha.com/college/hlm-group-of-institutions-ghaziabad-30509",
-  "https://www.shiksha.com/university/jain-deemed-to-be-university-kochi-215723",
-  "https://www.shiksha.com/college/excel-engineering-college-namakkal-60543",
-  "https://www.shiksha.com/college/visakha-institute-of-engineering-and-technology-visakhapatnam-43043",
-  "https://www.shiksha.com/college/j-s-kothari-business-school-dadar-west-mumbai-56937",
-  "https://www.shiksha.com/university/imu-imu-kolkata-indian-maritime-university-51900",
-  "https://www.shiksha.com/university/maharishi-university-of-information-technology-lucknow-67565",
-  "https://www.shiksha.com/college/gulzar-group-of-institutes-ludhiana-34430",
-  "https://www.shiksha.com/college/pune-district-education-association-s-college-of-engineering-hadapsar-36284",
-  "https://www.shiksha.com/college/niit-gurgaon-204781",
-  "https://www.shiksha.com/college/mvp-samaj-s-institute-of-management-research-technology-imrt-nashik-20760",
+  "https://www.shiksha.com/college/mkss-s-smt-hiraben-nanavati-institute-of-management-and-research-for-women-karve-nagar-pune-22770",
+  "https://www.shiksha.com/college/lakshmi-narain-college-of-technology-indore-42849",
+  "https://www.shiksha.com/college/global-engineering-and-management-college-global-nature-care-sanghtan-s-group-of-institutions-jabalpur-52631",
+  "https://www.shiksha.com/college/institute-of-administrative-studies-iasindia-bihar-muzaffarpur-20216",
+  "https://www.shiksha.com/college/jyoti-nivas-college-hosur-road-bangalore-33175",
+  "https://www.shiksha.com/college/department-of-pg-studies-visvesvaraya-technological-university-mysuru-mysore-51747",
+  "https://www.shiksha.com/university/sidho-kanho-birsha-university-purulia-58601",
+  "https://www.shiksha.com/university/vikrama-simhapuri-university-nellore-62507",
+  "https://www.shiksha.com/college/srk-institute-of-technology-vijayawada-42596",
+  "https://www.shiksha.com/college/sri-venkateswara-agricultural-college-acharya-n-g-ranga-agricultural-university-tirupati-106313",
+  "https://www.shiksha.com/college/shri-ram-group-of-colleges-muzaffarnagar-60101",
+  "https://www.shiksha.com/college/mkes-institute-of-management-studies-research-malad-west-mumbai-203853",
+  "https://www.shiksha.com/university/dit-university-admission-office-delhi-46944",
+  "https://www.shiksha.com/college/tc-business-school-jaipur-32582",
+  "https://www.shiksha.com/college/quantum-school-of-business-admission-office-quantum-university-dehradun-34455",
+  "https://www.shiksha.com/college/sai-vidya-institute-of-technology-doddaballapur-rd-bangalore-37054",
+  "https://www.shiksha.com/college/mahatma-gandhi-university-college-of-commerce-and-business-management-nalgonda-62135",
+  "https://www.shiksha.com/college/dnyansagar-institute-of-management-and-research-dimr-baner-pune-24541",
+  "https://www.shiksha.com/college/angadi-institute-of-technology-and-management-belgaum-42684",
+  "https://www.shiksha.com/college/mahaveer-institute-of-science-and-technology-hyderabad-62139",
+  "https://www.shiksha.com/college/hyderabad-presidency-college-68715",
+  "https://www.shiksha.com/college/priyadarshini-lokmanya-tilak-institute-of-management-studies-and-research-pltimsr-nagpur-1221",
+  "https://www.shiksha.com/college/university-business-school-ludhiana-47757",
+  "https://www.shiksha.com/college/international-school-of-design-pune-jangali-maharaj-road-63297",
+  "https://www.shiksha.com/college/the-vedica-scholars-programme-for-women-delhi-155875",
+  "https://www.shiksha.com/college/buddha-institute-of-technology-bit-gorakhpur-48266",
+  "https://www.shiksha.com/university/birla-institute-of-technology-mesra-patna-extension-center-51594",
+  "https://www.shiksha.com/college/kirloskar-institute-of-management-harihar-2881",
+  "https://www.shiksha.com/college/kdk-college-of-engineering-nagpur-25103",
+  "https://www.shiksha.com/college/sri-manakula-vinayagar-engineering-college-smvec-pondicherry-48021",
 ]
 
 
@@ -9326,8 +9326,8 @@ def scrape_mba_colleges():
 import time
 import os
 
-TEMP_FILE = "data/daily_data/allindiambacollegedetails721_750.tmp.json"
-FINAL_FILE = "data/daily_data/allindiambacollegedetails721_750.json"
+TEMP_FILE = "../../data/daily_data/allindiambacollegedetails721_750.tmp.json"
+FINAL_FILE = "../../data/daily_data/allindiambacollegedetails721_750.json"
 
 UPDATE_INTERVAL = 6 * 60 * 60  # 6 hours
 

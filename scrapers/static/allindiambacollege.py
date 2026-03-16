@@ -229,8 +229,8 @@ if __name__ == "__main__":
     try:
         data = scrape_all_mba_colleges(driver, total_pages=202)
 
-        TEMP_FILE = "data/daily_data/mba_data.tmp.json"
-        FINAL_FILE = "data/daily_data/mba_data.json"
+        TEMP_FILE = "../../data/daily_data/mba_data.tmp.json"
+        FINAL_FILE = "../../data/daily_data/mba_data.json"
 
         with open(TEMP_FILE, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
