@@ -66,37 +66,31 @@ def build_urls(BASE_URL):
         # "qna": "https://ask.shiksha.com/which-is-better-for-mba-iim-ahmedabad-or-jbims-qna-5114413"
     }
 # ---------------- DRIVER ----------------
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
-
-
 def create_driver():
-
     options = Options()
 
-    options.binary_location = "/usr/bin/chromium-browser"
-    options.page_load_strategy = "eager"
-
+    # Mandatory for GitHub Actions
     options.add_argument("--headless=new")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--disable-gpu")
     options.add_argument("--window-size=1920,1080")
 
+    # Optional but good
     options.add_argument(
         "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
         "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     )
 
-    service = Service("/usr/bin/chromedriver")
+    # Important for Ubuntu runner
+    options.binary_location = "/usr/bin/chromium"
 
-    driver = webdriver.Chrome(
+    service = Service(ChromeDriverManager().install())
+
+    return webdriver.Chrome(
         service=service,
         options=options
     )
-
-    return driver
 
 
 # ---------------- UTILITIES ----------------
@@ -8470,30 +8464,28 @@ def parse_faculty_full_html(driver,URLS):
     driver.get(URLS["faculty"])
     wait = WebDriverWait(driver, 15)
 
-    # section = wait.until(
-    #     EC.presence_of_element_located(
-    #         (By.CSS_SELECTOR, "div.wikkiContents.faqAccordian")
-    #     )
-    # )
+    section = None
+
     try:
         section = wait.until(
             EC.presence_of_element_located(
-                (By.CSS_SELECTOR,"div.wikkiContents.faqAccordian")
+                (By.CSS_SELECTOR, "div.wikkiContents.faqAccordian")
             )
         )
     except:
         print("⚠️ parse_faculty_full_html not available, skipping")
         return None
 
-    # 🔥 Scroll for lazy content
+    # Scroll
     driver.execute_script(
         "arguments[0].scrollIntoView({block:'center'});", section
     )
     time.sleep(2)
 
-    html = driver.execute_script(
-        "return arguments[0].innerHTML;", section
-    )
+    # 🔥 Re-locate element to avoid stale reference
+    section = driver.find_element(By.CSS_SELECTOR, "div.wikkiContents.faqAccordian")
+
+    html = section.get_attribute("innerHTML")
 
     soup = BeautifulSoup(html, "html.parser")
 
@@ -9326,8 +9318,8 @@ def scrape_mba_colleges():
 import time
 import os
 
-TEMP_FILE = "../../data/daily_data/allindiambacollegedetails721_750.tmp.json"
-FINAL_FILE = "../../data/daily_data/allindiambacollegedetails721_750.json"
+TEMP_FILE = "../../allindiambacollegedetails721_750.tmp.json"
+FINAL_FILE = "../../allindiambacollegedetails721_750.json"
 
 UPDATE_INTERVAL = 6 * 60 * 60  # 6 hours
 

@@ -15,36 +15,36 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/maharashtra-institute-of-technology-aurangabad-47487",
-  "https://www.shiksha.com/college/shri-neminath-jain-bhhramcharyashram-nashik-52825",
-  "https://www.shiksha.com/college/malla-reddy-engineering-college-and-management-sciences-medchal-hyderabad-62149",
-  "https://www.shiksha.com/college/pondicherry-university-karaikal-campus-51053",
-  "https://www.shiksha.com/college/ssvps-s-bapusaheb-shivajirao-deore-college-of-engineering-ssvps-s-bsd-coe-dhule-42756",
-  "https://www.shiksha.com/university/avantika-university-ujjain-49129",
-  "https://www.shiksha.com/college/silver-oak-college-of-aviation-technology-socat-gota-ahmedabad-215645",
-  "https://www.shiksha.com/college/cii-school-of-logistics-amity-university-noida-48817",
-  "https://www.shiksha.com/college/aradhana-school-of-business-management-hyderabad-62039",
-  "https://www.shiksha.com/college/mmm-s-institute-of-management-education-research-and-training-deccan-pune-47122",
-  "https://www.shiksha.com/college/abit-ajay-binay-institute-of-technology-cuttack-23310",
-  "https://www.shiksha.com/college/kpr-institute-of-engineering-and-technology-coimbatore-49403",
-  "https://www.shiksha.com/college/p-v-ram-reddy-p-g-college-ranga-reddy-62199",
-  "https://www.shiksha.com/university/graphic-era-hill-university-bhimtal-nainital-37856",
-  "https://www.shiksha.com/college/k-l-n-college-of-engineering-tamil-nadu-other-22729",
-  "https://www.shiksha.com/college/unique-institute-of-management-uim-pune-gokul-nagar-36193",
-  "https://www.shiksha.com/college/met-s-institute-of-management-nashik-64165",
-  "https://www.shiksha.com/university/dr-shakuntala-misra-national-rehabilitation-university-lucknow-37240",
-  "https://www.shiksha.com/college/lords-institute-of-engineering-and-technology-himayathsagar-hyderabad-23223",
-  "https://www.shiksha.com/college/ashoka-business-school-nashik-60279",
-  "https://www.shiksha.com/college/rims-rourkela-institute-of-management-studies-24883",
-  "https://www.shiksha.com/college/imarticus-learning-andheri-east-mumbai-35242",
-  "https://www.shiksha.com/college/ibmr-business-school-hubli-26835",
-  "https://www.shiksha.com/university/sabarmati-university-ahmedabad-53851",
-  "https://www.shiksha.com/college/sbm-sona-school-of-business-and-management-salem-28268",
-  "https://www.shiksha.com/college/nishitha-degree-college-nizamabad-20783",
-  "https://www.shiksha.com/college/vaagdevi-degree-and-pg-college-warangal-52829",
-  "https://www.shiksha.com/college/r-m-k-engineering-college-tamil-nadu-other-21007",
-  "https://www.shiksha.com/college/annamalai-university-distance-education-tamil-nadu-tamil-nadu-other-24673",
-  "https://www.shiksha.com/college/niis-institute-of-business-administration-niis-iba-bhubaneswar-31114",
+  # "https://www.shiksha.com/college/ssm-college-of-engineering-namakkal-31549",
+  # "https://www.shiksha.com/college/siitam-sun-international-institute-of-tourism-and-management-hyderabad-ramnagar-33259",
+  # "https://www.shiksha.com/college/ojaswini-institute-of-management-technology-madhya-pradesh-other-43395",
+  # "https://www.shiksha.com/college/anwar-ul-uloom-college-for-computer-studies-hyderabad-62031",
+  # "https://www.shiksha.com/college/dr-h-n-national-college-of-engineering-bangalore-231094",
+  # "https://www.shiksha.com/college/dbs-global-university-powered-by-emversity-dehradun-237156",
+  # "https://www.shiksha.com/college/mount-carmel-institute-of-management-for-women-palace-road-bangalore-511",
+  # "https://www.shiksha.com/college/s-p-more-college-navi-mumbai-26892",
+  # "https://www.shiksha.com/college/mit-school-of-distance-education-kothrud-pune-44330",
+  # "https://www.shiksha.com/college/madras-institute-of-fashion-technology-mift-vadapalani-chennai-48722",
+  # "https://www.shiksha.com/college/sakthi-institute-of-information-and-management-studies-coimbatore-75431",
+  # "https://www.shiksha.com/college/oxford-college-of-management-indore-147263",
+  # "https://www.shiksha.com/college/nicmar-delhi-ncr-jhajjar-231402",
+  # "https://www.shiksha.com/university/jigyasa-university-dehradun-25104",
+  # "https://www.shiksha.com/college/sana-engineering-college-telangana-other-42637",
+  # "https://www.shiksha.com/college/akshaya-institute-of-management-studies-coimbatore-43361",
+  # "https://www.shiksha.com/college/mittal-institute-of-technology-bhopal-52764",
+  # "https://www.shiksha.com/college/nagarjuna-college-of-management-studies-chikballpura-69431",
+  # "https://www.shiksha.com/college/vimal-jyothi-institute-of-management-and-research-kannur-146997",
+  # "https://www.shiksha.com/college/santhigiri-institute-of-management-idukki-147013",
+  # "https://www.shiksha.com/college/st-joseph-s-pg-college-warangal-148475",
+  # "https://www.shiksha.com/college/wisdom-school-of-management-wsm-powered-by-sunstone-coimbatore-204899",
+  # "https://www.shiksha.com/college/mes-advanced-institute-of-management-and-technology-kochi-48206",
+  "https://www.shiksha.com/college/kalyan-post-graduate-college-bhilai-nagar-durg-72581",
+  "https://www.shiksha.com/university/kishkinda-university-ballari-228729",
+  "https://www.shiksha.com/college/loyola-institute-of-technology-and-science-lites-kanyakumari-42602",
+  "https://www.shiksha.com/college/thirumalai-engineering-college-kanchipuram-61453",
+  "https://www.shiksha.com/college/gouthami-p-g-college-nizamabad-62095",
+  "https://www.shiksha.com/college/university-post-graduate-college-godavarikhani-satavahana-university-telangana-other-68409",
+  "https://www.shiksha.com/college/shri-sunshine-education-trust-group-of-institute-rajkot-69261",
 ]
 
 
@@ -8623,6 +8623,8 @@ def parse_review_summarisation_all_tabs(driver,URLS):
     wait = WebDriverWait(driver, 15)
 
 
+    section = None
+    
     try:
         section = wait.until(
             EC.presence_of_element_located(
@@ -8631,11 +8633,11 @@ def parse_review_summarisation_all_tabs(driver,URLS):
         )
     except:
         print("⚠️ parse_review_summarisation_all_tabs not available, skipping")
-        return None
-
-    driver.execute_script(
-        "arguments[0].scrollIntoView({block:'center'});", section
-    )
+    
+    if section:
+        driver.execute_script(
+            "arguments[0].scrollIntoView({block:'center'});", section
+        )
     time.sleep(2)
 
     final_data = {
@@ -8644,6 +8646,9 @@ def parse_review_summarisation_all_tabs(driver,URLS):
     }
 
     # Heading
+    if section is None:
+        return {}
+
     heading = section.find_element(By.CLASS_NAME, "rvwSmSecHeading")
     final_data["heading"] = heading.text.strip()
 
@@ -9252,7 +9257,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =751
+    c_count =1314
 
     try:
         for base_url in BASE_URL:
@@ -9318,8 +9323,8 @@ def scrape_mba_colleges():
 import time
 import os
 
-TEMP_FILE = "allindiambacollegedetails1801_1830.tmp.json"
-FINAL_FILE = "allindiambacollegedetails1801_1830.json"
+TEMP_FILE = "../../allindiambacollegedetails1314_1320.tmp.json"
+FINAL_FILE = "../../allindiambacollegedetails1314_1320.json"
 
 UPDATE_INTERVAL = 6 * 60 * 60  # 6 hours
 

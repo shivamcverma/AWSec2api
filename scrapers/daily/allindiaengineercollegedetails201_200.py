@@ -15,37 +15,28 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/university/baddi-university-of-emerging-sciences-and-technology-36922",
-  "https://www.shiksha.com/college/indore-international-college-157113",
-  "https://www.shiksha.com/college/iilm-institute-for-business-and-management-gurgaon-27864",
-  "https://www.shiksha.com/college/krishna-group-of-institutions-kanpur-37439",
-  "https://www.shiksha.com/university/siddharth-university-uttar-pradesh-other-59051",
-  "https://www.shiksha.com/college/praxis-tech-school-kolkata-salt-lake-city-213659",
-  "https://www.shiksha.com/college/aditya-college-of-engineering-andhra-pradesh-other-37548",
-  "https://www.shiksha.com/college/international-school-of-hospitality-management-salt-lake-city-kolkata-56013",
-  "https://www.shiksha.com/university/karnataka-state-akkamahadevi-women-s-university-bijapur-58779",
-  "https://www.shiksha.com/college/vanita-vishram-women-s-university-surat-69309",
-  "https://www.shiksha.com/college/university-evening-college-mangalore-184897",
-  "https://www.shiksha.com/college/rathinam-school-of-business-bangalore-215807",
-  "https://www.shiksha.com/college/mohamed-sathak-engineering-college-msec-tamil-nadu-other-23631",
-  "https://www.shiksha.com/college/interscience-institute-of-management-and-technology-bhubaneswar-31081",
-  "https://www.shiksha.com/college/nalanda-institute-of-technology-bhubaneswar-37904",
-  "https://www.shiksha.com/college/indus-college-of-engineering-bhubaneswar-42606",
-  "https://www.shiksha.com/college/kiet-east-godavari-46540",
-  "https://www.shiksha.com/college/baba-farid-college-baba-farid-group-of-institutions-bathinda-52971",
-  "https://www.shiksha.com/college/rayat-bahra-university-powered-by-sunstone-mohali-151293",
-  "https://www.shiksha.com/college/al-quarmoshi-institute-of-business-management-aqibm-hyderabad-barkas-19489",
-  "https://www.shiksha.com/college/national-institute-of-business-management-thiruvanmiyur-chennai-25169",
-  "https://www.shiksha.com/college/noble-university-junagadh-60125",
-  "https://www.shiksha.com/college/shalby-academy-prahlad-nagar-ahmedabad-105883",
-  "https://www.shiksha.com/college/jagruti-p-g-college-narayanguda-hyderabad-21738",
-  "https://www.shiksha.com/college/aimfill-international-jayanagar-bangalore-37095",
-  "https://www.shiksha.com/college/madhav-institute-of-technology-and-science-gwalior-38165",
-  "https://www.shiksha.com/college/c-z-patel-college-of-business-and-management-cvm-university-anand-28518",
-  "https://www.shiksha.com/college/chouksey-group-of-colleges-bilaspur-43163",
-  "https://www.shiksha.com/college/seshadripuram-college-seshadripuram-bangalore-48062",
-  "https://www.shiksha.com/college/national-institute-of-pharmaceutical-education-and-research-ahmedabad-gandhinagar-64289",
+  "https://www.shiksha.com/college/its-engineering-college-greater-noida-37467",
+  "https://www.shiksha.com/college/gopalan-college-of-engineering-and-management-k-r-puram-bangalore-47209",
+  "https://www.shiksha.com/college/sankalchand-patel-college-of-engineering-visnagar-21066",
+  "https://www.shiksha.com/college/t-john-institute-of-technology-bannerghatta-road-bangalore-28396",
+  "https://www.shiksha.com/college/international-institute-of-information-technology-pune-hinjewadi-47554",
+  "https://www.shiksha.com/college/narasaraopeta-engineering-college-autonomous-guntur-25422",
+  "https://www.shiksha.com/college/alva-s-institute-of-engineering-and-technology-mangalore-60049",
+  "https://www.shiksha.com/college/arya-college-of-engineering-and-information-technology-jaipur-37928",
+  "https://www.shiksha.com/college/m-v-j-college-of-engineering-whitefield-bangalore-20690",
+  "https://www.shiksha.com/college/chouksey-engineering-college-bilaspur-187421",
+  "https://www.shiksha.com/college/g-pullaiah-college-of-engineering-and-technology-kurnool-43188",
+  "https://www.shiksha.com/college/vcet-vivekananda-college-of-engineering-and-technology-karnataka-other-37877",
+  "https://www.shiksha.com/college/mahavir-education-trust-s-shah-and-anchor-kutchhi-engineering-college-sakec-chembur-mumbai-21137",
+  "https://www.shiksha.com/college/pimpri-chinchwad-college-of-engineering-and-research-ravet-pune-46948",
+  "https://www.shiksha.com/college/meerut-institute-of-engineering-and-technology-24958",
+  "https://www.shiksha.com/college/sjc-institute-of-technology-chikballpura-21210",
+  "https://www.shiksha.com/university/vivekananda-global-university-jaipur-42525",
+  "https://www.shiksha.com/college/gndec-guru-nanak-dev-engineering-college-bidar-37866",
+  "https://www.shiksha.com/college/b-b-s-college-of-engginering-and-technology-allahabad-59357",
+  "https://www.shiksha.com/college/jp-college-of-engineering-tirunelveli-48081",
 ]
+
 
 def build_urls(BASE_URL):
     return {
@@ -69,7 +60,7 @@ def create_driver():
     options = Options()
 
     # Mandatory for GitHub Actions
-    # options.add_argument("--headless=new")
+    options.add_argument("--headless=new")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--disable-gpu")
@@ -82,7 +73,7 @@ def create_driver():
     )
 
     # Important for Ubuntu runner
-    # options.binary_location = "/usr/bin/chromium"
+    options.binary_location = "/usr/bin/chromium"
 
     service = Service(ChromeDriverManager().install())
 
@@ -5224,14 +5215,7 @@ def scrape_placement_report(driver,URLS):
         }
     try:
         # Wait for PGP placements section to load
-        try:
-            wait.until(
-                EC.presence_of_element_located(
-                    (By.XPATH, "//*[contains(@id,'placement_section_about_baseCourse')]")
-                )
-            )
-        except TimeoutException:
-            print("Placement section not found for this college.")
+        wait.until(EC.presence_of_element_located((By.ID, "placement_section_about_baseCourse_101")))
         
         # Scroll to the section
         driver.execute_script("window.scrollTo(0, 2000);")
@@ -6780,18 +6764,7 @@ def scrape_ranking(driver, URLS):
     
 
     try:
-        try:
-            intl_section = wait.until(
-                EC.presence_of_element_located(
-                    (By.ID, "rp_section_international_ranking")
-                )
-            )
-            
-            # scrape ranking here
-
-        except TimeoutException:
-            print("International ranking section not found.")
-            intl_section = None
+        intl_section = wait.until(EC.presence_of_element_located((By.ID, "rp_section_international_ranking")))
         driver.execute_script("arguments[0].scrollIntoView(true);", intl_section)
         time.sleep(3)  # Give extra time for loading
         
@@ -8481,30 +8454,29 @@ def parse_faculty_full_html(driver,URLS):
     driver.get(URLS["faculty"])
     wait = WebDriverWait(driver, 15)
 
-    # section = wait.until(
-    #     EC.presence_of_element_located(
-    #         (By.CSS_SELECTOR, "div.wikkiContents.faqAccordian")
-    #     )
-    # )
+    section = None
+
     try:
         section = wait.until(
             EC.presence_of_element_located(
-                (By.CSS_SELECTOR,"div.wikkiContents.faqAccordian")
+                (By.CSS_SELECTOR, "div.wikkiContents.faqAccordian")
             )
         )
     except:
         print("⚠️ parse_faculty_full_html not available, skipping")
         return None
 
-    # 🔥 Scroll for lazy content
+    # Scroll
     driver.execute_script(
         "arguments[0].scrollIntoView({block:'center'});", section
     )
     time.sleep(2)
 
-    html = driver.execute_script(
-        "return arguments[0].innerHTML;", section
-    )
+    # 🔥 Re-locate element to avoid stale reference
+    section = driver.find_element(By.CSS_SELECTOR, "div.wikkiContents.faqAccordian")
+
+    html = section.get_attribute("innerHTML")
+    
 
     soup = BeautifulSoup(html, "html.parser")
 
@@ -9268,12 +9240,10 @@ def parse_faq_scholarships_section(driver, URLS):
 #     return result
 
 
-
-
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =1171
+    c_count =201
 
     try:
         for base_url in BASE_URL:
@@ -9339,8 +9309,8 @@ def scrape_mba_colleges():
 import time
 import os
 
-TEMP_FILE = "../../data/daily_data/allindiambacollegedetails1171_1200.tmp.json"
-FINAL_FILE = "../../data/daily_data/allindiambacollegedetails1171_1200.json"
+TEMP_FILE = "../../allindiaengineercollegedetails201_200.tmp.json"
+FINAL_FILE = "../../allindiaengineercollegedetails201_200.json"
 
 UPDATE_INTERVAL = 6 * 60 * 60  # 6 hours
 

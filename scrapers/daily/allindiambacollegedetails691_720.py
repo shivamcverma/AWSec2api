@@ -15,36 +15,36 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/hirachand-nemchand-college-of-commerce-hncc-solapur-20146",
-  "https://www.shiksha.com/university/srinivas-university-mangalore-64605",
-  "https://www.shiksha.com/college/bangalore-city-college-kalyan-nagar-3163",
-  "https://www.shiksha.com/college/sandip-institute-of-technology-and-research-centre-nashik-33253",
-  "https://www.shiksha.com/college/kj-s-educational-institute-kondhwa-pune-36114",
-  "https://www.shiksha.com/university/muhs-nashik-2878",
-  "https://www.shiksha.com/college/kakatiya-institute-of-technology-and-science-warangal-20412",
-  "https://www.shiksha.com/college/alliance-institute-of-hotel-management-visakhapatnam-25130",
-  "https://www.shiksha.com/college/rics-school-of-built-environment-amity-university-mumbai-panvel-53013",
-  "https://www.shiksha.com/college/bharat-institute-of-technology-meerut-19311",
-  "https://www.shiksha.com/college/hindu-college-of-management-guntur-62483",
-  "https://www.shiksha.com/college/faculty-of-social-science-dayalbagh-educational-institute-agra-53574",
-  "https://www.shiksha.com/college/anna-university-tirunelveli-regional-campus-62097",
-  "https://www.shiksha.com/college/bansal-group-of-institutes-bhopal-31007",
-  "https://www.shiksha.com/college/smt-radhikatai-pandav-college-of-engineering-srpce-nagpur-43262",
-  "https://www.shiksha.com/college/holy-mary-institute-of-technology-science-hyderabad-46532",
-  "https://www.shiksha.com/college/its-engineering-college-greater-noida-37467",
-  "https://www.shiksha.com/college/delhi-institute-of-higher-education-dihe-noida-180033",
-  "https://www.shiksha.com/college/marian-institute-of-management-idukki-73463",
-  "https://www.shiksha.com/college/hlm-group-of-institutions-ghaziabad-30509",
-  "https://www.shiksha.com/university/jain-deemed-to-be-university-kochi-215723",
-  "https://www.shiksha.com/college/excel-engineering-college-namakkal-60543",
-  "https://www.shiksha.com/college/visakha-institute-of-engineering-and-technology-visakhapatnam-43043",
-  "https://www.shiksha.com/college/j-s-kothari-business-school-dadar-west-mumbai-56937",
-  "https://www.shiksha.com/university/imu-imu-kolkata-indian-maritime-university-51900",
-  "https://www.shiksha.com/university/maharishi-university-of-information-technology-lucknow-67565",
-  "https://www.shiksha.com/college/gulzar-group-of-institutes-ludhiana-34430",
-  "https://www.shiksha.com/college/pune-district-education-association-s-college-of-engineering-hadapsar-36284",
-  "https://www.shiksha.com/college/niit-gurgaon-204781",
-  "https://www.shiksha.com/college/mvp-samaj-s-institute-of-management-research-technology-imrt-nashik-20760",
+  "https://www.shiksha.com/college/ntpc-school-of-business-noida-57303",
+  "https://www.shiksha.com/college/magadh-professional-institute-patna-211685",
+  "https://www.shiksha.com/university/noorul-islam-centre-for-higher-education-kanyakumari-1350",
+  "https://www.shiksha.com/college/nmam-institute-of-technology-nitte-university-mangalore-34649",
+  "https://www.shiksha.com/college/e-g-s-pillay-engineering-college-nagapattinam-19973",
+  "https://www.shiksha.com/university/itm-university-raipur-42934",
+  "https://www.shiksha.com/college/haridwar-university-roorkee-47378",
+  "https://www.shiksha.com/college/vignan-s-institute-of-engineering-for-women-view-visakhapatnam-43358",
+  "https://www.shiksha.com/university/mats-university-raipur-37181",
+  "https://www.shiksha.com/college/gandhinagar-university-38262",
+  "https://www.shiksha.com/college/anna-university-madurai-regional-campus-62009",
+  "https://www.shiksha.com/college/aset-institute-of-technology-chembarambakkam-chennai-138691",
+  "https://www.shiksha.com/college/dr-d-y-patil-institute-of-management-entrepreneur-development-talegaon-dabhade-pune-64703",
+  "https://www.shiksha.com/college/delhi-college-madhya-pradesh-other-147449",
+  "https://www.shiksha.com/university/prestige-university-indore-181517",
+  "https://www.shiksha.com/university/pacific-university-udaipur-38049",
+  "https://www.shiksha.com/college/mgm-institute-of-management-and-research-aurangabad-20643",
+  "https://www.shiksha.com/college/abhijit-kadam-institute-of-management-and-social-sciences-bharati-vidyapeeth-solapur-42937",
+  "https://www.shiksha.com/university/veer-kunwar-singh-university-arrah-65701",
+  "https://www.shiksha.com/university/rama-devi-women-s-university-bhubaneswar-57037",
+  "https://www.shiksha.com/college/school-of-business-sushant-university-gurgaon-38926",
+  "https://www.shiksha.com/college/national-college-thane-thane-west-53644",
+  "https://www.shiksha.com/college/pailan-college-of-management-and-technology-pcmt-joka-kolkata-24327",
+  "https://www.shiksha.com/college/met-asian-management-development-centre-bandra-west-mumbai-47088",
+  "https://www.shiksha.com/college/seshadripuram-academy-for-global-excellence-sage-yelahanaka-bangalore-8872",
+  "https://www.shiksha.com/college/east-west-group-of-institutions-magadi-road-vishwaneedam-bangalore-26914",
+  "https://www.shiksha.com/college/st-joseph-s-college-of-engineering-and-technology-thanjavur-65899",
+  "https://www.shiksha.com/college/k-c-college-of-management-studies-kccms-colaba-colaba-mumbai-33019",
+  "https://www.shiksha.com/college/measi-institute-of-management-royapettah-chennai-20776",
+  "https://www.shiksha.com/college/indukaka-ipcowala-institute-of-management-charotar-university-of-science-and-technology-anand-42944",
 ]
 
 
@@ -66,37 +66,32 @@ def build_urls(BASE_URL):
         # "qna": "https://ask.shiksha.com/which-is-better-for-mba-iim-ahmedabad-or-jbims-qna-5114413"
     }
 # ---------------- DRIVER ----------------
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
-
-
 def create_driver():
-
     options = Options()
 
-    options.binary_location = "/usr/bin/chromium-browser"
-    options.page_load_strategy = "eager"
-
+    # Mandatory for GitHub Actions
     options.add_argument("--headless=new")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--disable-gpu")
     options.add_argument("--window-size=1920,1080")
 
+    # Optional but good
     options.add_argument(
         "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
         "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     )
 
-    service = Service("/usr/bin/chromedriver")
+    # Important for Ubuntu runner
+    options.binary_location = "/usr/bin/chromium"
 
-    driver = webdriver.Chrome(
+    service = Service(ChromeDriverManager().install())
+
+    return webdriver.Chrome(
         service=service,
         options=options
     )
 
-    return driver
 
 # ---------------- UTILITIES ----------------
 def scroll_to_bottom(driver, scroll_times=3, pause=1.5):
@@ -8469,30 +8464,28 @@ def parse_faculty_full_html(driver,URLS):
     driver.get(URLS["faculty"])
     wait = WebDriverWait(driver, 15)
 
-    # section = wait.until(
-    #     EC.presence_of_element_located(
-    #         (By.CSS_SELECTOR, "div.wikkiContents.faqAccordian")
-    #     )
-    # )
+    section = None
+
     try:
         section = wait.until(
             EC.presence_of_element_located(
-                (By.CSS_SELECTOR,"div.wikkiContents.faqAccordian")
+                (By.CSS_SELECTOR, "div.wikkiContents.faqAccordian")
             )
         )
     except:
         print("⚠️ parse_faculty_full_html not available, skipping")
         return None
 
-    # 🔥 Scroll for lazy content
+    # Scroll
     driver.execute_script(
         "arguments[0].scrollIntoView({block:'center'});", section
     )
     time.sleep(2)
 
-    html = driver.execute_script(
-        "return arguments[0].innerHTML;", section
-    )
+    # 🔥 Re-locate element to avoid stale reference
+    section = driver.find_element(By.CSS_SELECTOR, "div.wikkiContents.faqAccordian")
+
+    html = section.get_attribute("innerHTML")
 
     soup = BeautifulSoup(html, "html.parser")
 
@@ -9259,7 +9252,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =691
+    c_count =661
 
     try:
         for base_url in BASE_URL:
@@ -9325,8 +9318,8 @@ def scrape_mba_colleges():
 import time
 import os
 
-TEMP_FILE = "../../data/daily_data/allindiambacollegedetails691_720.tmp.json"
-FINAL_FILE = "../../data/daily_data/allindiambacollegedetails691_720.json"
+TEMP_FILE = "../../allindiambacollegedetails691_720.tmp.json"
+FINAL_FILE = "../../allindiambacollegedetails691_720.json"
 
 UPDATE_INTERVAL = 6 * 60 * 60  # 6 hours
 

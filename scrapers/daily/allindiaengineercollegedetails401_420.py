@@ -15,36 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/maharashtra-institute-of-technology-aurangabad-47487",
-  "https://www.shiksha.com/college/shri-neminath-jain-bhhramcharyashram-nashik-52825",
-  "https://www.shiksha.com/college/malla-reddy-engineering-college-and-management-sciences-medchal-hyderabad-62149",
-  "https://www.shiksha.com/college/pondicherry-university-karaikal-campus-51053",
-  "https://www.shiksha.com/college/ssvps-s-bapusaheb-shivajirao-deore-college-of-engineering-ssvps-s-bsd-coe-dhule-42756",
-  "https://www.shiksha.com/university/avantika-university-ujjain-49129",
-  "https://www.shiksha.com/college/silver-oak-college-of-aviation-technology-socat-gota-ahmedabad-215645",
-  "https://www.shiksha.com/college/cii-school-of-logistics-amity-university-noida-48817",
-  "https://www.shiksha.com/college/aradhana-school-of-business-management-hyderabad-62039",
-  "https://www.shiksha.com/college/mmm-s-institute-of-management-education-research-and-training-deccan-pune-47122",
-  "https://www.shiksha.com/college/abit-ajay-binay-institute-of-technology-cuttack-23310",
-  "https://www.shiksha.com/college/kpr-institute-of-engineering-and-technology-coimbatore-49403",
-  "https://www.shiksha.com/college/p-v-ram-reddy-p-g-college-ranga-reddy-62199",
-  "https://www.shiksha.com/university/graphic-era-hill-university-bhimtal-nainital-37856",
-  "https://www.shiksha.com/college/k-l-n-college-of-engineering-tamil-nadu-other-22729",
-  "https://www.shiksha.com/college/unique-institute-of-management-uim-pune-gokul-nagar-36193",
-  "https://www.shiksha.com/college/met-s-institute-of-management-nashik-64165",
-  "https://www.shiksha.com/university/dr-shakuntala-misra-national-rehabilitation-university-lucknow-37240",
-  "https://www.shiksha.com/college/lords-institute-of-engineering-and-technology-himayathsagar-hyderabad-23223",
-  "https://www.shiksha.com/college/ashoka-business-school-nashik-60279",
-  "https://www.shiksha.com/college/rims-rourkela-institute-of-management-studies-24883",
-  "https://www.shiksha.com/college/imarticus-learning-andheri-east-mumbai-35242",
-  "https://www.shiksha.com/college/ibmr-business-school-hubli-26835",
-  "https://www.shiksha.com/university/sabarmati-university-ahmedabad-53851",
-  "https://www.shiksha.com/college/sbm-sona-school-of-business-and-management-salem-28268",
-  "https://www.shiksha.com/college/nishitha-degree-college-nizamabad-20783",
-  "https://www.shiksha.com/college/vaagdevi-degree-and-pg-college-warangal-52829",
-  "https://www.shiksha.com/college/r-m-k-engineering-college-tamil-nadu-other-21007",
-  "https://www.shiksha.com/college/annamalai-university-distance-education-tamil-nadu-tamil-nadu-other-24673",
-  "https://www.shiksha.com/college/niis-institute-of-business-administration-niis-iba-bhubaneswar-31114",
+  "https://www.shiksha.com/college/galgotias-educational-institutions-gei-greater-noida-36763",
+  "https://www.shiksha.com/university/gsfc-university-vadodara-54258",
+  "https://www.shiksha.com/college/university-institute-of-engineering-and-technology-kurukshetra-university-53139",
+  "https://www.shiksha.com/college/faculty-of-engineering-dayalbagh-educational-institute-agra-53569",
+  "https://www.shiksha.com/college/pvg-s-college-of-engineering-and-technology-and-g-k-pate-wani-institute-of-management-parvati-paytha-pune-20921",
+  "https://www.shiksha.com/college/vasireddy-venkatadri-international-technological-university-guntur-52611",
+  "https://www.shiksha.com/college/cmr-engineering-college-medchal-hyderabad-47419",
+  "https://www.shiksha.com/college/jd-college-of-engineering-and-management-nagpur-42674",
+  "https://www.shiksha.com/college/netaji-subhas-university-jamshedpur-32368",
+  "https://www.shiksha.com/university/shuats-sam-higginbottom-university-of-agriculture-technology-and-sciences-allahabad-37672",
+  "https://www.shiksha.com/university/gurugram-university-gurgaon-63443",
+  "https://www.shiksha.com/college/government-college-of-engineering-research-avasari-khurd-ambegaon-bk-pune-59127",
+  "https://www.shiksha.com/university/mohan-babu-university-tirupati-211117",
+  "https://www.shiksha.com/university/the-neotia-university-kolkata-48575",
+  "https://www.shiksha.com/university/oriental-university-indore-38026",
+  "https://www.shiksha.com/college/oriental-college-of-technology-bhopal-51241",
+  "https://www.shiksha.com/college/bharati-vidyapeeth-college-of-engineering-lavale-lavale-pune-37220",
+  "https://www.shiksha.com/college/jawaharlal-nehru-engineering-college-mgm-university-aurangabad-24838",
+  "https://www.shiksha.com/college/mvps-s-kbtcoe-nashik-20762",
+  "https://www.shiksha.com/college/chhatrapati-shahu-college-of-engineering-aurangabad-47404",
 ]
 
 
@@ -8465,7 +8455,7 @@ def parse_faculty_full_html(driver,URLS):
     wait = WebDriverWait(driver, 15)
 
     section = None
-    
+
     try:
         section = wait.until(
             EC.presence_of_element_located(
@@ -8475,17 +8465,18 @@ def parse_faculty_full_html(driver,URLS):
     except:
         print("⚠️ parse_faculty_full_html not available, skipping")
         return None
-    
+
     # Scroll
     driver.execute_script(
         "arguments[0].scrollIntoView({block:'center'});", section
     )
     time.sleep(2)
-    
+
     # 🔥 Re-locate element to avoid stale reference
     section = driver.find_element(By.CSS_SELECTOR, "div.wikkiContents.faqAccordian")
-    
+
     html = section.get_attribute("innerHTML")
+    
 
     soup = BeautifulSoup(html, "html.parser")
 
@@ -9252,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =751
+    c_count = 401
 
     try:
         for base_url in BASE_URL:
@@ -9318,8 +9309,8 @@ def scrape_mba_colleges():
 import time
 import os
 
-TEMP_FILE = "allindiambacollegedetails1801_1830.tmp.json"
-FINAL_FILE = "allindiambacollegedetails1801_1830.json"
+TEMP_FILE = "../../allindiaengineercollegedetails401_420.tmp.json"
+FINAL_FILE = "../../allindiaengineercollegedetails401_420.json"
 
 UPDATE_INTERVAL = 6 * 60 * 60  # 6 hours
 

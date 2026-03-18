@@ -1,5 +1,8 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
@@ -97,6 +100,24 @@ def scrape_all_mba_colleges(driver, total_pages=162):
                 "median_salary": None,
                 "is_featured": False  # Always false since we're filtering featured out
             }
+            try:
+                WebDriverWait(driver, 5).until(
+                    EC.presence_of_element_located((By.CSS_SELECTOR, "div.b47f1d img"))
+                )
+            except TimeoutException:
+                pass  # Image might not exist
+
+            img_div = tuple_div.find("div", class_="b47f1d")
+            college_img = None  # Default to None if no image
+
+            if img_div:
+                image = img_div.find("img")
+                if image:
+                    # Check for both src and data-src attributes
+                    college_img = image.get("src") or image.get("data-src")
+
+            college["college_img"] = college_img
+
 
             content_div = tuple_div.find("div", class_="fdb64c")
 
