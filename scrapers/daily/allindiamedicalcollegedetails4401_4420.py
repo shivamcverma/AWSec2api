@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/jamia-tibbiya-deoband-saharanpur-86969",
-  "https://www.shiksha.com/college/yashwantrao-bhonsale-college-of-pharmacy-sawantwadi-88423",
-  "https://www.shiksha.com/college/m-s-m-institute-of-ayurveda-sonepat-195367",
-  "https://www.shiksha.com/college/shri-dhanvantri-ayurvedic-medical-college-karnataka-other-185775",
-  "https://www.shiksha.com/college/ppce-viman-nagar-ruby-hall-clinic-bund-garden-bund-garden-road-pune-38376",
-  "https://www.shiksha.com/college/dr-d-y-patil-institute-of-optometry-and-visual-sciences-pune-190223",
-  "https://www.shiksha.com/college/the-oxford-college-of-physiotherapy-bangalore-202019",
-  "https://www.shiksha.com/college/trinity-college-of-pharmacy-pune-208101",
-  "https://www.shiksha.com/college/sonekar-college-of-pharmacy-nagpur-87697",
-  "https://www.shiksha.com/college/bhai-gurdas-degree-college-sangrur-140971",
-  # "https://www.shiksha.com/university/iilm-university-gurgaon-56587",
-  # "https://www.shiksha.com/college/oriental-college-of-pharmacy-bhopal-147525",
-  # "https://www.shiksha.com/college/sardar-patel-college-of-pharmacy-gorakhpur-65485",
-  # "https://www.shiksha.com/college/the-lotus-college-of-optometry-juhu-mumbai-29756",
-  # "https://www.shiksha.com/university/jagran-lakecity-university-bhopal-38105",
-  # "https://www.shiksha.com/college/anantrao-kanase-homoeopathic-medical-college-maharashtra-other-70067",
-  # "https://www.shiksha.com/college/jagadguru-gangadhar-mahaswamigalu-moorsavirmath-medical-college-hubli-180681",
-  # "https://www.shiksha.com/college/medical-college-and-hospital-bharati-vidyapeeth-sangli-54845",
-  # "https://www.shiksha.com/college/girijananda-chowdhury-institute-of-pharmaceutical-science-tezpur-149845",
-  # "https://www.shiksha.com/college/faculty-of-physiotherapy-maher-k-k-nagar-chennai-154909",
+  "https://www.shiksha.com/college/r-k-college-datia-230096",
+  "https://www.shiksha.com/college/rani-dulliaiya-smriti-homoepathic-medical-college-and-hospital-bhopal-231254",
+  "https://www.shiksha.com/college/mehta-college-of-pharmacy-jaipur-231444",
+  "https://www.shiksha.com/college/pt-mahavir-prasad-college-of-pharmacy-sambhal-231492",
+  "https://www.shiksha.com/college/ruhi-convent-education-and-research-society-sadulpur-churu-231536",
+  "https://www.shiksha.com/college/champaran-college-of-pharmacy-motihari-236320",
+  "https://www.shiksha.com/college/maharana-pratap-college-of-education-bihar-other-236338",
+  "https://www.shiksha.com/college/prabhu-kailash-nursing-college-bihar-other-236342",
+  "https://www.shiksha.com/college/n-c-college-of-pharmacy-panipat-236464",
+  "https://www.shiksha.com/college/sanskaram-group-of-institutions-jhajjar-236476",
+  "https://www.shiksha.com/college/dnyaneshwar-kolase-patil-institute-of-pharmacy-solapur-236692",
+  "https://www.shiksha.com/college/imperial-college-of-pharmacy-maharashtra-other-236704",
+  "https://www.shiksha.com/college/late-devrao-digambar-varat-college-of-pharmacy-maharashtra-other-236716",
+  "https://www.shiksha.com/college/kalda-burn-and-plastic-surgery-centre-raipur-240806",
+  "https://www.shiksha.com/college/seven-hills-hospital-visakhapatnam-240870",
+  "https://www.shiksha.com/college/maa-urmila-devi-college-of-pharmacy-rampur-242664",
+  "https://www.shiksha.com/college/fatima-pharmacy-college-balrampur-242676",
+  "https://www.shiksha.com/college/s-p-institute-of-neurosciences-solapur-243722",
+  "https://www.shiksha.com/college/manipal-hospitals-mukundapur-mukundapur-kolkata-243750",
+  "https://www.shiksha.com/college/apollo-speciality-hospital-madurai-243778",
 ]
 
 
@@ -56,21 +56,32 @@ def build_urls(BASE_URL):
         # "qna": "https://ask.shiksha.com/which-is-better-for-mba-iim-ahmedabad-or-jbims-qna-5114413"
     }
 # ---------------- DRIVER ----------------
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service
-
-
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-
 def create_driver():
     options = Options()
+
+    # Mandatory for GitHub Actions
     options.add_argument("--headless=new")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--disable-gpu")
+    options.add_argument("--window-size=1920,1080")
 
-    return webdriver.Chrome(options=options)
+    # Optional but good
+    options.add_argument(
+        "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    )
+
+    # Important for Ubuntu runner
+    options.binary_location = "/usr/bin/chromium"
+
+    service = Service(ChromeDriverManager().install())
+
+    return webdriver.Chrome(
+        service=service,
+        options=options
+    )
+
 
 # ---------------- UTILITIES ----------------
 def scroll_to_bottom(driver, scroll_times=3, pause=1.5):
@@ -161,14 +172,11 @@ def scrape_college_info(driver,URLS):
     data["college_info"]["college_name"] = driver.find_element(By.TAG_NAME, "h1").text.strip()
 
     # ================= LOCATION + CITY =================
-    try:
-      loc = driver.find_element(By.CSS_SELECTOR, "span.f90eb6").text
-      if "," in loc:
-          l, c = loc.split(",", 1)
-          data["college_info"]["location"] = l.strip()
-          data["college_info"]["city"] = c.strip()
-    except:
-        pass
+    loc = driver.find_element(By.CSS_SELECTOR, "span.f90eb6").text
+    if "," in loc:
+        l, c = loc.split(",", 1)
+        data["college_info"]["location"] = l.strip()
+        data["college_info"]["city"] = c.strip()
 
     # ================= RATING =================
     try:
@@ -366,14 +374,12 @@ def scrape_college_info(driver,URLS):
 
     for item in data["college_info"]["highlights"]["table"]:
         print(f"  - {item['particular']}: {item['details'][:50]}...")
-    try:
-      wait.until(
-          EC.presence_of_element_located(
-              (By.ID, "ovp_section_popular_courses")
-          )
-      )
-    except:
-        pass
+
+    wait.until(
+        EC.presence_of_element_located(
+            (By.ID, "ovp_section_popular_courses")
+        )
+    )
 
     # ================= INTRO / SUMMARY =================
     data["intro"] = driver.execute_script("""
@@ -9237,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1321
+    c_count = 4401
 
     try:
         for base_url in BASE_URL:
@@ -9303,8 +9309,8 @@ def scrape_mba_colleges():
 import time
 import os
 
-TEMP_FILE = "../../allindiamedicalcollegedetails1321_1340.tmp.json"
-FINAL_FILE = "../../allindiamedicalcollegedetails1321_1340.json"
+TEMP_FILE = "../../allindiamedicalcollegedetails4401_4420.tmp.json"
+FINAL_FILE = "../../allindiamedicalcollegedetails4401_4420.json"
 
 UPDATE_INTERVAL = 6 * 60 * 60  # 6 hours
 

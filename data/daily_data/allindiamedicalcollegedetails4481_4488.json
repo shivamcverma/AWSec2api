@@ -1,14 +1,14 @@
 [
   {
     "college_details": {
-      "id": "college_1321",
+      "id": "college_4481",
       "college_info": {
         "college_info": {
           "college_info": {
-            "college_name": "Access Denied",
+            "college_name": "Birendra Kumar Das Institute of Education (Pharmaceutical Science): Courses, Fees, Admission 2025, Reviews, Info",
             "rating": null,
-            "logo": null,
-            "cover_image": null,
+            "logo": "https://images.shiksha.ws/pwa/public/images/ctpV2/default.svg",
+            "cover_image": "https://images.shiksha.ws/public/images/instHeaderDesktop.jpg",
             "reviews_count": null,
             "qa_count": null,
             "location": null,
@@ -16,8 +16,29 @@
             "institute_type": null,
             "established_year": null,
             "highlights": {
-              "summary": "Summary not available",
-              "table": [],
+              "summary": "Birendra Kumar Das Institute of Education (Pharmaceutical Science) is an institute in Howrah, West Bengal. The institute is approved by the PCI. At the UG levels, the institute offers 1 course in Full Time mode. The popular Birendra Kumar Das Institute of Education (Pharmaceutical Science) program include D.Pharma. Birendra Kumar Das Institute of Education (Pharmaceutical Science) course is provided in stream including Medicine & Health Sciences. The institute has a total seat intake of 60 students. The institute has a well-laid infrastructure with multiple facilities.",
+              "table": [
+                {
+                  "particular": "Campus Location",
+                  "details": "Howrah, West Bengal"
+                },
+                {
+                  "particular": "Courses Offered",
+                  "details": "UG"
+                },
+                {
+                  "particular": "No. of Seats",
+                  "details": "60"
+                },
+                {
+                  "particular": "Median Salary",
+                  "details": "-"
+                },
+                {
+                  "particular": "Fees Range",
+                  "details": "-"
+                }
+              ],
               "faqs": []
             },
             "intro": null,
@@ -27,7 +48,7 @@
           "intro": null,
           "courses": [],
           "fees_and_eligibility": {
-            "overview": "Data not available",
+            "overview": "Overview not available",
             "courses_table": [],
             "faqs": [],
             "key_statistics": {}
@@ -43,15 +64,15 @@
       },
       "courses": {
         "college_info": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
+          "college_name": "Birendra Kumar Das Institute of Education (Pharmaceutical Science) Courses: Degree, Diploma, Certificate 2026",
+          "logo": "https://images.shiksha.ws/pwa/public/images/ctpV2/default.svg",
+          "cover_image": "https://images.shiksha.ws/public/images/instHeaderDesktop.jpg",
           "videos_count": 0,
           "photos_count": 0,
           "rating": null,
           "reviews_count": null,
           "qa_count": null,
-          "location": null,
+          "location": "Howrah",
           "city": null,
           "institute_type": null,
           "established_year": null
@@ -64,9 +85,65 @@
           "data": []
         },
         "faqs": [],
-        "all_programs": [],
-        "all_courses": [],
-        "faq_section": null
+        "all_programs": [
+          {
+            "program_name": "D.Pharma",
+            "course_count": 1,
+            "duration": "2 years",
+            "exams_accepted": "Not specified",
+            "median_salary": "Not available",
+            "total_tuition_fees": "Not available",
+            "program_link": "https://www.shiksha.com/college/birendra-kumar-das-institute-of-education-pharmaceutical-science-howrah-237248/courses/dpharma-bc"
+          }
+        ],
+        "all_courses": [
+          {
+            "course_name": "Diploma in Pharmacy (D.Pharma)",
+            "duration": "2 years",
+            "seats_offered": 60,
+            "exams_accepted": "Not specified",
+            "median_salary": "Not available",
+            "total_tuition_fees": "Not available",
+            "course_link": "https://www.shiksha.com/college/birendra-kumar-das-institute-of-education-pharmaceutical-science-howrah-237248/course-diploma-in-pharmacy-d-pharma-1286084"
+          }
+        ],
+        "faq_section": {
+          "heading": "FAQs",
+          "introduction": "",
+          "total_faqs": 3,
+          "faqs": [
+            {
+              "faq_number": 2,
+              "question": "JBIMS Mumbai",
+              "answer": {
+                "text": "Answer not found (dynamic content)",
+                "has_table": false,
+                "has_image": false,
+                "has_list": false
+              }
+            },
+            {
+              "faq_number": 3,
+              "question": "XIME Bangalore",
+              "answer": {
+                "text": "Answer not found (dynamic content)",
+                "has_table": false,
+                "has_image": false,
+                "has_list": false
+              }
+            },
+            {
+              "faq_number": 5,
+              "question": "IIM Ahmedabad",
+              "answer": {
+                "text": "Answer not found (dynamic content)",
+                "has_table": false,
+                "has_image": false,
+                "has_list": false
+              }
+            }
+          ]
+        }
       },
       "fees": {
         "college_info": {
@@ -115,9 +192,9 @@
       },
       "admission": {
         "admission_overview": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
+          "college_name": "Birendra Kumar Das Institute of Education (Pharmaceutical Science) Admission 2025: Fees, Courses, Eligibility and Selection",
+          "logo": "https://images.shiksha.ws/pwa/public/images/ctpV2/default.svg",
+          "cover_image": "https://images.shiksha.ws/public/images/instHeaderDesktop.jpg",
           "videos_count": 0,
           "photos_count": 0,
           "rating": null,
@@ -140,21 +217,46 @@
             "faqs": []
           },
           "admission_process": {
-            "title": "",
-            "full_content": {},
+            "title": "Birendra Kumar Das Institute of Education (Pharmaceutical Science) Admission Process 2025",
+            "full_content": {
+              "paragraphs": [
+                "Birendra Kumar Das Institute of Education (Pharmaceutical Science) admission 2025 is based on merit or entrance exam scores. The institute considers scores in CBSE 12th, ISC and Tamilnadu 12th, etc. for admission. The institute offers courses at UG levels in several specialisations.Birendra Kumar Das Institute of Education (Pharmaceutical Science)offers D.Pharma at UG level.",
+                "Aspirants who are selected for admission need to pay the course fees."
+              ],
+              "headings": [],
+              "lists": [],
+              "tables": [],
+              "key_points": []
+            },
             "fees_table": [],
             "seats_table": [],
-            "courses_data": [],
+            "courses_data": [
+              {
+                "name": "D.Pharma Admissions 2026",
+                "stats": "1courses2 years",
+                "seat_intake": "60",
+                "description": "Birendra Kumar Das Institute of Education (Pharmaceutical Science)offers D.Pharma for 2 years at the UG level. Check below the eligibility for D.Pharma course at Birendra Kumar Das Institute of Education (Pharmaceutical Science):"
+              }
+            ],
             "faqs": [],
-            "videos": []
+            "videos": [],
+            "additional_content": {
+              "links": [
+                {
+                  "text": "Birendra Kumar Das Institute of Education (Pharmaceutical Science)",
+                  "url": "https://www.shiksha.com/college/birendra-kumar-das-institute-of-education-pharmaceutical-science-howrah-237248"
+                }
+              ],
+              "notes": []
+            }
           }
         }
       },
       "placement": {
         "placement_report": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
+          "college_name": "Birendra Kumar Das Institute of Education (Pharmaceutical Science) Placement - Average Package & Highest Salary",
+          "logo": "https://images.shiksha.ws/pwa/public/images/ctpV2/default.svg",
+          "cover_image": "https://images.shiksha.ws/public/images/instHeaderDesktop.jpg",
           "videos_count": 0,
           "photos_count": 0,
           "rating": null,
@@ -174,11 +276,11 @@
             "links": [],
             "user_feedback": "",
             "video_content": false,
-            "error": "Message: \nStacktrace:\n#0 0x55f5d08afb6a <unknown>\n#1 0x55f5d02c2a32 <unknown>\n#2 0x55f5d0317d66 <unknown>\n#3 0x55f5d0317fa1 <unknown>\n#4 0x55f5d0363144 <unknown>\n#5 0x55f5d0360369 <unknown>\n#6 0x55f5d0309c0f <unknown>\n#7 0x55f5d030a9d1 <unknown>\n#8 0x55f5d08746b9 <unknown>\n#9 0x55f5d08775c1 <unknown>\n#10 0x55f5d0860e29 <unknown>\n#11 0x55f5d087817e <unknown>\n#12 0x55f5d08474b0 <unknown>\n#13 0x55f5d089c578 <unknown>\n#14 0x55f5d089c74b <unknown>\n#15 0x55f5d08ae1a3 <unknown>\n#16 0x7f7d6049caa4 <unknown>\n#17 0x7f7d60529c6c <unknown>\n"
+            "error": "Message: \nStacktrace:\n#0 0x55a9c803ab6a <unknown>\n#1 0x55a9c7a4da32 <unknown>\n#2 0x55a9c7aa2d66 <unknown>\n#3 0x55a9c7aa2fa1 <unknown>\n#4 0x55a9c7aee144 <unknown>\n#5 0x55a9c7aeb369 <unknown>\n#6 0x55a9c7a94c0f <unknown>\n#7 0x55a9c7a959d1 <unknown>\n#8 0x55a9c7fff6b9 <unknown>\n#9 0x55a9c80025c1 <unknown>\n#10 0x55a9c7febe29 <unknown>\n#11 0x55a9c800317e <unknown>\n#12 0x55a9c7fd24b0 <unknown>\n#13 0x55a9c8027578 <unknown>\n#14 0x55a9c802774b <unknown>\n#15 0x55a9c80391a3 <unknown>\n#16 0x7fc97da9caa4 <unknown>\n#17 0x7fc97db29c6c <unknown>\n"
           },
           "placement_sections": {
             "average_package": {
-              "title": "IIM Ahmedabad Average Package 2025",
+              "title": "Average packages & top recruiters 2026",
               "main_table": [],
               "top_recruiters": [],
               "insights": [],
@@ -186,7 +288,7 @@
               "graph_image": "",
               "source_info": "",
               "complete_content": "",
-              "error": "Message: \nStacktrace:\n#0 0x55f5d08afb6a <unknown>\n#1 0x55f5d02c2a32 <unknown>\n#2 0x55f5d0317d66 <unknown>\n#3 0x55f5d0317fa1 <unknown>\n#4 0x55f5d0363144 <unknown>\n#5 0x55f5d0360369 <unknown>\n#6 0x55f5d0309c0f <unknown>\n#7 0x55f5d030a9d1 <unknown>\n#8 0x55f5d08746b9 <unknown>\n#9 0x55f5d08775c1 <unknown>\n#10 0x55f5d0860e29 <unknown>\n#11 0x55f5d087817e <unknown>\n#12 0x55f5d08474b0 <unknown>\n#13 0x55f5d089c578 <unknown>\n#14 0x55f5d089c74b <unknown>\n#15 0x55f5d08ae1a3 <unknown>\n#16 0x7f7d6049caa4 <unknown>\n#17 0x7f7d60529c6c <unknown>\n"
+              "user_feedback": "Does the data look accurate to you?"
             },
             "pgp_placements": {
               "title": "IIM Ahmedabad PGP Placements 2025",
@@ -198,7 +300,7 @@
               "placement_rating": "",
               "source_info": "",
               "complete_content": "",
-              "error": "Message: \nStacktrace:\n#0 0x55f5d08afb6a <unknown>\n#1 0x55f5d02c2a32 <unknown>\n#2 0x55f5d0317d66 <unknown>\n#3 0x55f5d0317fa1 <unknown>\n#4 0x55f5d0363144 <unknown>\n#5 0x55f5d0360369 <unknown>\n#6 0x55f5d0309c0f <unknown>\n#7 0x55f5d030a9d1 <unknown>\n#8 0x55f5d08746b9 <unknown>\n#9 0x55f5d08775c1 <unknown>\n#10 0x55f5d0860e29 <unknown>\n#11 0x55f5d087817e <unknown>\n#12 0x55f5d08474b0 <unknown>\n#13 0x55f5d089c578 <unknown>\n#14 0x55f5d089c74b <unknown>\n#15 0x55f5d08ae1a3 <unknown>\n#16 0x7f7d6049caa4 <unknown>\n#17 0x7f7d60529c6c <unknown>\n"
+              "error": "Message: \nStacktrace:\n#0 0x55a9c803ab6a <unknown>\n#1 0x55a9c7a4da32 <unknown>\n#2 0x55a9c7aa2d66 <unknown>\n#3 0x55a9c7aa2fa1 <unknown>\n#4 0x55a9c7aee144 <unknown>\n#5 0x55a9c7aeb369 <unknown>\n#6 0x55a9c7a94c0f <unknown>\n#7 0x55a9c7a959d1 <unknown>\n#8 0x55a9c7fff6b9 <unknown>\n#9 0x55a9c80025c1 <unknown>\n#10 0x55a9c7febe29 <unknown>\n#11 0x55a9c800317e <unknown>\n#12 0x55a9c7fd24b0 <unknown>\n#13 0x55a9c8027578 <unknown>\n#14 0x55a9c802774b <unknown>\n#15 0x55a9c80391a3 <unknown>\n#16 0x7fc97da9caa4 <unknown>\n#17 0x7fc97db29c6c <unknown>\n"
             }
           }
         }
@@ -278,11 +380,11 @@
       },
       "gallery": {
         "gallery_page": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
+          "college_name": "Birendra Kumar Das Institute of Education (Pharmaceutical Science) Photos & Videos",
+          "logo": "https://images.shiksha.ws/pwa/public/images/ctpV2/default.svg",
+          "cover_image": "https://images.shiksha.ws/public/images/instHeaderDesktop.jpg",
           "videos_count": 0,
-          "photos_count": 0,
+          "photos_count": 4,
           "rating": null,
           "reviews_count": null,
           "qa_count": null,
@@ -360,14 +462,14 @@
   },
   {
     "college_details": {
-      "id": "college_1322",
+      "id": "college_4482",
       "college_info": {
         "college_info": {
           "college_info": {
-            "college_name": "Access Denied",
+            "college_name": "Kabiguru College of Pharmacy: Courses, Fees, Admission 2025, Reviews, Info",
             "rating": null,
-            "logo": null,
-            "cover_image": null,
+            "logo": "https://images.shiksha.ws/pwa/public/images/ctpV2/default.svg",
+            "cover_image": "https://images.shiksha.ws/public/images/instHeaderDesktop.jpg",
             "reviews_count": null,
             "qa_count": null,
             "location": null,
@@ -375,8 +477,29 @@
             "institute_type": null,
             "established_year": null,
             "highlights": {
-              "summary": "Summary not available",
-              "table": [],
+              "summary": "Kabiguru College of Pharmacy is an institute. It is located in West Bengal. The institute is accredited with PCI. Kabiguru College of Pharmacy provides UG courses in Full Time mode. It provides 1 course across different specialisations. Some of the course offered at this institute include D.Pharma. The student intake for these courses is 60. Kabiguru College of Pharmacy offers these course across fields such as Medicine & Health Sciences. Kabiguru College of Pharmacy offers all the campus facilities to students.",
+              "table": [
+                {
+                  "particular": "Campus Location",
+                  "details": "West Bengal"
+                },
+                {
+                  "particular": "Courses Offered",
+                  "details": "UG"
+                },
+                {
+                  "particular": "No. of Seats",
+                  "details": "60"
+                },
+                {
+                  "particular": "Median Salary",
+                  "details": "-"
+                },
+                {
+                  "particular": "Fees Range",
+                  "details": "-"
+                }
+              ],
               "faqs": []
             },
             "intro": null,
@@ -386,7 +509,7 @@
           "intro": null,
           "courses": [],
           "fees_and_eligibility": {
-            "overview": "Data not available",
+            "overview": "Overview not available",
             "courses_table": [],
             "faqs": [],
             "key_statistics": {}
@@ -402,15 +525,15 @@
       },
       "courses": {
         "college_info": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
+          "college_name": "Kabiguru College of Pharmacy Courses: Degree, Diploma, Certificate 2026",
+          "logo": "https://images.shiksha.ws/pwa/public/images/ctpV2/default.svg",
+          "cover_image": "https://images.shiksha.ws/public/images/instHeaderDesktop.jpg",
           "videos_count": 0,
           "photos_count": 0,
           "rating": null,
           "reviews_count": null,
           "qa_count": null,
-          "location": null,
+          "location": "West Bengal - Other",
           "city": null,
           "institute_type": null,
           "established_year": null
@@ -423,9 +546,65 @@
           "data": []
         },
         "faqs": [],
-        "all_programs": [],
-        "all_courses": [],
-        "faq_section": null
+        "all_programs": [
+          {
+            "program_name": "D.Pharma",
+            "course_count": 1,
+            "duration": "2 years",
+            "exams_accepted": "Not specified",
+            "median_salary": "Not available",
+            "total_tuition_fees": "Not available",
+            "program_link": "https://www.shiksha.com/college/kabiguru-college-of-pharmacy-west-bengal-other-237286/courses/dpharma-bc"
+          }
+        ],
+        "all_courses": [
+          {
+            "course_name": "Diploma in Pharmacy (D.Pharma)",
+            "duration": "2 years",
+            "seats_offered": 60,
+            "exams_accepted": "Not specified",
+            "median_salary": "Not available",
+            "total_tuition_fees": "Not available",
+            "course_link": "https://www.shiksha.com/college/kabiguru-college-of-pharmacy-west-bengal-other-237286/course-diploma-in-pharmacy-d-pharma-1286120"
+          }
+        ],
+        "faq_section": {
+          "heading": "FAQs",
+          "introduction": "",
+          "total_faqs": 3,
+          "faqs": [
+            {
+              "faq_number": 2,
+              "question": "JBIMS Mumbai",
+              "answer": {
+                "text": "Answer not found (dynamic content)",
+                "has_table": false,
+                "has_image": false,
+                "has_list": false
+              }
+            },
+            {
+              "faq_number": 3,
+              "question": "XIME Bangalore",
+              "answer": {
+                "text": "Answer not found (dynamic content)",
+                "has_table": false,
+                "has_image": false,
+                "has_list": false
+              }
+            },
+            {
+              "faq_number": 5,
+              "question": "IIM Ahmedabad",
+              "answer": {
+                "text": "Answer not found (dynamic content)",
+                "has_table": false,
+                "has_image": false,
+                "has_list": false
+              }
+            }
+          ]
+        }
       },
       "fees": {
         "college_info": {
@@ -511,9 +690,9 @@
       },
       "placement": {
         "placement_report": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
+          "college_name": "Kabiguru College of Pharmacy Placement - Average Package & Highest Salary",
+          "logo": "https://images.shiksha.ws/pwa/public/images/ctpV2/default.svg",
+          "cover_image": "https://images.shiksha.ws/public/images/instHeaderDesktop.jpg",
           "videos_count": 0,
           "photos_count": 0,
           "rating": null,
@@ -533,11 +712,11 @@
             "links": [],
             "user_feedback": "",
             "video_content": false,
-            "error": "Message: \nStacktrace:\n#0 0x55f5d08afb6a <unknown>\n#1 0x55f5d02c2a32 <unknown>\n#2 0x55f5d0317d66 <unknown>\n#3 0x55f5d0317fa1 <unknown>\n#4 0x55f5d0363144 <unknown>\n#5 0x55f5d0360369 <unknown>\n#6 0x55f5d0309c0f <unknown>\n#7 0x55f5d030a9d1 <unknown>\n#8 0x55f5d08746b9 <unknown>\n#9 0x55f5d08775c1 <unknown>\n#10 0x55f5d0860e29 <unknown>\n#11 0x55f5d087817e <unknown>\n#12 0x55f5d08474b0 <unknown>\n#13 0x55f5d089c578 <unknown>\n#14 0x55f5d089c74b <unknown>\n#15 0x55f5d08ae1a3 <unknown>\n#16 0x7f7d6049caa4 <unknown>\n#17 0x7f7d60529c6c <unknown>\n"
+            "error": "Message: \nStacktrace:\n#0 0x55a9c803ab6a <unknown>\n#1 0x55a9c7a4da32 <unknown>\n#2 0x55a9c7aa2d66 <unknown>\n#3 0x55a9c7aa2fa1 <unknown>\n#4 0x55a9c7aee144 <unknown>\n#5 0x55a9c7aeb369 <unknown>\n#6 0x55a9c7a94c0f <unknown>\n#7 0x55a9c7a959d1 <unknown>\n#8 0x55a9c7fff6b9 <unknown>\n#9 0x55a9c80025c1 <unknown>\n#10 0x55a9c7febe29 <unknown>\n#11 0x55a9c800317e <unknown>\n#12 0x55a9c7fd24b0 <unknown>\n#13 0x55a9c8027578 <unknown>\n#14 0x55a9c802774b <unknown>\n#15 0x55a9c80391a3 <unknown>\n#16 0x7fc97da9caa4 <unknown>\n#17 0x7fc97db29c6c <unknown>\n"
           },
           "placement_sections": {
             "average_package": {
-              "title": "IIM Ahmedabad Average Package 2025",
+              "title": "Average packages & top recruiters 2026",
               "main_table": [],
               "top_recruiters": [],
               "insights": [],
@@ -545,7 +724,7 @@
               "graph_image": "",
               "source_info": "",
               "complete_content": "",
-              "error": "Message: \nStacktrace:\n#0 0x55f5d08afb6a <unknown>\n#1 0x55f5d02c2a32 <unknown>\n#2 0x55f5d0317d66 <unknown>\n#3 0x55f5d0317fa1 <unknown>\n#4 0x55f5d0363144 <unknown>\n#5 0x55f5d0360369 <unknown>\n#6 0x55f5d0309c0f <unknown>\n#7 0x55f5d030a9d1 <unknown>\n#8 0x55f5d08746b9 <unknown>\n#9 0x55f5d08775c1 <unknown>\n#10 0x55f5d0860e29 <unknown>\n#11 0x55f5d087817e <unknown>\n#12 0x55f5d08474b0 <unknown>\n#13 0x55f5d089c578 <unknown>\n#14 0x55f5d089c74b <unknown>\n#15 0x55f5d08ae1a3 <unknown>\n#16 0x7f7d6049caa4 <unknown>\n#17 0x7f7d60529c6c <unknown>\n"
+              "user_feedback": "Does the data look accurate to you?"
             },
             "pgp_placements": {
               "title": "IIM Ahmedabad PGP Placements 2025",
@@ -557,7 +736,7 @@
               "placement_rating": "",
               "source_info": "",
               "complete_content": "",
-              "error": "Message: \nStacktrace:\n#0 0x55f5d08afb6a <unknown>\n#1 0x55f5d02c2a32 <unknown>\n#2 0x55f5d0317d66 <unknown>\n#3 0x55f5d0317fa1 <unknown>\n#4 0x55f5d0363144 <unknown>\n#5 0x55f5d0360369 <unknown>\n#6 0x55f5d0309c0f <unknown>\n#7 0x55f5d030a9d1 <unknown>\n#8 0x55f5d08746b9 <unknown>\n#9 0x55f5d08775c1 <unknown>\n#10 0x55f5d0860e29 <unknown>\n#11 0x55f5d087817e <unknown>\n#12 0x55f5d08474b0 <unknown>\n#13 0x55f5d089c578 <unknown>\n#14 0x55f5d089c74b <unknown>\n#15 0x55f5d08ae1a3 <unknown>\n#16 0x7f7d6049caa4 <unknown>\n#17 0x7f7d60529c6c <unknown>\n"
+              "error": "Message: \nStacktrace:\n#0 0x55a9c803ab6a <unknown>\n#1 0x55a9c7a4da32 <unknown>\n#2 0x55a9c7aa2d66 <unknown>\n#3 0x55a9c7aa2fa1 <unknown>\n#4 0x55a9c7aee144 <unknown>\n#5 0x55a9c7aeb369 <unknown>\n#6 0x55a9c7a94c0f <unknown>\n#7 0x55a9c7a959d1 <unknown>\n#8 0x55a9c7fff6b9 <unknown>\n#9 0x55a9c80025c1 <unknown>\n#10 0x55a9c7febe29 <unknown>\n#11 0x55a9c800317e <unknown>\n#12 0x55a9c7fd24b0 <unknown>\n#13 0x55a9c8027578 <unknown>\n#14 0x55a9c802774b <unknown>\n#15 0x55a9c80391a3 <unknown>\n#16 0x7fc97da9caa4 <unknown>\n#17 0x7fc97db29c6c <unknown>\n"
             }
           }
         }
@@ -637,11 +816,11 @@
       },
       "gallery": {
         "gallery_page": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
+          "college_name": "Kabiguru College of Pharmacy Photos & Videos",
+          "logo": "https://images.shiksha.ws/pwa/public/images/ctpV2/default.svg",
+          "cover_image": "https://images.shiksha.ws/public/images/instHeaderDesktop.jpg",
           "videos_count": 0,
-          "photos_count": 0,
+          "photos_count": 4,
           "rating": null,
           "reviews_count": null,
           "qa_count": null,
@@ -719,14 +898,14 @@
   },
   {
     "college_details": {
-      "id": "college_1323",
+      "id": "college_4483",
       "college_info": {
         "college_info": {
           "college_info": {
-            "college_name": "Access Denied",
+            "college_name": "Mayurakhi College of Pharmacy: Courses, Fees, Admission 2025, Reviews, Info",
             "rating": null,
-            "logo": null,
-            "cover_image": null,
+            "logo": "https://images.shiksha.ws/pwa/public/images/ctpV2/default.svg",
+            "cover_image": "https://images.shiksha.ws/public/images/instHeaderDesktop.jpg",
             "reviews_count": null,
             "qa_count": null,
             "location": null,
@@ -734,8 +913,29 @@
             "institute_type": null,
             "established_year": null,
             "highlights": {
-              "summary": "Summary not available",
-              "table": [],
+              "summary": "Mayurakhi College of Pharmacy is an institute in West Bengal. The institute is approved by the PCI. At the UG levels, the institute offers 1 course in Full Time mode. The popular Mayurakhi College of Pharmacy program include D.Pharma. Mayurakhi College of Pharmacy course is provided in stream including Medicine & Health Sciences. The institute has a total seat intake of 60 students. The institute has a well-laid infrastructure with multiple facilities.",
+              "table": [
+                {
+                  "particular": "Campus Location",
+                  "details": "West Bengal"
+                },
+                {
+                  "particular": "Courses Offered",
+                  "details": "UG"
+                },
+                {
+                  "particular": "No. of Seats",
+                  "details": "60"
+                },
+                {
+                  "particular": "Median Salary",
+                  "details": "-"
+                },
+                {
+                  "particular": "Fees Range",
+                  "details": "-"
+                }
+              ],
               "faqs": []
             },
             "intro": null,
@@ -745,7 +945,7 @@
           "intro": null,
           "courses": [],
           "fees_and_eligibility": {
-            "overview": "Data not available",
+            "overview": "Overview not available",
             "courses_table": [],
             "faqs": [],
             "key_statistics": {}
@@ -761,15 +961,15 @@
       },
       "courses": {
         "college_info": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
+          "college_name": "Mayurakhi College of Pharmacy Courses: Degree, Diploma, Certificate 2026",
+          "logo": "https://images.shiksha.ws/pwa/public/images/ctpV2/default.svg",
+          "cover_image": "https://images.shiksha.ws/public/images/instHeaderDesktop.jpg",
           "videos_count": 0,
           "photos_count": 0,
           "rating": null,
           "reviews_count": null,
           "qa_count": null,
-          "location": null,
+          "location": "West Bengal - Other",
           "city": null,
           "institute_type": null,
           "established_year": null
@@ -782,9 +982,65 @@
           "data": []
         },
         "faqs": [],
-        "all_programs": [],
-        "all_courses": [],
-        "faq_section": null
+        "all_programs": [
+          {
+            "program_name": "D.Pharma",
+            "course_count": 1,
+            "duration": "2 years",
+            "exams_accepted": "Not specified",
+            "median_salary": "Not available",
+            "total_tuition_fees": "Not available",
+            "program_link": "https://www.shiksha.com/college/mayurakhi-college-of-pharmacy-west-bengal-other-237308/courses/dpharma-bc"
+          }
+        ],
+        "all_courses": [
+          {
+            "course_name": "Diploma in Pharmacy (D.Pharma)",
+            "duration": "2 years",
+            "seats_offered": 60,
+            "exams_accepted": "Not specified",
+            "median_salary": "Not available",
+            "total_tuition_fees": "Not available",
+            "course_link": "https://www.shiksha.com/college/mayurakhi-college-of-pharmacy-west-bengal-other-237308/course-diploma-in-pharmacy-d-pharma-1286142"
+          }
+        ],
+        "faq_section": {
+          "heading": "FAQs",
+          "introduction": "",
+          "total_faqs": 3,
+          "faqs": [
+            {
+              "faq_number": 2,
+              "question": "JBIMS Mumbai",
+              "answer": {
+                "text": "Answer not found (dynamic content)",
+                "has_table": false,
+                "has_image": false,
+                "has_list": false
+              }
+            },
+            {
+              "faq_number": 3,
+              "question": "XIME Bangalore",
+              "answer": {
+                "text": "Answer not found (dynamic content)",
+                "has_table": false,
+                "has_image": false,
+                "has_list": false
+              }
+            },
+            {
+              "faq_number": 5,
+              "question": "IIM Ahmedabad",
+              "answer": {
+                "text": "Answer not found (dynamic content)",
+                "has_table": false,
+                "has_image": false,
+                "has_list": false
+              }
+            }
+          ]
+        }
       },
       "fees": {
         "college_info": {
@@ -833,9 +1089,9 @@
       },
       "admission": {
         "admission_overview": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
+          "college_name": "Mayurakhi College of Pharmacy Admission 2025: Fees, Courses, Eligibility and Selection",
+          "logo": "https://images.shiksha.ws/pwa/public/images/ctpV2/default.svg",
+          "cover_image": "https://images.shiksha.ws/public/images/instHeaderDesktop.jpg",
           "videos_count": 0,
           "photos_count": 0,
           "rating": null,
@@ -858,21 +1114,42 @@
             "faqs": []
           },
           "admission_process": {
-            "title": "",
-            "full_content": {},
+            "title": "Mayurakhi College of Pharmacy Admission Process 2025",
+            "full_content": {
+              "paragraphs": [
+                "Mayurakhi College of Pharmacy admission2025 is both merit and entrance-based. Courses are offered at UG level.",
+                "At the UG level, Mayurakhi College of Pharmacy offerD.Pharmacourse.",
+                "The duration of UG courses is 2 years."
+              ],
+              "headings": [],
+              "lists": [],
+              "tables": [],
+              "key_points": []
+            },
             "fees_table": [],
             "seats_table": [],
-            "courses_data": [],
+            "courses_data": [
+              {
+                "name": "237308_70",
+                "stats": "1courses2 years",
+                "seat_intake": "60",
+                "description": "Mayurakhi College of PharmacyoffersD.Pharmaat the UG level. The course is offered via full time mode for a duration of 2 years.Mayurakhi College of Pharmacy D.Pharmaadmissions require students to satisfy the admission criteria as set by the college. Check below the eligibility criteria:"
+              }
+            ],
             "faqs": [],
-            "videos": []
+            "videos": [],
+            "additional_content": {
+              "links": [],
+              "notes": []
+            }
           }
         }
       },
       "placement": {
         "placement_report": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
+          "college_name": "Mayurakhi College of Pharmacy Placement - Average Package & Highest Salary",
+          "logo": "https://images.shiksha.ws/pwa/public/images/ctpV2/default.svg",
+          "cover_image": "https://images.shiksha.ws/public/images/instHeaderDesktop.jpg",
           "videos_count": 0,
           "photos_count": 0,
           "rating": null,
@@ -892,11 +1169,11 @@
             "links": [],
             "user_feedback": "",
             "video_content": false,
-            "error": "Message: \nStacktrace:\n#0 0x55f5d08afb6a <unknown>\n#1 0x55f5d02c2a32 <unknown>\n#2 0x55f5d0317d66 <unknown>\n#3 0x55f5d0317fa1 <unknown>\n#4 0x55f5d0363144 <unknown>\n#5 0x55f5d0360369 <unknown>\n#6 0x55f5d0309c0f <unknown>\n#7 0x55f5d030a9d1 <unknown>\n#8 0x55f5d08746b9 <unknown>\n#9 0x55f5d08775c1 <unknown>\n#10 0x55f5d0860e29 <unknown>\n#11 0x55f5d087817e <unknown>\n#12 0x55f5d08474b0 <unknown>\n#13 0x55f5d089c578 <unknown>\n#14 0x55f5d089c74b <unknown>\n#15 0x55f5d08ae1a3 <unknown>\n#16 0x7f7d6049caa4 <unknown>\n#17 0x7f7d60529c6c <unknown>\n"
+            "error": "Message: \nStacktrace:\n#0 0x55a9c803ab6a <unknown>\n#1 0x55a9c7a4da32 <unknown>\n#2 0x55a9c7aa2d66 <unknown>\n#3 0x55a9c7aa2fa1 <unknown>\n#4 0x55a9c7aee144 <unknown>\n#5 0x55a9c7aeb369 <unknown>\n#6 0x55a9c7a94c0f <unknown>\n#7 0x55a9c7a959d1 <unknown>\n#8 0x55a9c7fff6b9 <unknown>\n#9 0x55a9c80025c1 <unknown>\n#10 0x55a9c7febe29 <unknown>\n#11 0x55a9c800317e <unknown>\n#12 0x55a9c7fd24b0 <unknown>\n#13 0x55a9c8027578 <unknown>\n#14 0x55a9c802774b <unknown>\n#15 0x55a9c80391a3 <unknown>\n#16 0x7fc97da9caa4 <unknown>\n#17 0x7fc97db29c6c <unknown>\n"
           },
           "placement_sections": {
             "average_package": {
-              "title": "IIM Ahmedabad Average Package 2025",
+              "title": "Average packages & top recruiters 2026",
               "main_table": [],
               "top_recruiters": [],
               "insights": [],
@@ -904,7 +1181,7 @@
               "graph_image": "",
               "source_info": "",
               "complete_content": "",
-              "error": "Message: \nStacktrace:\n#0 0x55f5d08afb6a <unknown>\n#1 0x55f5d02c2a32 <unknown>\n#2 0x55f5d0317d66 <unknown>\n#3 0x55f5d0317fa1 <unknown>\n#4 0x55f5d0363144 <unknown>\n#5 0x55f5d0360369 <unknown>\n#6 0x55f5d0309c0f <unknown>\n#7 0x55f5d030a9d1 <unknown>\n#8 0x55f5d08746b9 <unknown>\n#9 0x55f5d08775c1 <unknown>\n#10 0x55f5d0860e29 <unknown>\n#11 0x55f5d087817e <unknown>\n#12 0x55f5d08474b0 <unknown>\n#13 0x55f5d089c578 <unknown>\n#14 0x55f5d089c74b <unknown>\n#15 0x55f5d08ae1a3 <unknown>\n#16 0x7f7d6049caa4 <unknown>\n#17 0x7f7d60529c6c <unknown>\n"
+              "user_feedback": "Does the data look accurate to you?"
             },
             "pgp_placements": {
               "title": "IIM Ahmedabad PGP Placements 2025",
@@ -916,7 +1193,7 @@
               "placement_rating": "",
               "source_info": "",
               "complete_content": "",
-              "error": "Message: \nStacktrace:\n#0 0x55f5d08afb6a <unknown>\n#1 0x55f5d02c2a32 <unknown>\n#2 0x55f5d0317d66 <unknown>\n#3 0x55f5d0317fa1 <unknown>\n#4 0x55f5d0363144 <unknown>\n#5 0x55f5d0360369 <unknown>\n#6 0x55f5d0309c0f <unknown>\n#7 0x55f5d030a9d1 <unknown>\n#8 0x55f5d08746b9 <unknown>\n#9 0x55f5d08775c1 <unknown>\n#10 0x55f5d0860e29 <unknown>\n#11 0x55f5d087817e <unknown>\n#12 0x55f5d08474b0 <unknown>\n#13 0x55f5d089c578 <unknown>\n#14 0x55f5d089c74b <unknown>\n#15 0x55f5d08ae1a3 <unknown>\n#16 0x7f7d6049caa4 <unknown>\n#17 0x7f7d60529c6c <unknown>\n"
+              "error": "Message: \nStacktrace:\n#0 0x55a9c803ab6a <unknown>\n#1 0x55a9c7a4da32 <unknown>\n#2 0x55a9c7aa2d66 <unknown>\n#3 0x55a9c7aa2fa1 <unknown>\n#4 0x55a9c7aee144 <unknown>\n#5 0x55a9c7aeb369 <unknown>\n#6 0x55a9c7a94c0f <unknown>\n#7 0x55a9c7a959d1 <unknown>\n#8 0x55a9c7fff6b9 <unknown>\n#9 0x55a9c80025c1 <unknown>\n#10 0x55a9c7febe29 <unknown>\n#11 0x55a9c800317e <unknown>\n#12 0x55a9c7fd24b0 <unknown>\n#13 0x55a9c8027578 <unknown>\n#14 0x55a9c802774b <unknown>\n#15 0x55a9c80391a3 <unknown>\n#16 0x7fc97da9caa4 <unknown>\n#17 0x7fc97db29c6c <unknown>\n"
             }
           }
         }
@@ -996,11 +1273,11 @@
       },
       "gallery": {
         "gallery_page": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
+          "college_name": "Mayurakhi College of Pharmacy Photos & Videos",
+          "logo": "https://images.shiksha.ws/pwa/public/images/ctpV2/default.svg",
+          "cover_image": "https://images.shiksha.ws/public/images/instHeaderDesktop.jpg",
           "videos_count": 0,
-          "photos_count": 0,
+          "photos_count": 4,
           "rating": null,
           "reviews_count": null,
           "qa_count": null,
@@ -1078,14 +1355,14 @@
   },
   {
     "college_details": {
-      "id": "college_1324",
+      "id": "college_4484",
       "college_info": {
         "college_info": {
           "college_info": {
-            "college_name": "Access Denied",
+            "college_name": "Uttar Dinajpur H.M. Pharmacy College: Courses, Fees, Admission 2025, Reviews, Info",
             "rating": null,
-            "logo": null,
-            "cover_image": null,
+            "logo": "https://images.shiksha.ws/pwa/public/images/ctpV2/default.svg",
+            "cover_image": "https://images.shiksha.ws/public/images/instHeaderDesktop.jpg",
             "reviews_count": null,
             "qa_count": null,
             "location": null,
@@ -1093,8 +1370,29 @@
             "institute_type": null,
             "established_year": null,
             "highlights": {
-              "summary": "Summary not available",
-              "table": [],
+              "summary": "Uttar Dinajpur H.M. Pharmacy College is an institute located in West Bengal. Uttar Dinajpur H.M. Pharmacy College courses are offered to students at the UG levels. The institute is approved by PCI and offers courses in Full Time mode. Uttar Dinajpur H.M. Pharmacy College offers a total of 1 course in stream such as Medicine & Health Sciences. Some of the popular course offered at the institute is D.Pharma and the total seat intake for the available courses is 60. Apart from this, the Uttar Dinajpur H.M. Pharmacy College campus has a state-of-the-art infrastructure with all the advanced facilities.",
+              "table": [
+                {
+                  "particular": "Campus Location",
+                  "details": "West Bengal"
+                },
+                {
+                  "particular": "Courses Offered",
+                  "details": "UG"
+                },
+                {
+                  "particular": "No. of Seats",
+                  "details": "60"
+                },
+                {
+                  "particular": "Median Salary",
+                  "details": "-"
+                },
+                {
+                  "particular": "Fees Range",
+                  "details": "-"
+                }
+              ],
               "faqs": []
             },
             "intro": null,
@@ -1104,7 +1402,7 @@
           "intro": null,
           "courses": [],
           "fees_and_eligibility": {
-            "overview": "Data not available",
+            "overview": "Overview not available",
             "courses_table": [],
             "faqs": [],
             "key_statistics": {}
@@ -1120,15 +1418,15 @@
       },
       "courses": {
         "college_info": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
+          "college_name": "Uttar Dinajpur H.M. Pharmacy College Courses: Degree, Diploma, Certificate 2026",
+          "logo": "https://images.shiksha.ws/pwa/public/images/ctpV2/default.svg",
+          "cover_image": "https://images.shiksha.ws/public/images/instHeaderDesktop.jpg",
           "videos_count": 0,
           "photos_count": 0,
           "rating": null,
           "reviews_count": null,
           "qa_count": null,
-          "location": null,
+          "location": "West Bengal - Other",
           "city": null,
           "institute_type": null,
           "established_year": null
@@ -1141,9 +1439,65 @@
           "data": []
         },
         "faqs": [],
-        "all_programs": [],
-        "all_courses": [],
-        "faq_section": null
+        "all_programs": [
+          {
+            "program_name": "D.Pharma",
+            "course_count": 1,
+            "duration": "2 years",
+            "exams_accepted": "Not specified",
+            "median_salary": "Not available",
+            "total_tuition_fees": "Not available",
+            "program_link": "https://www.shiksha.com/college/uttar-dinajpur-h-m-pharmacy-college-west-bengal-other-237360/courses/dpharma-bc"
+          }
+        ],
+        "all_courses": [
+          {
+            "course_name": "Diploma in Pharmacy (D.Pharma)",
+            "duration": "2 years",
+            "seats_offered": 60,
+            "exams_accepted": "Not specified",
+            "median_salary": "Not available",
+            "total_tuition_fees": "Not available",
+            "course_link": "https://www.shiksha.com/college/uttar-dinajpur-h-m-pharmacy-college-west-bengal-other-237360/course-diploma-in-pharmacy-d-pharma-1286194"
+          }
+        ],
+        "faq_section": {
+          "heading": "FAQs",
+          "introduction": "",
+          "total_faqs": 3,
+          "faqs": [
+            {
+              "faq_number": 2,
+              "question": "JBIMS Mumbai",
+              "answer": {
+                "text": "Answer not found (dynamic content)",
+                "has_table": false,
+                "has_image": false,
+                "has_list": false
+              }
+            },
+            {
+              "faq_number": 3,
+              "question": "XIME Bangalore",
+              "answer": {
+                "text": "Answer not found (dynamic content)",
+                "has_table": false,
+                "has_image": false,
+                "has_list": false
+              }
+            },
+            {
+              "faq_number": 5,
+              "question": "IIM Ahmedabad",
+              "answer": {
+                "text": "Answer not found (dynamic content)",
+                "has_table": false,
+                "has_image": false,
+                "has_list": false
+              }
+            }
+          ]
+        }
       },
       "fees": {
         "college_info": {
@@ -1192,9 +1546,9 @@
       },
       "admission": {
         "admission_overview": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
+          "college_name": "Uttar Dinajpur H.M. Pharmacy College Admission 2025: Fees, Courses, Eligibility and Selection",
+          "logo": "https://images.shiksha.ws/pwa/public/images/ctpV2/default.svg",
+          "cover_image": "https://images.shiksha.ws/public/images/instHeaderDesktop.jpg",
           "videos_count": 0,
           "photos_count": 0,
           "rating": null,
@@ -1217,21 +1571,40 @@
             "faqs": []
           },
           "admission_process": {
-            "title": "",
-            "full_content": {},
+            "title": "Uttar Dinajpur H.M. Pharmacy College Admission Process 2025",
+            "full_content": {
+              "paragraphs": [
+                "Uttar Dinajpur H.M. Pharmacy College admissions are entrance-based. Candidates must appear for certain entrance exams to take admission. The college offers a variety of courses to the candidates at the UG level in the field of Medicine and Health Sciences. Read below for more details on Uttar Dinajpur H.M. Pharmacy College admission process:"
+              ],
+              "headings": [],
+              "lists": [],
+              "tables": [],
+              "key_points": []
+            },
             "fees_table": [],
             "seats_table": [],
-            "courses_data": [],
+            "courses_data": [
+              {
+                "name": "237360_70",
+                "stats": "1courses2 years",
+                "seat_intake": "60",
+                "description": "Uttar Dinajpur H.M. Pharmacy CollegeoffersD.Pharmaat the UG level. The course is offered via full time mode for a duration of 2 years.Uttar Dinajpur H.M. Pharmacy College D.Pharmaadmissions require students to satisfy the admission criteria as set by the college. Check below the eligibility criteria:"
+              }
+            ],
             "faqs": [],
-            "videos": []
+            "videos": [],
+            "additional_content": {
+              "links": [],
+              "notes": []
+            }
           }
         }
       },
       "placement": {
         "placement_report": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
+          "college_name": "Uttar Dinajpur H.M. Pharmacy College Placement - Average Package & Highest Salary",
+          "logo": "https://images.shiksha.ws/pwa/public/images/ctpV2/default.svg",
+          "cover_image": "https://images.shiksha.ws/public/images/instHeaderDesktop.jpg",
           "videos_count": 0,
           "photos_count": 0,
           "rating": null,
@@ -1251,11 +1624,11 @@
             "links": [],
             "user_feedback": "",
             "video_content": false,
-            "error": "Message: \nStacktrace:\n#0 0x55f5d08afb6a <unknown>\n#1 0x55f5d02c2a32 <unknown>\n#2 0x55f5d0317d66 <unknown>\n#3 0x55f5d0317fa1 <unknown>\n#4 0x55f5d0363144 <unknown>\n#5 0x55f5d0360369 <unknown>\n#6 0x55f5d0309c0f <unknown>\n#7 0x55f5d030a9d1 <unknown>\n#8 0x55f5d08746b9 <unknown>\n#9 0x55f5d08775c1 <unknown>\n#10 0x55f5d0860e29 <unknown>\n#11 0x55f5d087817e <unknown>\n#12 0x55f5d08474b0 <unknown>\n#13 0x55f5d089c578 <unknown>\n#14 0x55f5d089c74b <unknown>\n#15 0x55f5d08ae1a3 <unknown>\n#16 0x7f7d6049caa4 <unknown>\n#17 0x7f7d60529c6c <unknown>\n"
+            "error": "Message: \nStacktrace:\n#0 0x55a9c803ab6a <unknown>\n#1 0x55a9c7a4da32 <unknown>\n#2 0x55a9c7aa2d66 <unknown>\n#3 0x55a9c7aa2fa1 <unknown>\n#4 0x55a9c7aee144 <unknown>\n#5 0x55a9c7aeb369 <unknown>\n#6 0x55a9c7a94c0f <unknown>\n#7 0x55a9c7a959d1 <unknown>\n#8 0x55a9c7fff6b9 <unknown>\n#9 0x55a9c80025c1 <unknown>\n#10 0x55a9c7febe29 <unknown>\n#11 0x55a9c800317e <unknown>\n#12 0x55a9c7fd24b0 <unknown>\n#13 0x55a9c8027578 <unknown>\n#14 0x55a9c802774b <unknown>\n#15 0x55a9c80391a3 <unknown>\n#16 0x7fc97da9caa4 <unknown>\n#17 0x7fc97db29c6c <unknown>\n"
           },
           "placement_sections": {
             "average_package": {
-              "title": "IIM Ahmedabad Average Package 2025",
+              "title": "Average packages & top recruiters 2026",
               "main_table": [],
               "top_recruiters": [],
               "insights": [],
@@ -1263,7 +1636,7 @@
               "graph_image": "",
               "source_info": "",
               "complete_content": "",
-              "error": "Message: \nStacktrace:\n#0 0x55f5d08afb6a <unknown>\n#1 0x55f5d02c2a32 <unknown>\n#2 0x55f5d0317d66 <unknown>\n#3 0x55f5d0317fa1 <unknown>\n#4 0x55f5d0363144 <unknown>\n#5 0x55f5d0360369 <unknown>\n#6 0x55f5d0309c0f <unknown>\n#7 0x55f5d030a9d1 <unknown>\n#8 0x55f5d08746b9 <unknown>\n#9 0x55f5d08775c1 <unknown>\n#10 0x55f5d0860e29 <unknown>\n#11 0x55f5d087817e <unknown>\n#12 0x55f5d08474b0 <unknown>\n#13 0x55f5d089c578 <unknown>\n#14 0x55f5d089c74b <unknown>\n#15 0x55f5d08ae1a3 <unknown>\n#16 0x7f7d6049caa4 <unknown>\n#17 0x7f7d60529c6c <unknown>\n"
+              "user_feedback": "Does the data look accurate to you?"
             },
             "pgp_placements": {
               "title": "IIM Ahmedabad PGP Placements 2025",
@@ -1275,7 +1648,7 @@
               "placement_rating": "",
               "source_info": "",
               "complete_content": "",
-              "error": "Message: \nStacktrace:\n#0 0x55f5d08afb6a <unknown>\n#1 0x55f5d02c2a32 <unknown>\n#2 0x55f5d0317d66 <unknown>\n#3 0x55f5d0317fa1 <unknown>\n#4 0x55f5d0363144 <unknown>\n#5 0x55f5d0360369 <unknown>\n#6 0x55f5d0309c0f <unknown>\n#7 0x55f5d030a9d1 <unknown>\n#8 0x55f5d08746b9 <unknown>\n#9 0x55f5d08775c1 <unknown>\n#10 0x55f5d0860e29 <unknown>\n#11 0x55f5d087817e <unknown>\n#12 0x55f5d08474b0 <unknown>\n#13 0x55f5d089c578 <unknown>\n#14 0x55f5d089c74b <unknown>\n#15 0x55f5d08ae1a3 <unknown>\n#16 0x7f7d6049caa4 <unknown>\n#17 0x7f7d60529c6c <unknown>\n"
+              "error": "Message: \nStacktrace:\n#0 0x55a9c803ab6a <unknown>\n#1 0x55a9c7a4da32 <unknown>\n#2 0x55a9c7aa2d66 <unknown>\n#3 0x55a9c7aa2fa1 <unknown>\n#4 0x55a9c7aee144 <unknown>\n#5 0x55a9c7aeb369 <unknown>\n#6 0x55a9c7a94c0f <unknown>\n#7 0x55a9c7a959d1 <unknown>\n#8 0x55a9c7fff6b9 <unknown>\n#9 0x55a9c80025c1 <unknown>\n#10 0x55a9c7febe29 <unknown>\n#11 0x55a9c800317e <unknown>\n#12 0x55a9c7fd24b0 <unknown>\n#13 0x55a9c8027578 <unknown>\n#14 0x55a9c802774b <unknown>\n#15 0x55a9c80391a3 <unknown>\n#16 0x7fc97da9caa4 <unknown>\n#17 0x7fc97db29c6c <unknown>\n"
             }
           }
         }
@@ -1355,11 +1728,11 @@
       },
       "gallery": {
         "gallery_page": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
+          "college_name": "Uttar Dinajpur H.M. Pharmacy College Photos & Videos",
+          "logo": "https://images.shiksha.ws/pwa/public/images/ctpV2/default.svg",
+          "cover_image": "https://images.shiksha.ws/public/images/instHeaderDesktop.jpg",
           "videos_count": 0,
-          "photos_count": 0,
+          "photos_count": 4,
           "rating": null,
           "reviews_count": null,
           "qa_count": null,
@@ -1437,14 +1810,14 @@
   },
   {
     "college_details": {
-      "id": "college_1325",
+      "id": "college_4485",
       "college_info": {
         "college_info": {
           "college_info": {
-            "college_name": "Access Denied",
+            "college_name": "Viswa Kobi College of Pharmaceutical Science: Courses, Fees, Admission 2025, Reviews, Info",
             "rating": null,
-            "logo": null,
-            "cover_image": null,
+            "logo": "https://images.shiksha.ws/pwa/public/images/ctpV2/default.svg",
+            "cover_image": "https://images.shiksha.ws/public/images/instHeaderDesktop.jpg",
             "reviews_count": null,
             "qa_count": null,
             "location": null,
@@ -1452,8 +1825,29 @@
             "institute_type": null,
             "established_year": null,
             "highlights": {
-              "summary": "Summary not available",
-              "table": [],
+              "summary": "Viswa Kobi College of Pharmaceutical Science, is located in West Bengal. It is an institute approved by PCI. Viswa Kobi College of Pharmaceutical Science provides 1 UG course in several specialisations. This programme is offered in Full Time mode. D.Pharma is some of the course offered at Viswa Kobi College of Pharmaceutical Science. Some of the stream in which this course is offered include Medicine & Health Sciences. Viswa Kobi College of Pharmaceutical Science has a student intake of 60 for all the courses. Viswa Kobi College of Pharmaceutical Science offers all the infrastructural facilities to students.",
+              "table": [
+                {
+                  "particular": "Campus Location",
+                  "details": "West Bengal"
+                },
+                {
+                  "particular": "Courses Offered",
+                  "details": "UG"
+                },
+                {
+                  "particular": "No. of Seats",
+                  "details": "60"
+                },
+                {
+                  "particular": "Median Salary",
+                  "details": "-"
+                },
+                {
+                  "particular": "Fees Range",
+                  "details": "-"
+                }
+              ],
               "faqs": []
             },
             "intro": null,
@@ -1463,7 +1857,7 @@
           "intro": null,
           "courses": [],
           "fees_and_eligibility": {
-            "overview": "Data not available",
+            "overview": "Overview not available",
             "courses_table": [],
             "faqs": [],
             "key_statistics": {}
@@ -1479,15 +1873,15 @@
       },
       "courses": {
         "college_info": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
+          "college_name": "Viswa Kobi College of Pharmaceutical Science Courses: Degree, Diploma, Certificate 2026",
+          "logo": "https://images.shiksha.ws/pwa/public/images/ctpV2/default.svg",
+          "cover_image": "https://images.shiksha.ws/public/images/instHeaderDesktop.jpg",
           "videos_count": 0,
           "photos_count": 0,
           "rating": null,
           "reviews_count": null,
           "qa_count": null,
-          "location": null,
+          "location": "West Bengal - Other",
           "city": null,
           "institute_type": null,
           "established_year": null
@@ -1500,9 +1894,65 @@
           "data": []
         },
         "faqs": [],
-        "all_programs": [],
-        "all_courses": [],
-        "faq_section": null
+        "all_programs": [
+          {
+            "program_name": "D.Pharma",
+            "course_count": 1,
+            "duration": "2 years",
+            "exams_accepted": "Not specified",
+            "median_salary": "Not available",
+            "total_tuition_fees": "Not available",
+            "program_link": "https://www.shiksha.com/college/viswa-kobi-college-of-pharmaceutical-science-west-bengal-other-237364/courses/dpharma-bc"
+          }
+        ],
+        "all_courses": [
+          {
+            "course_name": "Diploma in Pharmacy (D.Pharma)",
+            "duration": "2 years",
+            "seats_offered": 60,
+            "exams_accepted": "Not specified",
+            "median_salary": "Not available",
+            "total_tuition_fees": "Not available",
+            "course_link": "https://www.shiksha.com/college/viswa-kobi-college-of-pharmaceutical-science-west-bengal-other-237364/course-diploma-in-pharmacy-d-pharma-1286198"
+          }
+        ],
+        "faq_section": {
+          "heading": "FAQs",
+          "introduction": "",
+          "total_faqs": 3,
+          "faqs": [
+            {
+              "faq_number": 2,
+              "question": "JBIMS Mumbai",
+              "answer": {
+                "text": "Answer not found (dynamic content)",
+                "has_table": false,
+                "has_image": false,
+                "has_list": false
+              }
+            },
+            {
+              "faq_number": 3,
+              "question": "XIME Bangalore",
+              "answer": {
+                "text": "Answer not found (dynamic content)",
+                "has_table": false,
+                "has_image": false,
+                "has_list": false
+              }
+            },
+            {
+              "faq_number": 5,
+              "question": "IIM Ahmedabad",
+              "answer": {
+                "text": "Answer not found (dynamic content)",
+                "has_table": false,
+                "has_image": false,
+                "has_list": false
+              }
+            }
+          ]
+        }
       },
       "fees": {
         "college_info": {
@@ -1610,7 +2060,7 @@
             "links": [],
             "user_feedback": "",
             "video_content": false,
-            "error": "Message: \nStacktrace:\n#0 0x55f5d08afb6a <unknown>\n#1 0x55f5d02c2a32 <unknown>\n#2 0x55f5d0317d66 <unknown>\n#3 0x55f5d0317fa1 <unknown>\n#4 0x55f5d0363144 <unknown>\n#5 0x55f5d0360369 <unknown>\n#6 0x55f5d0309c0f <unknown>\n#7 0x55f5d030a9d1 <unknown>\n#8 0x55f5d08746b9 <unknown>\n#9 0x55f5d08775c1 <unknown>\n#10 0x55f5d0860e29 <unknown>\n#11 0x55f5d087817e <unknown>\n#12 0x55f5d08474b0 <unknown>\n#13 0x55f5d089c578 <unknown>\n#14 0x55f5d089c74b <unknown>\n#15 0x55f5d08ae1a3 <unknown>\n#16 0x7f7d6049caa4 <unknown>\n#17 0x7f7d60529c6c <unknown>\n"
+            "error": "Message: \nStacktrace:\n#0 0x55a9c803ab6a <unknown>\n#1 0x55a9c7a4da32 <unknown>\n#2 0x55a9c7aa2d66 <unknown>\n#3 0x55a9c7aa2fa1 <unknown>\n#4 0x55a9c7aee144 <unknown>\n#5 0x55a9c7aeb369 <unknown>\n#6 0x55a9c7a94c0f <unknown>\n#7 0x55a9c7a959d1 <unknown>\n#8 0x55a9c7fff6b9 <unknown>\n#9 0x55a9c80025c1 <unknown>\n#10 0x55a9c7febe29 <unknown>\n#11 0x55a9c800317e <unknown>\n#12 0x55a9c7fd24b0 <unknown>\n#13 0x55a9c8027578 <unknown>\n#14 0x55a9c802774b <unknown>\n#15 0x55a9c80391a3 <unknown>\n#16 0x7fc97da9caa4 <unknown>\n#17 0x7fc97db29c6c <unknown>\n"
           },
           "placement_sections": {
             "average_package": {
@@ -1622,7 +2072,7 @@
               "graph_image": "",
               "source_info": "",
               "complete_content": "",
-              "error": "Message: \nStacktrace:\n#0 0x55f5d08afb6a <unknown>\n#1 0x55f5d02c2a32 <unknown>\n#2 0x55f5d0317d66 <unknown>\n#3 0x55f5d0317fa1 <unknown>\n#4 0x55f5d0363144 <unknown>\n#5 0x55f5d0360369 <unknown>\n#6 0x55f5d0309c0f <unknown>\n#7 0x55f5d030a9d1 <unknown>\n#8 0x55f5d08746b9 <unknown>\n#9 0x55f5d08775c1 <unknown>\n#10 0x55f5d0860e29 <unknown>\n#11 0x55f5d087817e <unknown>\n#12 0x55f5d08474b0 <unknown>\n#13 0x55f5d089c578 <unknown>\n#14 0x55f5d089c74b <unknown>\n#15 0x55f5d08ae1a3 <unknown>\n#16 0x7f7d6049caa4 <unknown>\n#17 0x7f7d60529c6c <unknown>\n"
+              "error": "Message: \nStacktrace:\n#0 0x55a9c803ab6a <unknown>\n#1 0x55a9c7a4da32 <unknown>\n#2 0x55a9c7aa2d66 <unknown>\n#3 0x55a9c7aa2fa1 <unknown>\n#4 0x55a9c7aee144 <unknown>\n#5 0x55a9c7aeb369 <unknown>\n#6 0x55a9c7a94c0f <unknown>\n#7 0x55a9c7a959d1 <unknown>\n#8 0x55a9c7fff6b9 <unknown>\n#9 0x55a9c80025c1 <unknown>\n#10 0x55a9c7febe29 <unknown>\n#11 0x55a9c800317e <unknown>\n#12 0x55a9c7fd24b0 <unknown>\n#13 0x55a9c8027578 <unknown>\n#14 0x55a9c802774b <unknown>\n#15 0x55a9c80391a3 <unknown>\n#16 0x7fc97da9caa4 <unknown>\n#17 0x7fc97db29c6c <unknown>\n"
             },
             "pgp_placements": {
               "title": "IIM Ahmedabad PGP Placements 2025",
@@ -1634,7 +2084,7 @@
               "placement_rating": "",
               "source_info": "",
               "complete_content": "",
-              "error": "Message: \nStacktrace:\n#0 0x55f5d08afb6a <unknown>\n#1 0x55f5d02c2a32 <unknown>\n#2 0x55f5d0317d66 <unknown>\n#3 0x55f5d0317fa1 <unknown>\n#4 0x55f5d0363144 <unknown>\n#5 0x55f5d0360369 <unknown>\n#6 0x55f5d0309c0f <unknown>\n#7 0x55f5d030a9d1 <unknown>\n#8 0x55f5d08746b9 <unknown>\n#9 0x55f5d08775c1 <unknown>\n#10 0x55f5d0860e29 <unknown>\n#11 0x55f5d087817e <unknown>\n#12 0x55f5d08474b0 <unknown>\n#13 0x55f5d089c578 <unknown>\n#14 0x55f5d089c74b <unknown>\n#15 0x55f5d08ae1a3 <unknown>\n#16 0x7f7d6049caa4 <unknown>\n#17 0x7f7d60529c6c <unknown>\n"
+              "error": "Message: \nStacktrace:\n#0 0x55a9c803ab6a <unknown>\n#1 0x55a9c7a4da32 <unknown>\n#2 0x55a9c7aa2d66 <unknown>\n#3 0x55a9c7aa2fa1 <unknown>\n#4 0x55a9c7aee144 <unknown>\n#5 0x55a9c7aeb369 <unknown>\n#6 0x55a9c7a94c0f <unknown>\n#7 0x55a9c7a959d1 <unknown>\n#8 0x55a9c7fff6b9 <unknown>\n#9 0x55a9c80025c1 <unknown>\n#10 0x55a9c7febe29 <unknown>\n#11 0x55a9c800317e <unknown>\n#12 0x55a9c7fd24b0 <unknown>\n#13 0x55a9c8027578 <unknown>\n#14 0x55a9c802774b <unknown>\n#15 0x55a9c80391a3 <unknown>\n#16 0x7fc97da9caa4 <unknown>\n#17 0x7fc97db29c6c <unknown>\n"
             }
           }
         }
@@ -1714,11 +2164,11 @@
       },
       "gallery": {
         "gallery_page": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
+          "college_name": "Viswa Kobi College of Pharmaceutical Science Photos & Videos",
+          "logo": "https://images.shiksha.ws/pwa/public/images/ctpV2/default.svg",
+          "cover_image": "https://images.shiksha.ws/public/images/instHeaderDesktop.jpg",
           "videos_count": 0,
-          "photos_count": 0,
+          "photos_count": 4,
           "rating": null,
           "reviews_count": null,
           "qa_count": null,
@@ -1796,14 +2246,14 @@
   },
   {
     "college_details": {
-      "id": "college_1326",
+      "id": "college_4486",
       "college_info": {
         "college_info": {
           "college_info": {
-            "college_name": "Access Denied",
+            "college_name": "Dr. APJ Abdul Kalam College of Pharmacy: Courses, Fees, Admission 2025, Reviews, Info",
             "rating": null,
-            "logo": null,
-            "cover_image": null,
+            "logo": "https://images.shiksha.ws/pwa/public/images/ctpV2/default.svg",
+            "cover_image": "https://images.shiksha.ws/public/images/instHeaderDesktop.jpg",
             "reviews_count": null,
             "qa_count": null,
             "location": null,
@@ -1811,8 +2261,29 @@
             "institute_type": null,
             "established_year": null,
             "highlights": {
-              "summary": "Summary not available",
-              "table": [],
+              "summary": "Dr. APJ Abdul Kalam College of Pharmacy, is located in Jharkhand. It is an institute approved by PCI. Dr. APJ Abdul Kalam College of Pharmacy provides 1 UG course in several specialisations. This programme is offered in Full Time mode. D.Pharma is some of the course offered at Dr. APJ Abdul Kalam College of Pharmacy. Some of the stream in which this course is offered include Medicine & Health Sciences. Dr. APJ Abdul Kalam College of Pharmacy has a student intake of 60 for all the courses. Dr. APJ Abdul Kalam College of Pharmacy offers all the infrastructural facilities to students.",
+              "table": [
+                {
+                  "particular": "Campus Location",
+                  "details": "Jharkhand"
+                },
+                {
+                  "particular": "Courses Offered",
+                  "details": "UG"
+                },
+                {
+                  "particular": "No. of Seats",
+                  "details": "60"
+                },
+                {
+                  "particular": "Median Salary",
+                  "details": "-"
+                },
+                {
+                  "particular": "Fees Range",
+                  "details": "-"
+                }
+              ],
               "faqs": []
             },
             "intro": null,
@@ -1822,7 +2293,7 @@
           "intro": null,
           "courses": [],
           "fees_and_eligibility": {
-            "overview": "Data not available",
+            "overview": "Overview not available",
             "courses_table": [],
             "faqs": [],
             "key_statistics": {}
@@ -1838,15 +2309,15 @@
       },
       "courses": {
         "college_info": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
+          "college_name": "Dr. APJ Abdul Kalam College of Pharmacy Courses: Degree, Diploma, Certificate 2026",
+          "logo": "https://images.shiksha.ws/pwa/public/images/ctpV2/default.svg",
+          "cover_image": "https://images.shiksha.ws/public/images/instHeaderDesktop.jpg",
           "videos_count": 0,
           "photos_count": 0,
           "rating": null,
           "reviews_count": null,
           "qa_count": null,
-          "location": null,
+          "location": "Jharkhand - Other",
           "city": null,
           "institute_type": null,
           "established_year": null
@@ -1859,9 +2330,65 @@
           "data": []
         },
         "faqs": [],
-        "all_programs": [],
-        "all_courses": [],
-        "faq_section": null
+        "all_programs": [
+          {
+            "program_name": "D.Pharma",
+            "course_count": 1,
+            "duration": "2 years",
+            "exams_accepted": "Not specified",
+            "median_salary": "Not available",
+            "total_tuition_fees": "Not available",
+            "program_link": "https://www.shiksha.com/college/dr-apj-abdul-kalam-college-of-pharmacy-jharkhand-other-237400/courses/dpharma-bc"
+          }
+        ],
+        "all_courses": [
+          {
+            "course_name": "Diploma in Pharmacy (D.Pharma)",
+            "duration": "2 years",
+            "seats_offered": 60,
+            "exams_accepted": "Not specified",
+            "median_salary": "Not available",
+            "total_tuition_fees": "Not available",
+            "course_link": "https://www.shiksha.com/college/dr-apj-abdul-kalam-college-of-pharmacy-jharkhand-other-237400/course-diploma-in-pharmacy-d-pharma-1286232"
+          }
+        ],
+        "faq_section": {
+          "heading": "FAQs",
+          "introduction": "",
+          "total_faqs": 3,
+          "faqs": [
+            {
+              "faq_number": 2,
+              "question": "JBIMS Mumbai",
+              "answer": {
+                "text": "Answer not found (dynamic content)",
+                "has_table": false,
+                "has_image": false,
+                "has_list": false
+              }
+            },
+            {
+              "faq_number": 3,
+              "question": "XIME Bangalore",
+              "answer": {
+                "text": "Answer not found (dynamic content)",
+                "has_table": false,
+                "has_image": false,
+                "has_list": false
+              }
+            },
+            {
+              "faq_number": 5,
+              "question": "IIM Ahmedabad",
+              "answer": {
+                "text": "Answer not found (dynamic content)",
+                "has_table": false,
+                "has_image": false,
+                "has_list": false
+              }
+            }
+          ]
+        }
       },
       "fees": {
         "college_info": {
@@ -1969,7 +2496,7 @@
             "links": [],
             "user_feedback": "",
             "video_content": false,
-            "error": "Message: \nStacktrace:\n#0 0x55f5d08afb6a <unknown>\n#1 0x55f5d02c2a32 <unknown>\n#2 0x55f5d0317d66 <unknown>\n#3 0x55f5d0317fa1 <unknown>\n#4 0x55f5d0363144 <unknown>\n#5 0x55f5d0360369 <unknown>\n#6 0x55f5d0309c0f <unknown>\n#7 0x55f5d030a9d1 <unknown>\n#8 0x55f5d08746b9 <unknown>\n#9 0x55f5d08775c1 <unknown>\n#10 0x55f5d0860e29 <unknown>\n#11 0x55f5d087817e <unknown>\n#12 0x55f5d08474b0 <unknown>\n#13 0x55f5d089c578 <unknown>\n#14 0x55f5d089c74b <unknown>\n#15 0x55f5d08ae1a3 <unknown>\n#16 0x7f7d6049caa4 <unknown>\n#17 0x7f7d60529c6c <unknown>\n"
+            "error": "Message: \nStacktrace:\n#0 0x55a9c803ab6a <unknown>\n#1 0x55a9c7a4da32 <unknown>\n#2 0x55a9c7aa2d66 <unknown>\n#3 0x55a9c7aa2fa1 <unknown>\n#4 0x55a9c7aee144 <unknown>\n#5 0x55a9c7aeb369 <unknown>\n#6 0x55a9c7a94c0f <unknown>\n#7 0x55a9c7a959d1 <unknown>\n#8 0x55a9c7fff6b9 <unknown>\n#9 0x55a9c80025c1 <unknown>\n#10 0x55a9c7febe29 <unknown>\n#11 0x55a9c800317e <unknown>\n#12 0x55a9c7fd24b0 <unknown>\n#13 0x55a9c8027578 <unknown>\n#14 0x55a9c802774b <unknown>\n#15 0x55a9c80391a3 <unknown>\n#16 0x7fc97da9caa4 <unknown>\n#17 0x7fc97db29c6c <unknown>\n"
           },
           "placement_sections": {
             "average_package": {
@@ -1981,7 +2508,7 @@
               "graph_image": "",
               "source_info": "",
               "complete_content": "",
-              "error": "Message: \nStacktrace:\n#0 0x55f5d08afb6a <unknown>\n#1 0x55f5d02c2a32 <unknown>\n#2 0x55f5d0317d66 <unknown>\n#3 0x55f5d0317fa1 <unknown>\n#4 0x55f5d0363144 <unknown>\n#5 0x55f5d0360369 <unknown>\n#6 0x55f5d0309c0f <unknown>\n#7 0x55f5d030a9d1 <unknown>\n#8 0x55f5d08746b9 <unknown>\n#9 0x55f5d08775c1 <unknown>\n#10 0x55f5d0860e29 <unknown>\n#11 0x55f5d087817e <unknown>\n#12 0x55f5d08474b0 <unknown>\n#13 0x55f5d089c578 <unknown>\n#14 0x55f5d089c74b <unknown>\n#15 0x55f5d08ae1a3 <unknown>\n#16 0x7f7d6049caa4 <unknown>\n#17 0x7f7d60529c6c <unknown>\n"
+              "error": "Message: \nStacktrace:\n#0 0x55a9c803ab6a <unknown>\n#1 0x55a9c7a4da32 <unknown>\n#2 0x55a9c7aa2d66 <unknown>\n#3 0x55a9c7aa2fa1 <unknown>\n#4 0x55a9c7aee144 <unknown>\n#5 0x55a9c7aeb369 <unknown>\n#6 0x55a9c7a94c0f <unknown>\n#7 0x55a9c7a959d1 <unknown>\n#8 0x55a9c7fff6b9 <unknown>\n#9 0x55a9c80025c1 <unknown>\n#10 0x55a9c7febe29 <unknown>\n#11 0x55a9c800317e <unknown>\n#12 0x55a9c7fd24b0 <unknown>\n#13 0x55a9c8027578 <unknown>\n#14 0x55a9c802774b <unknown>\n#15 0x55a9c80391a3 <unknown>\n#16 0x7fc97da9caa4 <unknown>\n#17 0x7fc97db29c6c <unknown>\n"
             },
             "pgp_placements": {
               "title": "IIM Ahmedabad PGP Placements 2025",
@@ -1993,7 +2520,7 @@
               "placement_rating": "",
               "source_info": "",
               "complete_content": "",
-              "error": "Message: \nStacktrace:\n#0 0x55f5d08afb6a <unknown>\n#1 0x55f5d02c2a32 <unknown>\n#2 0x55f5d0317d66 <unknown>\n#3 0x55f5d0317fa1 <unknown>\n#4 0x55f5d0363144 <unknown>\n#5 0x55f5d0360369 <unknown>\n#6 0x55f5d0309c0f <unknown>\n#7 0x55f5d030a9d1 <unknown>\n#8 0x55f5d08746b9 <unknown>\n#9 0x55f5d08775c1 <unknown>\n#10 0x55f5d0860e29 <unknown>\n#11 0x55f5d087817e <unknown>\n#12 0x55f5d08474b0 <unknown>\n#13 0x55f5d089c578 <unknown>\n#14 0x55f5d089c74b <unknown>\n#15 0x55f5d08ae1a3 <unknown>\n#16 0x7f7d6049caa4 <unknown>\n#17 0x7f7d60529c6c <unknown>\n"
+              "error": "Message: \nStacktrace:\n#0 0x55a9c803ab6a <unknown>\n#1 0x55a9c7a4da32 <unknown>\n#2 0x55a9c7aa2d66 <unknown>\n#3 0x55a9c7aa2fa1 <unknown>\n#4 0x55a9c7aee144 <unknown>\n#5 0x55a9c7aeb369 <unknown>\n#6 0x55a9c7a94c0f <unknown>\n#7 0x55a9c7a959d1 <unknown>\n#8 0x55a9c7fff6b9 <unknown>\n#9 0x55a9c80025c1 <unknown>\n#10 0x55a9c7febe29 <unknown>\n#11 0x55a9c800317e <unknown>\n#12 0x55a9c7fd24b0 <unknown>\n#13 0x55a9c8027578 <unknown>\n#14 0x55a9c802774b <unknown>\n#15 0x55a9c80391a3 <unknown>\n#16 0x7fc97da9caa4 <unknown>\n#17 0x7fc97db29c6c <unknown>\n"
             }
           }
         }
@@ -2073,11 +2600,11 @@
       },
       "gallery": {
         "gallery_page": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
+          "college_name": "Dr. APJ Abdul Kalam College of Pharmacy Photos & Videos",
+          "logo": "https://images.shiksha.ws/pwa/public/images/ctpV2/default.svg",
+          "cover_image": "https://images.shiksha.ws/public/images/instHeaderDesktop.jpg",
           "videos_count": 0,
-          "photos_count": 0,
+          "photos_count": 4,
           "rating": null,
           "reviews_count": null,
           "qa_count": null,
@@ -2155,14 +2682,14 @@
   },
   {
     "college_details": {
-      "id": "college_1327",
+      "id": "college_4487",
       "college_info": {
         "college_info": {
           "college_info": {
-            "college_name": "Access Denied",
+            "college_name": "Bhagwan Mahavir Institute of Medical Sciences",
             "rating": null,
-            "logo": null,
-            "cover_image": null,
+            "logo": "https://images.shiksha.ws/pwa/public/images/ctpV2/default.svg",
+            "cover_image": "https://images.shiksha.ws/public/images/instHeaderDesktop.jpg",
             "reviews_count": null,
             "qa_count": null,
             "location": null,
@@ -2170,8 +2697,29 @@
             "institute_type": null,
             "established_year": null,
             "highlights": {
-              "summary": "Summary not available",
-              "table": [],
+              "summary": "Bhagwan Mahavir Institute of Medical Sciences is located in Nalanda, Bihar. The institute offers course like UG Diploma. This course is offered in Full Time mode. A total of 4 courses offered by the Institute are available across stream such as Medicine & Health Sciences. The institute has all the necessary facilities to the students.",
+              "table": [
+                {
+                  "particular": "Campus Location",
+                  "details": "Nalanda, Bihar"
+                },
+                {
+                  "particular": "Courses Offered",
+                  "details": "UG"
+                },
+                {
+                  "particular": "No. of Seats",
+                  "details": "-"
+                },
+                {
+                  "particular": "Median Salary",
+                  "details": "-"
+                },
+                {
+                  "particular": "Fees Range",
+                  "details": "-"
+                }
+              ],
               "faqs": []
             },
             "intro": null,
@@ -2181,7 +2729,7 @@
           "intro": null,
           "courses": [],
           "fees_and_eligibility": {
-            "overview": "Data not available",
+            "overview": "Overview not available",
             "courses_table": [],
             "faqs": [],
             "key_statistics": {}
@@ -2197,30 +2745,153 @@
       },
       "courses": {
         "college_info": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
+          "college_name": "Bhagwan Mahavir Institute of Medical Sciences Courses: Degree, Diploma, Certificate 2026",
+          "logo": "https://images.shiksha.ws/pwa/public/images/ctpV2/default.svg",
+          "cover_image": "https://images.shiksha.ws/public/images/instHeaderDesktop.jpg",
           "videos_count": 0,
           "photos_count": 0,
           "rating": null,
           "reviews_count": null,
           "qa_count": null,
-          "location": null,
+          "location": "Nalanda",
           "city": null,
           "institute_type": null,
           "established_year": null
         },
-        "overview": "",
-        "courses": [],
+        "overview": "Course and Fees 2026",
+        "courses": [
+          {
+            "course_name": "UG Diploma",
+            "course_count": 4,
+            "fees": "– / –",
+            "eligibility": {
+              "exams": [
+                "DCECE"
+              ]
+            },
+            "link": "https://www.shiksha.com/college/bhagwan-mahavir-institute-of-medical-sciences-nalanda-240260/courses/ug-diploma-bc"
+          }
+        ],
         "fee_structure": {
-          "heading": "",
+          "heading": "Course and Fees 2026",
           "overview": "",
           "data": []
         },
         "faqs": [],
-        "all_programs": [],
-        "all_courses": [],
-        "faq_section": null
+        "all_programs": [
+          {
+            "program_name": "UG Diploma",
+            "course_count": 4,
+            "duration": "2 years",
+            "exams_accepted": [
+              "DCECE"
+            ],
+            "median_salary": "Not available",
+            "total_tuition_fees": "Not available",
+            "program_link": "https://www.shiksha.com/college/bhagwan-mahavir-institute-of-medical-sciences-nalanda-240260/courses/ug-diploma-bc"
+          },
+          {
+            "program_name": "MBBS",
+            "course_count": 1,
+            "duration": "66 months",
+            "exams_accepted": "Not specified",
+            "median_salary": "Not available",
+            "total_tuition_fees": "Not available",
+            "program_link": "https://www.shiksha.com/college/bhagwan-mahavir-institute-of-medical-sciences-nalanda-240260/courses/mbbs-bc"
+          }
+        ],
+        "all_courses": [
+          {
+            "course_name": "Diploma in Opthalmic Assistant",
+            "duration": "2 years",
+            "seats_offered": "Not specified",
+            "exams_accepted": [
+              "DCECE"
+            ],
+            "median_salary": "Not available",
+            "total_tuition_fees": "Not available",
+            "course_link": "https://www.shiksha.com/college/bhagwan-mahavir-institute-of-medical-sciences-nalanda-240260/course-diploma-in-opthalmic-assistant-1337584"
+          },
+          {
+            "course_name": "Bachelor of Medicine and Bachelor of Surgery (MBBS)",
+            "duration": "66 months",
+            "seats_offered": "Not specified",
+            "exams_accepted": "Not specified",
+            "median_salary": "Not available",
+            "total_tuition_fees": "Not available",
+            "course_link": "https://www.shiksha.com/college/bhagwan-mahavir-institute-of-medical-sciences-nalanda-240260/course-bachelor-of-medicine-and-bachelor-of-surgery-mbbs-1446480"
+          },
+          {
+            "course_name": "Diploma in Laboratory Technician",
+            "duration": "2 years",
+            "seats_offered": "Not specified",
+            "exams_accepted": [
+              "DCECE"
+            ],
+            "median_salary": "Not available",
+            "total_tuition_fees": "Not available",
+            "course_link": "https://www.shiksha.com/college/bhagwan-mahavir-institute-of-medical-sciences-nalanda-240260/course-diploma-in-laboratory-technician-1337586"
+          },
+          {
+            "course_name": "Diploma in X' Ray Technician",
+            "duration": "2 years",
+            "seats_offered": "Not specified",
+            "exams_accepted": [
+              "DCECE"
+            ],
+            "median_salary": "Not available",
+            "total_tuition_fees": "Not available",
+            "course_link": "https://www.shiksha.com/college/bhagwan-mahavir-institute-of-medical-sciences-nalanda-240260/course-diploma-in-x-ray-technician-1337588"
+          },
+          {
+            "course_name": "Diploma in Operation Theatre Assistant",
+            "duration": "2 years",
+            "seats_offered": "Not specified",
+            "exams_accepted": [
+              "DCECE"
+            ],
+            "median_salary": "Not available",
+            "total_tuition_fees": "Not available",
+            "course_link": "https://www.shiksha.com/college/bhagwan-mahavir-institute-of-medical-sciences-nalanda-240260/course-diploma-in-operation-theatre-assistant-1337590"
+          }
+        ],
+        "faq_section": {
+          "heading": "FAQs",
+          "introduction": "",
+          "total_faqs": 3,
+          "faqs": [
+            {
+              "faq_number": 2,
+              "question": "JBIMS Mumbai",
+              "answer": {
+                "text": "Answer not found (dynamic content)",
+                "has_table": false,
+                "has_image": false,
+                "has_list": false
+              }
+            },
+            {
+              "faq_number": 3,
+              "question": "XIME Bangalore",
+              "answer": {
+                "text": "Answer not found (dynamic content)",
+                "has_table": false,
+                "has_image": false,
+                "has_list": false
+              }
+            },
+            {
+              "faq_number": 5,
+              "question": "IIM Ahmedabad",
+              "answer": {
+                "text": "Answer not found (dynamic content)",
+                "has_table": false,
+                "has_image": false,
+                "has_list": false
+              }
+            }
+          ]
+        }
       },
       "fees": {
         "college_info": {
@@ -2306,9 +2977,9 @@
       },
       "placement": {
         "placement_report": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
+          "college_name": "Bhagwan Mahavir Institute of Medical Sciences Placement - Average Package & Highest Salary",
+          "logo": "https://images.shiksha.ws/pwa/public/images/ctpV2/default.svg",
+          "cover_image": "https://images.shiksha.ws/public/images/instHeaderDesktop.jpg",
           "videos_count": 0,
           "photos_count": 0,
           "rating": null,
@@ -2328,11 +2999,11 @@
             "links": [],
             "user_feedback": "",
             "video_content": false,
-            "error": "Message: \nStacktrace:\n#0 0x55f5d08afb6a <unknown>\n#1 0x55f5d02c2a32 <unknown>\n#2 0x55f5d0317d66 <unknown>\n#3 0x55f5d0317fa1 <unknown>\n#4 0x55f5d0363144 <unknown>\n#5 0x55f5d0360369 <unknown>\n#6 0x55f5d0309c0f <unknown>\n#7 0x55f5d030a9d1 <unknown>\n#8 0x55f5d08746b9 <unknown>\n#9 0x55f5d08775c1 <unknown>\n#10 0x55f5d0860e29 <unknown>\n#11 0x55f5d087817e <unknown>\n#12 0x55f5d08474b0 <unknown>\n#13 0x55f5d089c578 <unknown>\n#14 0x55f5d089c74b <unknown>\n#15 0x55f5d08ae1a3 <unknown>\n#16 0x7f7d6049caa4 <unknown>\n#17 0x7f7d60529c6c <unknown>\n"
+            "error": "Message: \nStacktrace:\n#0 0x55a9c803ab6a <unknown>\n#1 0x55a9c7a4da32 <unknown>\n#2 0x55a9c7aa2d66 <unknown>\n#3 0x55a9c7aa2fa1 <unknown>\n#4 0x55a9c7aee144 <unknown>\n#5 0x55a9c7aeb369 <unknown>\n#6 0x55a9c7a94c0f <unknown>\n#7 0x55a9c7a959d1 <unknown>\n#8 0x55a9c7fff6b9 <unknown>\n#9 0x55a9c80025c1 <unknown>\n#10 0x55a9c7febe29 <unknown>\n#11 0x55a9c800317e <unknown>\n#12 0x55a9c7fd24b0 <unknown>\n#13 0x55a9c8027578 <unknown>\n#14 0x55a9c802774b <unknown>\n#15 0x55a9c80391a3 <unknown>\n#16 0x7fc97da9caa4 <unknown>\n#17 0x7fc97db29c6c <unknown>\n"
           },
           "placement_sections": {
             "average_package": {
-              "title": "IIM Ahmedabad Average Package 2025",
+              "title": "Average packages & top recruiters 2026",
               "main_table": [],
               "top_recruiters": [],
               "insights": [],
@@ -2340,7 +3011,7 @@
               "graph_image": "",
               "source_info": "",
               "complete_content": "",
-              "error": "Message: \nStacktrace:\n#0 0x55f5d08afb6a <unknown>\n#1 0x55f5d02c2a32 <unknown>\n#2 0x55f5d0317d66 <unknown>\n#3 0x55f5d0317fa1 <unknown>\n#4 0x55f5d0363144 <unknown>\n#5 0x55f5d0360369 <unknown>\n#6 0x55f5d0309c0f <unknown>\n#7 0x55f5d030a9d1 <unknown>\n#8 0x55f5d08746b9 <unknown>\n#9 0x55f5d08775c1 <unknown>\n#10 0x55f5d0860e29 <unknown>\n#11 0x55f5d087817e <unknown>\n#12 0x55f5d08474b0 <unknown>\n#13 0x55f5d089c578 <unknown>\n#14 0x55f5d089c74b <unknown>\n#15 0x55f5d08ae1a3 <unknown>\n#16 0x7f7d6049caa4 <unknown>\n#17 0x7f7d60529c6c <unknown>\n"
+              "user_feedback": "Does the data look accurate to you?"
             },
             "pgp_placements": {
               "title": "IIM Ahmedabad PGP Placements 2025",
@@ -2352,16 +3023,16 @@
               "placement_rating": "",
               "source_info": "",
               "complete_content": "",
-              "error": "Message: \nStacktrace:\n#0 0x55f5d08afb6a <unknown>\n#1 0x55f5d02c2a32 <unknown>\n#2 0x55f5d0317d66 <unknown>\n#3 0x55f5d0317fa1 <unknown>\n#4 0x55f5d0363144 <unknown>\n#5 0x55f5d0360369 <unknown>\n#6 0x55f5d0309c0f <unknown>\n#7 0x55f5d030a9d1 <unknown>\n#8 0x55f5d08746b9 <unknown>\n#9 0x55f5d08775c1 <unknown>\n#10 0x55f5d0860e29 <unknown>\n#11 0x55f5d087817e <unknown>\n#12 0x55f5d08474b0 <unknown>\n#13 0x55f5d089c578 <unknown>\n#14 0x55f5d089c74b <unknown>\n#15 0x55f5d08ae1a3 <unknown>\n#16 0x7f7d6049caa4 <unknown>\n#17 0x7f7d60529c6c <unknown>\n"
+              "error": "Message: \nStacktrace:\n#0 0x55a9c803ab6a <unknown>\n#1 0x55a9c7a4da32 <unknown>\n#2 0x55a9c7aa2d66 <unknown>\n#3 0x55a9c7aa2fa1 <unknown>\n#4 0x55a9c7aee144 <unknown>\n#5 0x55a9c7aeb369 <unknown>\n#6 0x55a9c7a94c0f <unknown>\n#7 0x55a9c7a959d1 <unknown>\n#8 0x55a9c7fff6b9 <unknown>\n#9 0x55a9c80025c1 <unknown>\n#10 0x55a9c7febe29 <unknown>\n#11 0x55a9c800317e <unknown>\n#12 0x55a9c7fd24b0 <unknown>\n#13 0x55a9c8027578 <unknown>\n#14 0x55a9c802774b <unknown>\n#15 0x55a9c80391a3 <unknown>\n#16 0x7fc97da9caa4 <unknown>\n#17 0x7fc97db29c6c <unknown>\n"
             }
           }
         }
       },
       "cut_off": {
         "cut_off": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
+          "college_name": "Bhagwan Mahavir Institute of Medical Sciences Cutoff 2025: Check Bihar NEET UG Round Wise Ranks",
+          "logo": "https://images.shiksha.ws/pwa/public/images/ctpV2/default.svg",
+          "cover_image": "https://images.shiksha.ws/public/images/instHeaderDesktop.jpg",
           "videos_count": 0,
           "photos_count": 0,
           "rating": null,
@@ -2377,7 +3048,9 @@
             "year_wise_cutoff": {},
             "college_comparison": [],
             "faqs": [],
-            "description": []
+            "description": [
+              "The Round 1 of Bihar NEET UG cutoff 2025 for MBBS admission is 14081 for the General HS category. Among the OBC category students, the Round 1 cutoff rank for the same course is 14788 in 2025, which has comparatively less difficult cutoff for admission. For other categories, rounds and quotas, use the provided filters to view the cutoff ranks."
+            ]
           }
         }
       },
@@ -2432,11 +3105,11 @@
       },
       "gallery": {
         "gallery_page": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
+          "college_name": "Bhagwan Mahavir Institute of Medical Sciences Photos & Videos",
+          "logo": "https://images.shiksha.ws/pwa/public/images/ctpV2/default.svg",
+          "cover_image": "https://images.shiksha.ws/public/images/instHeaderDesktop.jpg",
           "videos_count": 0,
-          "photos_count": 0,
+          "photos_count": 4,
           "rating": null,
           "reviews_count": null,
           "qa_count": null,
@@ -2507,21 +3180,108 @@
         "review_summarisation": null
       },
       "compare": {
-        "articles": []
+        "articles": {
+          "college_info": {
+            "college_name": "Compare Bhagwan Mahavir Institute of Medical Sciences",
+            "logo": null,
+            "cover_image": null,
+            "videos_count": 0,
+            "photos_count": 0,
+            "rating": null,
+            "reviews_count": null,
+            "qa_count": null,
+            "location": "Nalanda",
+            "city": null,
+            "institute_type": null,
+            "established_year": null
+          },
+          "articles": [
+            {
+              "title": "DCECE Bihar Polytechnic 2026: Registration, Exam Dates, Syllabus and Pattern, Admit Card, Result",
+              "link": "https://www.shiksha.com/engineering/dcece-exam",
+              "author_name": "Samridhi Mishra",
+              "author_link": "https://www.shiksha.com/author/Samridhi2025818964",
+              "date": "Mar 4, 2026",
+              "image": "",
+              "views": "5K Views",
+              "comments": ""
+            },
+            {
+              "title": "DCECE Bihar Polytechnic 2026: Registration, Exam Dates, Syllabus and Pattern, Admit Card, Result",
+              "link": "https://www.shiksha.com/engineering/dcece-exam",
+              "author_name": "Samridhi Mishra",
+              "author_link": "https://www.shiksha.com/author/Samridhi2025818964",
+              "date": "Mar 4, 2026",
+              "image": "",
+              "views": "5K Views",
+              "comments": ""
+            },
+            {
+              "title": "DCECE Bihar Polytechnic Application Form 2026: Documents Required, Fee, Steps",
+              "link": "https://www.shiksha.com/engineering/dcece-exam-application-form",
+              "author_name": "Samridhi Mishra",
+              "author_link": "https://www.shiksha.com/author/Samridhi2025818964",
+              "date": "Mar 4, 2026",
+              "image": "",
+              "views": "4.2K Views",
+              "comments": ""
+            },
+            {
+              "title": "DCECE Bihar Polytechnic Exam Date 2026: Registration, Admit Card, Answer Key, Result",
+              "link": "https://www.shiksha.com/engineering/dcece-exam-dates",
+              "author_name": "Samridhi Mishra",
+              "author_link": "https://www.shiksha.com/author/Samridhi2025818964",
+              "date": "Mar 14, 2026",
+              "image": "",
+              "views": "1.4K Views",
+              "comments": ""
+            },
+            {
+              "title": "DCECE Exam Pattern 2026: Check Exam Scheme for PE, PM and PMM Groups",
+              "link": "https://www.shiksha.com/engineering/dcece-exam-pattern",
+              "author_name": "Samridhi Mishra",
+              "author_link": "https://www.shiksha.com/author/Samridhi2025818964",
+              "date": "Jan 6, 2026",
+              "image": "",
+              "views": "1.1K Views",
+              "comments": ""
+            },
+            {
+              "title": "DCECE Preparation Tips 2026: Tips & Tricks, Best Books, Pattern & Syllabus",
+              "link": "https://www.shiksha.com/engineering/dcece-exam-preparation",
+              "author_name": "Samridhi Mishra",
+              "author_link": "https://www.shiksha.com/author/Samridhi2025818964",
+              "date": "Mar 19, 2026",
+              "image": "",
+              "views": "563 Views",
+              "comments": ""
+            },
+            {
+              "title": "DCECE Admit Card 2026: Date, How to Download, Details Mentioned, Credentials Required",
+              "link": "https://www.shiksha.com/engineering/dcece-exam-admit-card",
+              "author_name": "Samridhi Mishra",
+              "author_link": "https://www.shiksha.com/author/Samridhi2025818964",
+              "date": "Mar 16, 2026",
+              "image": "",
+              "views": "469 Views",
+              "comments": ""
+            }
+          ]
+        }
       },
       "scholarships": null
     }
   },
   {
     "college_details": {
-      "id": "college_1328",
+      "id": "college_4488",
       "college_info": {
         "college_info": {
           "college_info": {
-            "college_name": "Access Denied",
+            "college_name": "Regency Hospital Cancer and Gastro Care Centre (Tower -2)",
             "rating": null,
-            "logo": null,
-            "cover_image": null,
+            "logo": "https://images.shiksha.ws/pwa/public/images/ctpV2/default.svg",
+            "cover_image": "https://images.shiksha.ws/public/images/instHeaderDesktop.jpg",
             "reviews_count": null,
             "qa_count": null,
             "location": null,
@@ -2529,8 +3289,29 @@
             "institute_type": null,
             "established_year": null,
             "highlights": {
-              "summary": "Summary not available",
-              "table": [],
+              "summary": "Regency Hospital Cancer and Gastro Care Centre (Tower -2) is an institute. Regency Hospital Cancer and Gastro Care Centre (Tower -2) offers a total of 1 course at Post Doctorate levels in 1 specialisation such as Oncology. Furthermore, it offer course such as DNB in Full Time mode. It offers course, in stream such as Medicine & Health Sciences. The institute has a safe and well-equipped campus with all the advanced facilities.",
+              "table": [
+                {
+                  "particular": "Campus Location",
+                  "details": "Kanpur, Uttar Pradesh"
+                },
+                {
+                  "particular": "Courses Offered",
+                  "details": "Post Doctorate"
+                },
+                {
+                  "particular": "No. of Seats",
+                  "details": "-"
+                },
+                {
+                  "particular": "Median Salary",
+                  "details": "-"
+                },
+                {
+                  "particular": "Fees Range",
+                  "details": "-"
+                }
+              ],
               "faqs": []
             },
             "intro": null,
@@ -2540,7 +3321,7 @@
           "intro": null,
           "courses": [],
           "fees_and_eligibility": {
-            "overview": "Data not available",
+            "overview": "Overview not available",
             "courses_table": [],
             "faqs": [],
             "key_statistics": {}
@@ -2556,15 +3337,15 @@
       },
       "courses": {
         "college_info": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
+          "college_name": "Regency Hospital Cancer and Gastro Care Centre (Tower -2) Courses: Degree, Diploma, Certificate 2026",
+          "logo": "https://images.shiksha.ws/pwa/public/images/ctpV2/default.svg",
+          "cover_image": "https://images.shiksha.ws/public/images/instHeaderDesktop.jpg",
           "videos_count": 0,
           "photos_count": 0,
           "rating": null,
           "reviews_count": null,
           "qa_count": null,
-          "location": null,
+          "location": "Kanpur",
           "city": null,
           "institute_type": null,
           "established_year": null
@@ -2577,9 +3358,65 @@
           "data": []
         },
         "faqs": [],
-        "all_programs": [],
-        "all_courses": [],
-        "faq_section": null
+        "all_programs": [
+          {
+            "program_name": "DNB",
+            "course_count": 1,
+            "duration": "3 years",
+            "exams_accepted": "Not specified",
+            "median_salary": "Not available",
+            "total_tuition_fees": "Not available",
+            "program_link": "https://www.shiksha.com/college/regency-hospital-cancer-and-gastro-care-centre-tower-2-kanpur-240560/courses/dnb-bc"
+          }
+        ],
+        "all_courses": [
+          {
+            "course_name": "DNB in Medical Oncology",
+            "duration": "3 years",
+            "seats_offered": "Not specified",
+            "exams_accepted": "Not specified",
+            "median_salary": "Not available",
+            "total_tuition_fees": "Not available",
+            "course_link": "https://www.shiksha.com/college/regency-hospital-cancer-and-gastro-care-centre-tower-2-kanpur-240560/course-dnb-in-medical-oncology-1375096"
+          }
+        ],
+        "faq_section": {
+          "heading": "FAQs",
+          "introduction": "",
+          "total_faqs": 3,
+          "faqs": [
+            {
+              "faq_number": 2,
+              "question": "JBIMS Mumbai",
+              "answer": {
+                "text": "Answer not found (dynamic content)",
+                "has_table": false,
+                "has_image": false,
+                "has_list": false
+              }
+            },
+            {
+              "faq_number": 3,
+              "question": "XIME Bangalore",
+              "answer": {
+                "text": "Answer not found (dynamic content)",
+                "has_table": false,
+                "has_image": false,
+                "has_list": false
+              }
+            },
+            {
+              "faq_number": 5,
+              "question": "IIM Ahmedabad",
+              "answer": {
+                "text": "Answer not found (dynamic content)",
+                "has_table": false,
+                "has_image": false,
+                "has_list": false
+              }
+            }
+          ]
+        }
       },
       "fees": {
         "college_info": {
@@ -2628,9 +3465,9 @@
       },
       "admission": {
         "admission_overview": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
+          "college_name": "Regency Hospital Cancer and Gastro Care Centre (Tower -2) Admission 2025: Fees, Courses, Eligibility and Selection",
+          "logo": "https://images.shiksha.ws/pwa/public/images/ctpV2/default.svg",
+          "cover_image": "https://images.shiksha.ws/public/images/instHeaderDesktop.jpg",
           "videos_count": 0,
           "photos_count": 0,
           "rating": null,
@@ -2653,21 +3490,53 @@
             "faqs": []
           },
           "admission_process": {
-            "title": "",
-            "full_content": {},
+            "title": "Regency Hospital Cancer and Gastro Care Centre (Tower -2) Admission Process 2025",
+            "full_content": {
+              "paragraphs": [
+                "The Regency Hospital Cancer and Gastro Care Centre (Tower -2) admission process is mostly merit-based. To get a seat, students need to go through all the steps as per guidelines. Regency Hospital Cancer and Gastro Care Centre (Tower -2) offers Post Doctorate level courses. Candidates are shortlisted for the programmes based on their academic merit and past academic scores. The process starts with registration."
+              ],
+              "headings": [],
+              "lists": [],
+              "tables": [],
+              "key_points": []
+            },
             "fees_table": [],
             "seats_table": [],
-            "courses_data": [],
+            "courses_data": [
+              {
+                "name": "DNB Admissions 2026",
+                "stats": "1courses3 years",
+                "cutoff_tables": [
+                  [
+                    [
+                      "Course",
+                      "2024",
+                      "2025"
+                    ],
+                    [
+                      "DNB in Medical Oncology",
+                      "349",
+                      "442"
+                    ]
+                  ]
+                ],
+                "description": "Candidates interested in the fields related to Medicine & Health Sciences can enroll in theRegency Hospital Cancer and Gastro Care Centre (Tower -2) DNBprogramme, which lasts for 3 years. Candidates are not required to appear for any entrance exams as the admission process is merit-based. The final shortlist for admission to the DNB programme is determined by the candidates' academic scores."
+              }
+            ],
             "faqs": [],
-            "videos": []
+            "videos": [],
+            "additional_content": {
+              "links": [],
+              "notes": []
+            }
           }
         }
       },
       "placement": {
         "placement_report": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
+          "college_name": "Regency Hospital Cancer and Gastro Care Centre (Tower -2) Placement - Average Package & Highest Salary",
+          "logo": "https://images.shiksha.ws/pwa/public/images/ctpV2/default.svg",
+          "cover_image": "https://images.shiksha.ws/public/images/instHeaderDesktop.jpg",
           "videos_count": 0,
           "photos_count": 0,
           "rating": null,
@@ -2687,11 +3556,11 @@
             "links": [],
             "user_feedback": "",
             "video_content": false,
-            "error": "Message: \nStacktrace:\n#0 0x55f5d08afb6a <unknown>\n#1 0x55f5d02c2a32 <unknown>\n#2 0x55f5d0317d66 <unknown>\n#3 0x55f5d0317fa1 <unknown>\n#4 0x55f5d0363144 <unknown>\n#5 0x55f5d0360369 <unknown>\n#6 0x55f5d0309c0f <unknown>\n#7 0x55f5d030a9d1 <unknown>\n#8 0x55f5d08746b9 <unknown>\n#9 0x55f5d08775c1 <unknown>\n#10 0x55f5d0860e29 <unknown>\n#11 0x55f5d087817e <unknown>\n#12 0x55f5d08474b0 <unknown>\n#13 0x55f5d089c578 <unknown>\n#14 0x55f5d089c74b <unknown>\n#15 0x55f5d08ae1a3 <unknown>\n#16 0x7f7d6049caa4 <unknown>\n#17 0x7f7d60529c6c <unknown>\n"
+            "error": "Message: \nStacktrace:\n#0 0x55a9c803ab6a <unknown>\n#1 0x55a9c7a4da32 <unknown>\n#2 0x55a9c7aa2d66 <unknown>\n#3 0x55a9c7aa2fa1 <unknown>\n#4 0x55a9c7aee144 <unknown>\n#5 0x55a9c7aeb369 <unknown>\n#6 0x55a9c7a94c0f <unknown>\n#7 0x55a9c7a959d1 <unknown>\n#8 0x55a9c7fff6b9 <unknown>\n#9 0x55a9c80025c1 <unknown>\n#10 0x55a9c7febe29 <unknown>\n#11 0x55a9c800317e <unknown>\n#12 0x55a9c7fd24b0 <unknown>\n#13 0x55a9c8027578 <unknown>\n#14 0x55a9c802774b <unknown>\n#15 0x55a9c80391a3 <unknown>\n#16 0x7fc97da9caa4 <unknown>\n#17 0x7fc97db29c6c <unknown>\n"
           },
           "placement_sections": {
             "average_package": {
-              "title": "IIM Ahmedabad Average Package 2025",
+              "title": "Average packages & top recruiters 2026",
               "main_table": [],
               "top_recruiters": [],
               "insights": [],
@@ -2699,7 +3568,7 @@
               "graph_image": "",
               "source_info": "",
               "complete_content": "",
-              "error": "Message: \nStacktrace:\n#0 0x55f5d08afb6a <unknown>\n#1 0x55f5d02c2a32 <unknown>\n#2 0x55f5d0317d66 <unknown>\n#3 0x55f5d0317fa1 <unknown>\n#4 0x55f5d0363144 <unknown>\n#5 0x55f5d0360369 <unknown>\n#6 0x55f5d0309c0f <unknown>\n#7 0x55f5d030a9d1 <unknown>\n#8 0x55f5d08746b9 <unknown>\n#9 0x55f5d08775c1 <unknown>\n#10 0x55f5d0860e29 <unknown>\n#11 0x55f5d087817e <unknown>\n#12 0x55f5d08474b0 <unknown>\n#13 0x55f5d089c578 <unknown>\n#14 0x55f5d089c74b <unknown>\n#15 0x55f5d08ae1a3 <unknown>\n#16 0x7f7d6049caa4 <unknown>\n#17 0x7f7d60529c6c <unknown>\n"
+              "user_feedback": "Does the data look accurate to you?"
             },
             "pgp_placements": {
               "title": "IIM Ahmedabad PGP Placements 2025",
@@ -2711,16 +3580,16 @@
               "placement_rating": "",
               "source_info": "",
               "complete_content": "",
-              "error": "Message: \nStacktrace:\n#0 0x55f5d08afb6a <unknown>\n#1 0x55f5d02c2a32 <unknown>\n#2 0x55f5d0317d66 <unknown>\n#3 0x55f5d0317fa1 <unknown>\n#4 0x55f5d0363144 <unknown>\n#5 0x55f5d0360369 <unknown>\n#6 0x55f5d0309c0f <unknown>\n#7 0x55f5d030a9d1 <unknown>\n#8 0x55f5d08746b9 <unknown>\n#9 0x55f5d08775c1 <unknown>\n#10 0x55f5d0860e29 <unknown>\n#11 0x55f5d087817e <unknown>\n#12 0x55f5d08474b0 <unknown>\n#13 0x55f5d089c578 <unknown>\n#14 0x55f5d089c74b <unknown>\n#15 0x55f5d08ae1a3 <unknown>\n#16 0x7f7d6049caa4 <unknown>\n#17 0x7f7d60529c6c <unknown>\n"
+              "error": "Message: \nStacktrace:\n#0 0x55a9c803ab6a <unknown>\n#1 0x55a9c7a4da32 <unknown>\n#2 0x55a9c7aa2d66 <unknown>\n#3 0x55a9c7aa2fa1 <unknown>\n#4 0x55a9c7aee144 <unknown>\n#5 0x55a9c7aeb369 <unknown>\n#6 0x55a9c7a94c0f <unknown>\n#7 0x55a9c7a959d1 <unknown>\n#8 0x55a9c7fff6b9 <unknown>\n#9 0x55a9c80025c1 <unknown>\n#10 0x55a9c7febe29 <unknown>\n#11 0x55a9c800317e <unknown>\n#12 0x55a9c7fd24b0 <unknown>\n#13 0x55a9c8027578 <unknown>\n#14 0x55a9c802774b <unknown>\n#15 0x55a9c80391a3 <unknown>\n#16 0x7fc97da9caa4 <unknown>\n#17 0x7fc97db29c6c <unknown>\n"
             }
           }
         }
       },
       "cut_off": {
         "cut_off": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
+          "college_name": "Regency Hospital Cancer and Gastro Care Centre (Tower -2) Cutoff 2025: Check NEET SS Round-Wise Cutoff Ranks",
+          "logo": "https://images.shiksha.ws/pwa/public/images/ctpV2/default.svg",
+          "cover_image": "https://images.shiksha.ws/public/images/instHeaderDesktop.jpg",
           "videos_count": 0,
           "photos_count": 0,
           "rating": null,
@@ -2736,7 +3605,13 @@
             "year_wise_cutoff": {},
             "college_comparison": [],
             "faqs": [],
-            "description": []
+            "description": [
+              "Regency Hospital Cancer and Gastro Care Centre (Tower -2) NEET SS cutoff 2025 is out for Round 1. The NBEMS has released the NEET SS cutoff for admission to Super Speciality courses, such as DM, DNB and MCh etc. The cutoff is available for different categories under the AI quota. For the General category students under the AI quota, the NEET SS 2025 cutoff was 442, with DNB being the highly sought-after course for admission.",
+              "Regency Hospital Cancer and Gastro Care Centre (Tower -2) DNB cutoff 2025 was 442 for the General category under the AI quota. With a lowest cutoff rank of 442, DNB in Medical Oncology turned out to be the most competitive specialisation for admission.",
+              "Candidates can use the provided filters to learn more about the NEET SS cutoff across different courses, specialisations, rounds and categories.",
+              "Candidates appeared in the NEET SS entrance exam can refer to the table given below to view or download the consolidated round-wise cutoff PDFs. The cutoff PDFs are available round-wise for 2025, 2024 and 2023.",
+              "Candidates who appeared in the NEET SS entrance exam can refer to the table below for a comparative analysis of other specialisations available for admission at medical colleges that accept NEET SS for selecting students. The data below is for the General AI category students. Students can use the provided filters to choose other parameters, such as location, gender, and category, to do the comparison."
+            ]
           }
         }
       },
@@ -2791,729 +3666,11 @@
       },
       "gallery": {
         "gallery_page": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
+          "college_name": "Regency Hospital Cancer and Gastro Care Centre (Tower -2) Photos & Videos",
+          "logo": "https://images.shiksha.ws/pwa/public/images/ctpV2/default.svg",
+          "cover_image": "https://images.shiksha.ws/public/images/instHeaderDesktop.jpg",
           "videos_count": 0,
-          "photos_count": 0,
-          "rating": null,
-          "reviews_count": null,
-          "qa_count": null,
-          "location": null,
-          "city": null,
-          "institute_type": null,
-          "established_year": null,
-          "gallery_data": {
-            "table_of_contents": [],
-            "campus_infrastructure": {
-              "images": [],
-              "videos": []
-            },
-            "lab_library_academic": {
-              "images": [],
-              "videos": []
-            },
-            "mini_clips": [],
-            "hostel_sports": {
-              "images": [],
-              "videos": []
-            },
-            "reviews": []
-          }
-        }
-      },
-      "hotel_campus": {
-        "hostel_campus": {
-          "college_name": null,
-          "cover_image": null,
-          "rating": null,
-          "reviews_count": null,
-          "qa_count": null,
-          "location": null,
-          "city": null,
-          "author_name": "",
-          "update_on": "",
-          "campus_content": {
-            "overview": {
-              "text": "",
-              "images": []
-            },
-            "highlights": [],
-            "hostel": {
-              "description": "",
-              "facilities": [],
-              "fee_tables": [],
-              "images": []
-            },
-            "library": {
-              "description": "",
-              "images": []
-            },
-            "sports": {
-              "description": "",
-              "images": []
-            },
-            "places_nearby": [],
-            "videos": []
-          },
-          "infrastructure_section": {},
-          "reviews": []
-        }
-      },
-      "faculty": {
-        "faculty": null,
-        "faculty_reviews": [],
-        "review_summarisation": null
-      },
-      "compare": {
-        "articles": []
-      },
-      "scholarships": null
-    }
-  },
-  {
-    "college_details": {
-      "id": "college_1329",
-      "college_info": {
-        "college_info": {
-          "college_info": {
-            "college_name": "Access Denied",
-            "rating": null,
-            "logo": null,
-            "cover_image": null,
-            "reviews_count": null,
-            "qa_count": null,
-            "location": null,
-            "city": null,
-            "institute_type": null,
-            "established_year": null,
-            "highlights": {
-              "summary": "Summary not available",
-              "table": [],
-              "faqs": []
-            },
-            "intro": null,
-            "courses": [],
-            "faqs": []
-          },
-          "intro": null,
-          "courses": [],
-          "fees_and_eligibility": {
-            "overview": "Data not available",
-            "courses_table": [],
-            "faqs": [],
-            "key_statistics": {}
-          },
-          "student_reviews": {
-            "total_reviews_count": 0,
-            "average_rating": 0,
-            "reviews_list": [],
-            "video_reviews": [],
-            "review_summary": {}
-          }
-        }
-      },
-      "courses": {
-        "college_info": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
-          "videos_count": 0,
-          "photos_count": 0,
-          "rating": null,
-          "reviews_count": null,
-          "qa_count": null,
-          "location": null,
-          "city": null,
-          "institute_type": null,
-          "established_year": null
-        },
-        "overview": "",
-        "courses": [],
-        "fee_structure": {
-          "heading": "",
-          "overview": "",
-          "data": []
-        },
-        "faqs": [],
-        "all_programs": [],
-        "all_courses": [],
-        "faq_section": null
-      },
-      "fees": {
-        "college_info": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
-          "videos_count": 0,
-          "photos_count": 0,
-          "rating": null,
-          "reviews_count": null,
-          "qa_count": null,
-          "location": null,
-          "city": null,
-          "institute_type": null,
-          "established_year": null
-        },
-        "fees_overview": {
-          "description": "",
-          "summary_table": [],
-          "total_courses": 0
-        },
-        "course_details": [],
-        "faqs": {
-          "overview_faqs": [],
-          "total_faqs": 0
-        }
-      },
-      "reviews": {
-        "review_summary": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
-          "videos_count": 0,
-          "photos_count": 0,
-          "rating": null,
-          "reviews_count": null,
-          "qa_count": null,
-          "location": null,
-          "city": null,
-          "institute_type": null,
-          "established_year": null,
-          "review_summary": {},
-          "review_videos": [],
-          "individual_reviews": []
-        }
-      },
-      "admission": {
-        "admission_overview": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
-          "videos_count": 0,
-          "photos_count": 0,
-          "rating": null,
-          "reviews_count": null,
-          "qa_count": null,
-          "location": null,
-          "city": null,
-          "institute_type": null,
-          "established_year": null,
-          "admission_overview": {
-            "title": "",
-            "description": "",
-            "key_points": [],
-            "faqs": []
-          },
-          "eligibility_selection": {
-            "title": "",
-            "description": "",
-            "courses_table": [],
-            "faqs": []
-          },
-          "admission_process": {
-            "title": "",
-            "full_content": {},
-            "fees_table": [],
-            "seats_table": [],
-            "courses_data": [],
-            "faqs": [],
-            "videos": []
-          }
-        }
-      },
-      "placement": {
-        "placement_report": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
-          "videos_count": 0,
-          "photos_count": 0,
-          "rating": null,
-          "reviews_count": null,
-          "qa_count": null,
-          "location": null,
-          "city": null,
-          "institute_type": null,
-          "established_year": null,
-          "placement_data": {
-            "title": "IIM Ahmedabad Placement Overview 2025",
-            "paragraphs": [],
-            "tables": [],
-            "faqs": [],
-            "rating": "",
-            "rating_details": "",
-            "links": [],
-            "user_feedback": "",
-            "video_content": false,
-            "error": "Message: \nStacktrace:\n#0 0x55f5d08afb6a <unknown>\n#1 0x55f5d02c2a32 <unknown>\n#2 0x55f5d0317d66 <unknown>\n#3 0x55f5d0317fa1 <unknown>\n#4 0x55f5d0363144 <unknown>\n#5 0x55f5d0360369 <unknown>\n#6 0x55f5d0309c0f <unknown>\n#7 0x55f5d030a9d1 <unknown>\n#8 0x55f5d08746b9 <unknown>\n#9 0x55f5d08775c1 <unknown>\n#10 0x55f5d0860e29 <unknown>\n#11 0x55f5d087817e <unknown>\n#12 0x55f5d08474b0 <unknown>\n#13 0x55f5d089c578 <unknown>\n#14 0x55f5d089c74b <unknown>\n#15 0x55f5d08ae1a3 <unknown>\n#16 0x7f7d6049caa4 <unknown>\n#17 0x7f7d60529c6c <unknown>\n"
-          },
-          "placement_sections": {
-            "average_package": {
-              "title": "IIM Ahmedabad Average Package 2025",
-              "main_table": [],
-              "top_recruiters": [],
-              "insights": [],
-              "faqs": [],
-              "graph_image": "",
-              "source_info": "",
-              "complete_content": "",
-              "error": "Message: \nStacktrace:\n#0 0x55f5d08afb6a <unknown>\n#1 0x55f5d02c2a32 <unknown>\n#2 0x55f5d0317d66 <unknown>\n#3 0x55f5d0317fa1 <unknown>\n#4 0x55f5d0363144 <unknown>\n#5 0x55f5d0360369 <unknown>\n#6 0x55f5d0309c0f <unknown>\n#7 0x55f5d030a9d1 <unknown>\n#8 0x55f5d08746b9 <unknown>\n#9 0x55f5d08775c1 <unknown>\n#10 0x55f5d0860e29 <unknown>\n#11 0x55f5d087817e <unknown>\n#12 0x55f5d08474b0 <unknown>\n#13 0x55f5d089c578 <unknown>\n#14 0x55f5d089c74b <unknown>\n#15 0x55f5d08ae1a3 <unknown>\n#16 0x7f7d6049caa4 <unknown>\n#17 0x7f7d60529c6c <unknown>\n"
-            },
-            "pgp_placements": {
-              "title": "IIM Ahmedabad PGP Placements 2025",
-              "intro_text": "",
-              "main_table": [],
-              "placement_comparison": [],
-              "pgp_fabm_data": {},
-              "faqs": [],
-              "placement_rating": "",
-              "source_info": "",
-              "complete_content": "",
-              "error": "Message: \nStacktrace:\n#0 0x55f5d08afb6a <unknown>\n#1 0x55f5d02c2a32 <unknown>\n#2 0x55f5d0317d66 <unknown>\n#3 0x55f5d0317fa1 <unknown>\n#4 0x55f5d0363144 <unknown>\n#5 0x55f5d0360369 <unknown>\n#6 0x55f5d0309c0f <unknown>\n#7 0x55f5d030a9d1 <unknown>\n#8 0x55f5d08746b9 <unknown>\n#9 0x55f5d08775c1 <unknown>\n#10 0x55f5d0860e29 <unknown>\n#11 0x55f5d087817e <unknown>\n#12 0x55f5d08474b0 <unknown>\n#13 0x55f5d089c578 <unknown>\n#14 0x55f5d089c74b <unknown>\n#15 0x55f5d08ae1a3 <unknown>\n#16 0x7f7d6049caa4 <unknown>\n#17 0x7f7d60529c6c <unknown>\n"
-            }
-          }
-        }
-      },
-      "cut_off": {
-        "cut_off": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
-          "videos_count": 0,
-          "photos_count": 0,
-          "rating": null,
-          "reviews_count": null,
-          "qa_count": null,
-          "location": null,
-          "city": null,
-          "institute_type": null,
-          "established_year": null,
-          "placement_data": {},
-          "cutoff_data": {
-            "qualifying_cutoff": {},
-            "year_wise_cutoff": {},
-            "college_comparison": [],
-            "faqs": [],
-            "description": []
-          }
-        }
-      },
-      "ranking": {
-        "ranking": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
-          "videos_count": 0,
-          "photos_count": 0,
-          "rating": null,
-          "reviews_count": null,
-          "qa_count": null,
-          "location": null,
-          "city": null,
-          "institute_type": null,
-          "established_year": null,
-          "ranking_data": {
-            "highlights": {
-              "description": "",
-              "rankings": []
-            },
-            "international_ranking": {
-              "description": "",
-              "qs_ranking": {},
-              "financial_times_ranking": {}
-            },
-            "nirf": {
-              "description": "",
-              "table_data": [],
-              "comparison": [],
-              "ranking_criteria": {}
-            },
-            "outlook": {
-              "description": "",
-              "table_data": [],
-              "comparison": []
-            },
-            "business_today": {
-              "table_data": [],
-              "comparison": []
-            },
-            "qs_world": {
-              "description": "",
-              "rankings": {},
-              "comparison": [],
-              "ranking_criteria": {}
-            },
-            "table_of_contents": []
-          }
-        }
-      },
-      "gallery": {
-        "gallery_page": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
-          "videos_count": 0,
-          "photos_count": 0,
-          "rating": null,
-          "reviews_count": null,
-          "qa_count": null,
-          "location": null,
-          "city": null,
-          "institute_type": null,
-          "established_year": null,
-          "gallery_data": {
-            "table_of_contents": [],
-            "campus_infrastructure": {
-              "images": [],
-              "videos": []
-            },
-            "lab_library_academic": {
-              "images": [],
-              "videos": []
-            },
-            "mini_clips": [],
-            "hostel_sports": {
-              "images": [],
-              "videos": []
-            },
-            "reviews": []
-          }
-        }
-      },
-      "hotel_campus": {
-        "hostel_campus": {
-          "college_name": null,
-          "cover_image": null,
-          "rating": null,
-          "reviews_count": null,
-          "qa_count": null,
-          "location": null,
-          "city": null,
-          "author_name": "",
-          "update_on": "",
-          "campus_content": {
-            "overview": {
-              "text": "",
-              "images": []
-            },
-            "highlights": [],
-            "hostel": {
-              "description": "",
-              "facilities": [],
-              "fee_tables": [],
-              "images": []
-            },
-            "library": {
-              "description": "",
-              "images": []
-            },
-            "sports": {
-              "description": "",
-              "images": []
-            },
-            "places_nearby": [],
-            "videos": []
-          },
-          "infrastructure_section": {},
-          "reviews": []
-        }
-      },
-      "faculty": {
-        "faculty": null,
-        "faculty_reviews": [],
-        "review_summarisation": null
-      },
-      "compare": {
-        "articles": []
-      },
-      "scholarships": null
-    }
-  },
-  {
-    "college_details": {
-      "id": "college_1330",
-      "college_info": {
-        "college_info": {
-          "college_info": {
-            "college_name": "Access Denied",
-            "rating": null,
-            "logo": null,
-            "cover_image": null,
-            "reviews_count": null,
-            "qa_count": null,
-            "location": null,
-            "city": null,
-            "institute_type": null,
-            "established_year": null,
-            "highlights": {
-              "summary": "Summary not available",
-              "table": [],
-              "faqs": []
-            },
-            "intro": null,
-            "courses": [],
-            "faqs": []
-          },
-          "intro": null,
-          "courses": [],
-          "fees_and_eligibility": {
-            "overview": "Data not available",
-            "courses_table": [],
-            "faqs": [],
-            "key_statistics": {}
-          },
-          "student_reviews": {
-            "total_reviews_count": 0,
-            "average_rating": 0,
-            "reviews_list": [],
-            "video_reviews": [],
-            "review_summary": {}
-          }
-        }
-      },
-      "courses": {
-        "college_info": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
-          "videos_count": 0,
-          "photos_count": 0,
-          "rating": null,
-          "reviews_count": null,
-          "qa_count": null,
-          "location": null,
-          "city": null,
-          "institute_type": null,
-          "established_year": null
-        },
-        "overview": "",
-        "courses": [],
-        "fee_structure": {
-          "heading": "",
-          "overview": "",
-          "data": []
-        },
-        "faqs": [],
-        "all_programs": [],
-        "all_courses": [],
-        "faq_section": null
-      },
-      "fees": {
-        "college_info": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
-          "videos_count": 0,
-          "photos_count": 0,
-          "rating": null,
-          "reviews_count": null,
-          "qa_count": null,
-          "location": null,
-          "city": null,
-          "institute_type": null,
-          "established_year": null
-        },
-        "fees_overview": {
-          "description": "",
-          "summary_table": [],
-          "total_courses": 0
-        },
-        "course_details": [],
-        "faqs": {
-          "overview_faqs": [],
-          "total_faqs": 0
-        }
-      },
-      "reviews": {
-        "review_summary": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
-          "videos_count": 0,
-          "photos_count": 0,
-          "rating": null,
-          "reviews_count": null,
-          "qa_count": null,
-          "location": null,
-          "city": null,
-          "institute_type": null,
-          "established_year": null,
-          "review_summary": {},
-          "review_videos": [],
-          "individual_reviews": []
-        }
-      },
-      "admission": {
-        "admission_overview": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
-          "videos_count": 0,
-          "photos_count": 0,
-          "rating": null,
-          "reviews_count": null,
-          "qa_count": null,
-          "location": null,
-          "city": null,
-          "institute_type": null,
-          "established_year": null,
-          "admission_overview": {
-            "title": "",
-            "description": "",
-            "key_points": [],
-            "faqs": []
-          },
-          "eligibility_selection": {
-            "title": "",
-            "description": "",
-            "courses_table": [],
-            "faqs": []
-          },
-          "admission_process": {
-            "title": "",
-            "full_content": {},
-            "fees_table": [],
-            "seats_table": [],
-            "courses_data": [],
-            "faqs": [],
-            "videos": []
-          }
-        }
-      },
-      "placement": {
-        "placement_report": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
-          "videos_count": 0,
-          "photos_count": 0,
-          "rating": null,
-          "reviews_count": null,
-          "qa_count": null,
-          "location": null,
-          "city": null,
-          "institute_type": null,
-          "established_year": null,
-          "placement_data": {
-            "title": "IIM Ahmedabad Placement Overview 2025",
-            "paragraphs": [],
-            "tables": [],
-            "faqs": [],
-            "rating": "",
-            "rating_details": "",
-            "links": [],
-            "user_feedback": "",
-            "video_content": false,
-            "error": "Message: \nStacktrace:\n#0 0x55f5d08afb6a <unknown>\n#1 0x55f5d02c2a32 <unknown>\n#2 0x55f5d0317d66 <unknown>\n#3 0x55f5d0317fa1 <unknown>\n#4 0x55f5d0363144 <unknown>\n#5 0x55f5d0360369 <unknown>\n#6 0x55f5d0309c0f <unknown>\n#7 0x55f5d030a9d1 <unknown>\n#8 0x55f5d08746b9 <unknown>\n#9 0x55f5d08775c1 <unknown>\n#10 0x55f5d0860e29 <unknown>\n#11 0x55f5d087817e <unknown>\n#12 0x55f5d08474b0 <unknown>\n#13 0x55f5d089c578 <unknown>\n#14 0x55f5d089c74b <unknown>\n#15 0x55f5d08ae1a3 <unknown>\n#16 0x7f7d6049caa4 <unknown>\n#17 0x7f7d60529c6c <unknown>\n"
-          },
-          "placement_sections": {
-            "average_package": {
-              "title": "IIM Ahmedabad Average Package 2025",
-              "main_table": [],
-              "top_recruiters": [],
-              "insights": [],
-              "faqs": [],
-              "graph_image": "",
-              "source_info": "",
-              "complete_content": "",
-              "error": "Message: \nStacktrace:\n#0 0x55f5d08afb6a <unknown>\n#1 0x55f5d02c2a32 <unknown>\n#2 0x55f5d0317d66 <unknown>\n#3 0x55f5d0317fa1 <unknown>\n#4 0x55f5d0363144 <unknown>\n#5 0x55f5d0360369 <unknown>\n#6 0x55f5d0309c0f <unknown>\n#7 0x55f5d030a9d1 <unknown>\n#8 0x55f5d08746b9 <unknown>\n#9 0x55f5d08775c1 <unknown>\n#10 0x55f5d0860e29 <unknown>\n#11 0x55f5d087817e <unknown>\n#12 0x55f5d08474b0 <unknown>\n#13 0x55f5d089c578 <unknown>\n#14 0x55f5d089c74b <unknown>\n#15 0x55f5d08ae1a3 <unknown>\n#16 0x7f7d6049caa4 <unknown>\n#17 0x7f7d60529c6c <unknown>\n"
-            },
-            "pgp_placements": {
-              "title": "IIM Ahmedabad PGP Placements 2025",
-              "intro_text": "",
-              "main_table": [],
-              "placement_comparison": [],
-              "pgp_fabm_data": {},
-              "faqs": [],
-              "placement_rating": "",
-              "source_info": "",
-              "complete_content": "",
-              "error": "Message: \nStacktrace:\n#0 0x55f5d08afb6a <unknown>\n#1 0x55f5d02c2a32 <unknown>\n#2 0x55f5d0317d66 <unknown>\n#3 0x55f5d0317fa1 <unknown>\n#4 0x55f5d0363144 <unknown>\n#5 0x55f5d0360369 <unknown>\n#6 0x55f5d0309c0f <unknown>\n#7 0x55f5d030a9d1 <unknown>\n#8 0x55f5d08746b9 <unknown>\n#9 0x55f5d08775c1 <unknown>\n#10 0x55f5d0860e29 <unknown>\n#11 0x55f5d087817e <unknown>\n#12 0x55f5d08474b0 <unknown>\n#13 0x55f5d089c578 <unknown>\n#14 0x55f5d089c74b <unknown>\n#15 0x55f5d08ae1a3 <unknown>\n#16 0x7f7d6049caa4 <unknown>\n#17 0x7f7d60529c6c <unknown>\n"
-            }
-          }
-        }
-      },
-      "cut_off": {
-        "cut_off": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
-          "videos_count": 0,
-          "photos_count": 0,
-          "rating": null,
-          "reviews_count": null,
-          "qa_count": null,
-          "location": null,
-          "city": null,
-          "institute_type": null,
-          "established_year": null,
-          "placement_data": {},
-          "cutoff_data": {
-            "qualifying_cutoff": {},
-            "year_wise_cutoff": {},
-            "college_comparison": [],
-            "faqs": [],
-            "description": []
-          }
-        }
-      },
-      "ranking": {
-        "ranking": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
-          "videos_count": 0,
-          "photos_count": 0,
-          "rating": null,
-          "reviews_count": null,
-          "qa_count": null,
-          "location": null,
-          "city": null,
-          "institute_type": null,
-          "established_year": null,
-          "ranking_data": {
-            "highlights": {
-              "description": "",
-              "rankings": []
-            },
-            "international_ranking": {
-              "description": "",
-              "qs_ranking": {},
-              "financial_times_ranking": {}
-            },
-            "nirf": {
-              "description": "",
-              "table_data": [],
-              "comparison": [],
-              "ranking_criteria": {}
-            },
-            "outlook": {
-              "description": "",
-              "table_data": [],
-              "comparison": []
-            },
-            "business_today": {
-              "table_data": [],
-              "comparison": []
-            },
-            "qs_world": {
-              "description": "",
-              "rankings": {},
-              "comparison": [],
-              "ranking_criteria": {}
-            },
-            "table_of_contents": []
-          }
-        }
-      },
-      "gallery": {
-        "gallery_page": {
-          "college_name": null,
-          "logo": null,
-          "cover_image": null,
-          "videos_count": 0,
-          "photos_count": 0,
+          "photos_count": 4,
           "rating": null,
           "reviews_count": null,
           "qa_count": null,
