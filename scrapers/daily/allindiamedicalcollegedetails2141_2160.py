@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/nidt-professionals-andheri-andheri-west-mumbai-27483",
-  "https://www.shiksha.com/college/meerut-international-institute-of-technology-59807",
-  "https://www.shiksha.com/college/loknete-gopinathji-munde-institute-of-engineering-education-research-nashik-59881",
-  "https://www.shiksha.com/college/acropolis-institute-of-management-studies-and-research-indore-60173",
-  "https://www.shiksha.com/college/chaitanya-institute-of-science-and-technology-kakinada-61165",
-  "https://www.shiksha.com/college/mother-theresa-institute-of-computer-applications-chittoor-62371",
-  "https://www.shiksha.com/college/kamala-institute-of-management-studies-prakasam-62491",
-  "https://www.shiksha.com/college/amara-institute-of-engineering-and-technology-andhra-pradesh-other-62635",
-  "https://www.shiksha.com/college/pragathi-degree-college-andhra-pradesh-other-68753",
-  "https://www.shiksha.com/college/arcot-sri-mahalaalakshmi-women-s-institute-of-management-and-computer-applications-vellore-70703",
-  "https://www.shiksha.com/college/institute-of-management-and-planning-and-advance-computer-training-patna-72315",
-  "https://www.shiksha.com/college/smt-kumudben-darbar-college-of-commerce-science-and-management-studies-bijapur-72789",
-  "https://www.shiksha.com/college/laxmi-narayan-academy-of-management-gwalior-72917",
-  "https://www.shiksha.com/college/rama-institute-of-higher-education-uttar-pradesh-other-74901",
-  "https://www.shiksha.com/college/shivnagar-education-societys-insitute-of-management-baramati-75927",
-  "https://www.shiksha.com/college/saraswati-group-of-colleges-mohali-91751",
-  "https://www.shiksha.com/college/gurukripa-college-of-management-bhopal-210161",
-  "https://www.shiksha.com/college/international-school-of-design-pimpri-chinchwad-chinchwad-pune-212957",
-  "https://www.shiksha.com/college/kmm-college-kumbalam-ernakulum-232392",
-  "https://www.shiksha.com/college/maa-kanti-college-of-higher-education-patna-242390",
+  "https://www.shiksha.com/college/sai-institute-of-paramedical-and-allied-science-dehradun-111837",
+  "https://www.shiksha.com/college/autonomous-state-medical-college-society-hardoi-180751",
+  "https://www.shiksha.com/college/uihmt-group-of-colleges-dehradun-49213",
+  "https://www.shiksha.com/college/government-polytechnic-college-for-women-kandaghat-solan-98395",
+  "https://www.shiksha.com/college/daya-general-hospital-and-speciality-surgical-centre-thrissur-105875",
+  "https://www.shiksha.com/college/mother-teresa-college-of-pharmacy-illuppur-tamil-nadu-other-148325",
+  "https://www.shiksha.com/college/krishna-school-of-pharmacy-and-research-vadodara-179789",
+  "https://www.shiksha.com/college/burdwan-institute-of-medical-and-life-sciences-bardhaman-182097",
+  "https://www.shiksha.com/college/sbspm-s-college-of-pharmacy-ambajogai-88005",
+  "https://www.shiksha.com/college/gry-institute-of-pharmacy-borawan-khargone-88043",
+  "https://www.shiksha.com/college/sb-college-of-science-and-technology-delhi-88921",
+  "https://www.shiksha.com/college/united-college-of-pharmacy-coimbatore-194005",
+  "https://www.shiksha.com/college/government-medical-college-rajamahendravaram-andhra-pradesh-other-213183",
+  "https://www.shiksha.com/college/ppg-college-of-physiotheraphy-coimbatore-225647",
+  "https://www.shiksha.com/college/ppg-college-of-occupational-therapy-coimbatore-225649",
+  "https://www.shiksha.com/college/ahalia-school-of-pharmacy-palakkad-60835",
+  "https://www.shiksha.com/college/sri-sivani-college-of-pharmacy-srikakulam-61185",
+  "https://www.shiksha.com/college/luqman-college-of-pharmacy-gulbarga-67791",
+  "https://www.shiksha.com/college/n-r-vekaria-institute-of-pharmacy-junagadh-87647",
+  "https://www.shiksha.com/college/breach-candy-hospital-trust-mumbai-105869",
 ]
 
 
@@ -8455,7 +8455,7 @@ def parse_faculty_full_html(driver,URLS):
     wait = WebDriverWait(driver, 15)
 
     section = None
-    
+
     try:
         section = wait.until(
             EC.presence_of_element_located(
@@ -8465,17 +8465,19 @@ def parse_faculty_full_html(driver,URLS):
     except:
         print("⚠️ parse_faculty_full_html not available, skipping")
         return None
-    
+
     # Scroll
     driver.execute_script(
         "arguments[0].scrollIntoView({block:'center'});", section
     )
     time.sleep(2)
-    
+
     # 🔥 Re-locate element to avoid stale reference
     section = driver.find_element(By.CSS_SELECTOR, "div.wikkiContents.faqAccordian")
-    
+
     html = section.get_attribute("innerHTML")
+    
+
     soup = BeautifulSoup(html, "html.parser")
 
     data = {
@@ -9241,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =2771
+    c_count = 2141
 
     try:
         for base_url in BASE_URL:
@@ -9307,8 +9309,8 @@ def scrape_mba_colleges():
 import time
 import os
 
-TEMP_FILE = "../../allindiamedicalcollegedetails2771_2791.tmp.json"
-FINAL_FILE = "../../allindiamedicalcollegedetails2771_2791.json"
+TEMP_FILE = "../../allindiamedicalcollegedetails2141_2160.tmp.json"
+FINAL_FILE = "../../allindiamedicalcollegedetails2141_2160.json"
 
 UPDATE_INTERVAL = 6 * 60 * 60  # 6 hours
 
