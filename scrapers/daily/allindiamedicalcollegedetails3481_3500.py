@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/kokrajhar-medical-college-rangalikhata-213223",
-  "https://www.shiksha.com/college/arnav-ayurvedic-medical-college-barabanki-242318",
-  "https://www.shiksha.com/college/sai-meer-college-of-pharmacy-kannauj-65663",
-  "https://www.shiksha.com/college/sukhjinder-group-of-institutes-gurdaspur-66439",
-  "https://www.shiksha.com/college/government-polytechnic-college-for-women-chandigarh-98843",
-  "https://www.shiksha.com/college/al-ameen-unani-medical-college-and-hospital-nashik-192627",
-  "https://www.shiksha.com/college/susrijo-institute-of-paramedical-technology-and-optometry-nadia-196077",
-  "https://www.shiksha.com/college/huda-group-of-institutions-nagaon-207539",
-  "https://www.shiksha.com/college/ct-institute-of-higher-studies-jalandhar-52066",
-  "https://www.shiksha.com/college/bhavdiya-institute-of-pharmaceutical-sciences-and-research-faizabad-59521",
-  "https://www.shiksha.com/college/ktn-college-of-pharmacy-palakkad-60863",
-  "https://www.shiksha.com/college/sagar-college-of-pharmacy-barabanki-65403",
-  "https://www.shiksha.com/college/ahalia-ayurveda-medical-college-palakkad-66215",
-  "https://www.shiksha.com/college/krishna-group-of-colleges-bijnor-72707",
-  "https://www.shiksha.com/college/chaitanya-ayurved-mahavidyalaya-jalgaon-86975",
-  "https://www.shiksha.com/college/jay-jalaram-homoeopathic-medical-college-panchmahal-87471",
-  "https://www.shiksha.com/college/medical-trust-hospital-kochi-105919",
-  "https://www.shiksha.com/college/bharathidasan-government-college-pondicherry-128139",
-  "https://www.shiksha.com/college/government-college-for-girls-ludhiana-67615",
-  "https://www.shiksha.com/college/jyothishmathi-institute-of-pharmaceutical-sciences-karimnagar-89303",
+  "https://www.shiksha.com/college/chandravati-educational-foundation-maharashtra-other-236672",
+  "https://www.shiksha.com/college/somayya-diploma-in-pharmacy-chandrapur-236794",
+  "https://www.shiksha.com/college/abhigyan-institute-of-pharmacy-siliguri-237226",
+  "https://www.shiksha.com/college/college-of-pharmacy-solapur-97805",
+  "https://www.shiksha.com/college/acharya-chanakya-mahavidyalaya-uttar-pradesh-other-103903",
+  "https://www.shiksha.com/college/fortune-school-of-business-kukatpally-kukatpally-hyderabad-146101",
+  "https://www.shiksha.com/college/pranav-institute-of-pharmaceutical-science-and-research-gwalior-147247",
+  "https://www.shiksha.com/college/ramadhar-college-of-pharmacy-ghazipur-148585",
+  "https://www.shiksha.com/college/cross-belly-college-of-pharmacy-azamgarh-149339",
+  "https://www.shiksha.com/college/lms-college-of-pharmacy-uttar-pradesh-other-181279",
+  "https://www.shiksha.com/college/pal-institute-of-medical-sciences-uttar-pradesh-other-181327",
+  "https://www.shiksha.com/college/r-p-s-college-of-pharmacy-jaunpur-uttar-pradesh-other-181381",
+  "https://www.shiksha.com/college/miit-college-of-pharmacy-meerut-181961",
+  "https://www.shiksha.com/college/sb-college-of-physiotherapy-bangalore-186687",
+  "https://www.shiksha.com/college/jupiter-institute-of-physiotherapy-bangalore-186715",
+  "https://www.shiksha.com/college/oriental-college-of-pharmacy-karnataka-other-199453",
+  "https://www.shiksha.com/college/st-john-s-college-of-physiotherapy-bangalore-201993",
+  "https://www.shiksha.com/college/icri-nh-hospital-jaipur-203003",
+  "https://www.shiksha.com/college/ramdeni-singh-jagdish-singh-memorial-samiti-azamgarh-65655",
+  "https://www.shiksha.com/university/sanchi-university-of-buddhist-indic-studies-bhopal-65733",
 ]
 
 
@@ -172,11 +172,14 @@ def scrape_college_info(driver,URLS):
     data["college_info"]["college_name"] = driver.find_element(By.TAG_NAME, "h1").text.strip()
 
     # ================= LOCATION + CITY =================
-    loc = driver.find_element(By.CSS_SELECTOR, "span.f90eb6").text
-    if "," in loc:
-        l, c = loc.split(",", 1)
-        data["college_info"]["location"] = l.strip()
-        data["college_info"]["city"] = c.strip()
+    try:
+      loc = driver.find_element(By.CSS_SELECTOR, "span.f90eb6").text
+      if "," in loc:
+          l, c = loc.split(",", 1)
+          data["college_info"]["location"] = l.strip()
+          data["college_info"]["city"] = c.strip()
+    except:
+        pass
 
     # ================= RATING =================
     try:
@@ -9243,7 +9246,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1381
+    c_count =3481
 
     try:
         for base_url in BASE_URL:
@@ -9309,13 +9312,13 @@ def scrape_mba_colleges():
 import time
 import os
 
-TEMP_FILE = "../../allindiamedicalcollegedetails1861_1880.tmp.json"
-FINAL_FILE = "../../allindiamedicalcollegedetails1861_1880.json"
+TEMP_FILE = "../../allindiamedicalcollegedetails3481_3500.tmp.json"
+FINAL_FILE = "../../allindiamedicalcollegedetails3481_3500.json"
 
 UPDATE_INTERVAL = 6 * 60 * 60  # 6 hours
 
 def auto_update_scraper():
-    # Check last modified time 
+    # Check last modified time
     # if os.path.exists(DATA_FILE):
     #     last_mod = os.path.getmtime(DATA_FILE)
     #     if time.time() - last_mod < UPDATE_INTERVAL:

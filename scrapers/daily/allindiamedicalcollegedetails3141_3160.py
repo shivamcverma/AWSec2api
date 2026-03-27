@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/kokrajhar-medical-college-rangalikhata-213223",
-  "https://www.shiksha.com/college/arnav-ayurvedic-medical-college-barabanki-242318",
-  "https://www.shiksha.com/college/sai-meer-college-of-pharmacy-kannauj-65663",
-  "https://www.shiksha.com/college/sukhjinder-group-of-institutes-gurdaspur-66439",
-  "https://www.shiksha.com/college/government-polytechnic-college-for-women-chandigarh-98843",
-  "https://www.shiksha.com/college/al-ameen-unani-medical-college-and-hospital-nashik-192627",
-  "https://www.shiksha.com/college/susrijo-institute-of-paramedical-technology-and-optometry-nadia-196077",
-  "https://www.shiksha.com/college/huda-group-of-institutions-nagaon-207539",
-  "https://www.shiksha.com/college/ct-institute-of-higher-studies-jalandhar-52066",
-  "https://www.shiksha.com/college/bhavdiya-institute-of-pharmaceutical-sciences-and-research-faizabad-59521",
-  "https://www.shiksha.com/college/ktn-college-of-pharmacy-palakkad-60863",
-  "https://www.shiksha.com/college/sagar-college-of-pharmacy-barabanki-65403",
-  "https://www.shiksha.com/college/ahalia-ayurveda-medical-college-palakkad-66215",
-  "https://www.shiksha.com/college/krishna-group-of-colleges-bijnor-72707",
-  "https://www.shiksha.com/college/chaitanya-ayurved-mahavidyalaya-jalgaon-86975",
-  "https://www.shiksha.com/college/jay-jalaram-homoeopathic-medical-college-panchmahal-87471",
-  "https://www.shiksha.com/college/medical-trust-hospital-kochi-105919",
-  "https://www.shiksha.com/college/bharathidasan-government-college-pondicherry-128139",
-  "https://www.shiksha.com/college/government-college-for-girls-ludhiana-67615",
-  "https://www.shiksha.com/college/jyothishmathi-institute-of-pharmaceutical-sciences-karimnagar-89303",
+  "https://www.shiksha.com/college/government-polytechnic-college-chandrasekharpur-khurda-98179",
+  "https://www.shiksha.com/college/rao-adal-singh-college-of-pharmacy-mewat-99919",
+  "https://www.shiksha.com/college/holy-spirit-hospital-mumbai-105967",
+  "https://www.shiksha.com/college/ansh-college-of-pharmacy-gwalior-147477",
+  "https://www.shiksha.com/college/satyam-polytechnic-and-pharmacy-college-amritsar-148125",
+  "https://www.shiksha.com/college/khairthal-pharmacy-college-alwar-148197",
+  "https://www.shiksha.com/college/shri-siddhi-vinayak-college-of-pharmacy-agra-181579",
+  "https://www.shiksha.com/college/usha-college-of-pharmacy-and-medical-sciences-uttar-pradesh-other-181603",
+  "https://www.shiksha.com/college/krishna-sudama-college-of-pharmacy-ghazipur-181789",
+  "https://www.shiksha.com/college/sultanpur-institute-of-pharmacy-uttar-pradesh-other-182041",
+  "https://www.shiksha.com/college/rosy-royal-college-of-allied-health-sciences-bangalore-186193",
+  "https://www.shiksha.com/college/international-institute-of-rehabilitation-sciences-and-research-khordha-195733",
+  "https://www.shiksha.com/college/abhishek-nursing-and-paramedical-institute-uttar-pradesh-other-200101",
+  "https://www.shiksha.com/college/tit-technocrats-group-bhopal-245618",
+  "https://www.shiksha.com/college/j-k-institute-of-pharmacy-management-bulandshahr-60069",
+  "https://www.shiksha.com/college/bapatla-college-of-pharmacy-andhra-pradesh-other-61201",
+  "https://www.shiksha.com/college/trc-mahavidyalaya-department-of-pharmacy-barabanki-65391",
+  "https://www.shiksha.com/college/vishveshwarya-college-of-pharmacy-uttar-pradesh-other-65439",
+  "https://www.shiksha.com/college/shri-rameshwar-college-of-pharmacy-hapur-65675",
+  "https://www.shiksha.com/college/ranchi-institute-of-neuro-psychiatry-and-allied-sciences-67795",
 ]
 
 
@@ -168,15 +168,21 @@ def scrape_college_info(driver,URLS):
     except Exception as e:
         pass
     # ================= COLLEGE NAME =================
-    wait.until(EC.presence_of_element_located((By.TAG_NAME, "h1")))
-    data["college_info"]["college_name"] = driver.find_element(By.TAG_NAME, "h1").text.strip()
+    try:
+      wait.until(EC.presence_of_element_located((By.TAG_NAME, "h1")))
+      data["college_info"]["college_name"] = driver.find_element(By.TAG_NAME, "h1").text.strip()
+    except:
+        pass
 
     # ================= LOCATION + CITY =================
-    loc = driver.find_element(By.CSS_SELECTOR, "span.f90eb6").text
-    if "," in loc:
-        l, c = loc.split(",", 1)
-        data["college_info"]["location"] = l.strip()
-        data["college_info"]["city"] = c.strip()
+    try:
+      loc = driver.find_element(By.CSS_SELECTOR, "span.f90eb6").text
+      if "," in loc:
+          l, c = loc.split(",", 1)
+          data["college_info"]["location"] = l.strip()
+          data["college_info"]["city"] = c.strip()
+    except:
+        pass
 
     # ================= RATING =================
     try:
@@ -374,12 +380,14 @@ def scrape_college_info(driver,URLS):
 
     for item in data["college_info"]["highlights"]["table"]:
         print(f"  - {item['particular']}: {item['details'][:50]}...")
-
-    wait.until(
-        EC.presence_of_element_located(
-            (By.ID, "ovp_section_popular_courses")
-        )
-    )
+    try:
+      wait.until(
+          EC.presence_of_element_located(
+              (By.ID, "ovp_section_popular_courses")
+          )
+      )
+    except:
+        pass
 
     # ================= INTRO / SUMMARY =================
     data["intro"] = driver.execute_script("""
@@ -9243,7 +9251,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1381
+    c_count = 3141
 
     try:
         for base_url in BASE_URL:
@@ -9309,13 +9317,13 @@ def scrape_mba_colleges():
 import time
 import os
 
-TEMP_FILE = "../../allindiamedicalcollegedetails1861_1880.tmp.json"
-FINAL_FILE = "../../allindiamedicalcollegedetails1861_1880.json"
+TEMP_FILE = "../../allindiamedicalcollegedetails3141_3160.tmp.json"
+FINAL_FILE = "../../allindiamedicalcollegedetails3141_3160.json"
 
 UPDATE_INTERVAL = 6 * 60 * 60  # 6 hours
 
 def auto_update_scraper():
-    # Check last modified time 
+    # Check last modified time
     # if os.path.exists(DATA_FILE):
     #     last_mod = os.path.getmtime(DATA_FILE)
     #     if time.time() - last_mod < UPDATE_INTERVAL:

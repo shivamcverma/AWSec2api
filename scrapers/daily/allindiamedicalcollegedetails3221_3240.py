@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/kokrajhar-medical-college-rangalikhata-213223",
-  "https://www.shiksha.com/college/arnav-ayurvedic-medical-college-barabanki-242318",
-  "https://www.shiksha.com/college/sai-meer-college-of-pharmacy-kannauj-65663",
-  "https://www.shiksha.com/college/sukhjinder-group-of-institutes-gurdaspur-66439",
-  "https://www.shiksha.com/college/government-polytechnic-college-for-women-chandigarh-98843",
-  "https://www.shiksha.com/college/al-ameen-unani-medical-college-and-hospital-nashik-192627",
-  "https://www.shiksha.com/college/susrijo-institute-of-paramedical-technology-and-optometry-nadia-196077",
-  "https://www.shiksha.com/college/huda-group-of-institutions-nagaon-207539",
-  "https://www.shiksha.com/college/ct-institute-of-higher-studies-jalandhar-52066",
-  "https://www.shiksha.com/college/bhavdiya-institute-of-pharmaceutical-sciences-and-research-faizabad-59521",
-  "https://www.shiksha.com/college/ktn-college-of-pharmacy-palakkad-60863",
-  "https://www.shiksha.com/college/sagar-college-of-pharmacy-barabanki-65403",
-  "https://www.shiksha.com/college/ahalia-ayurveda-medical-college-palakkad-66215",
-  "https://www.shiksha.com/college/krishna-group-of-colleges-bijnor-72707",
-  "https://www.shiksha.com/college/chaitanya-ayurved-mahavidyalaya-jalgaon-86975",
-  "https://www.shiksha.com/college/jay-jalaram-homoeopathic-medical-college-panchmahal-87471",
-  "https://www.shiksha.com/college/medical-trust-hospital-kochi-105919",
-  "https://www.shiksha.com/college/bharathidasan-government-college-pondicherry-128139",
-  "https://www.shiksha.com/college/government-college-for-girls-ludhiana-67615",
-  "https://www.shiksha.com/college/jyothishmathi-institute-of-pharmaceutical-sciences-karimnagar-89303",
+  "https://www.shiksha.com/college/samrath-institute-for-education-and-tech-vill-and-post-nek-meerut-87899",
+  "https://www.shiksha.com/college/central-india-institute-of-pharmacy-indore-88079",
+  "https://www.shiksha.com/college/djps-college-of-pharmacy-parbhani-88651",
+  "https://www.shiksha.com/college/kunal-college-of-pharmacy-agra-88925",
+  "https://www.shiksha.com/college/government-polytechnic-college-gauchar-uttarakhand-other-98433",
+  "https://www.shiksha.com/college/st-soldier-institute-of-pharmacy-and-polytechnic-hoshiarpur-100531",
+  "https://www.shiksha.com/college/smt-kamlaben-p-patel-college-of-home-science-anand-111203",
+  "https://www.shiksha.com/college/chordia-institute-of-pharmacy-indore-147451",
+  "https://www.shiksha.com/college/a-k-r-g-college-of-pharmacy-andhra-pradesh-other-60347",
+  "https://www.shiksha.com/college/krishak-college-of-pharmacy-mirzapur-65467",
+  "https://www.shiksha.com/college/subramanya-college-of-arts-and-science-palani-77003",
+  "https://www.shiksha.com/college/malwa-institute-of-pharmacy-gwalior-88571",
+  "https://www.shiksha.com/college/shri-dhaneshwari-manav-vikas-mandal-s-diploma-in-pharmacy-institute-aurangabad-89223",
+  "https://www.shiksha.com/college/maharashtra-polytechnic-d-pharmacy-institute-latur-99425",
+  "https://www.shiksha.com/college/habibi-institute-of-higher-education-moradabad-140483",
+  "https://www.shiksha.com/college/vs-college-of-pharmacy-bulandshahr-181723",
+  "https://www.shiksha.com/college/nitte-institute-of-speech-and-hearing-medical-science-nitte-university-mangalore-185461",
+  "https://www.shiksha.com/college/maa-gaytri-physiotherapy-college-udaipur-193183",
+  "https://www.shiksha.com/college/bhupal-nobles-institute-of-pharmacutical-sciences-udaipur-193189",
+  "https://www.shiksha.com/college/zakir-hussain-college-of-higher-education-meerut-208339",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1381
+    c_count = 3221
 
     try:
         for base_url in BASE_URL:
@@ -9309,13 +9309,13 @@ def scrape_mba_colleges():
 import time
 import os
 
-TEMP_FILE = "../../allindiamedicalcollegedetails1861_1880.tmp.json"
-FINAL_FILE = "../../allindiamedicalcollegedetails1861_1880.json"
+TEMP_FILE = "../../allindiamedicalcollegedetails3221_3240.tmp.json"
+FINAL_FILE = "../../allindiamedicalcollegedetails3221_3240.json"
 
 UPDATE_INTERVAL = 6 * 60 * 60  # 6 hours
 
 def auto_update_scraper():
-    # Check last modified time 
+    # Check last modified time
     # if os.path.exists(DATA_FILE):
     #     last_mod = os.path.getmtime(DATA_FILE)
     #     if time.time() - last_mod < UPDATE_INTERVAL:
